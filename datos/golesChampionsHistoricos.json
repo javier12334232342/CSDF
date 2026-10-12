@@ -39,5 +39,19 @@
     { "idJugador": "mario-jardel", "goles": 25 },
     { "idJugador": "robin-van-persie", "goles": 25 },
     { "idJugador": "hernan-crespo", "goles": 25 },
-    { "idJugador": "lautaro-martinez", "goles": 25 }
+    { "idJugador": "lautaro-martinez", "goles": 25 },
+    { "idJugador": "alessandro-del-piero", "goles": 42 },
+    { "idJugador": "sergio-aguero", "goles": 41 },
+    { "idJugador": "ronaldo-nazario", "goles": 14 },
+    { "idJugador": "ronaldinho", "goles": 18 },
+    { "idJugador": "fernando-morientes", "goles": 23 },
+    { "idJugador": "gonzalo-higuain", "goles": 24 },
+    { "idJugador": "edinson-cavani", "goles": 35 },
+    { "idJugador": "ole-gunnar-solskjaer", "goles": 20 },
+    { "idJugador": "fernando-torres", "goles": 20 },
+    { "idJugador": "david-villa", "goles": 9 },
+    { "idJugador": "francesco-totti", "goles": 17 },
+    { "idJugador": "michael-owen", "goles": 12 },
+    { "idJugador": "gareth-bale", "goles": 20 },
+    { "idJugador": "claudio-pizarro", "goles": 24 }
 ]

@@ -1,0 +1,227 @@
+
+/* Logo CSDF: sin subrayado */
+.cabecera .logo,
+.cabecera .logo:hover,
+.cabecera .logo:focus,
+.cabecera .logo:active {
+    text-decoration: none;
+}
+/* ========================================
+   CONTACTO - CSDF
+   ======================================== */
+
+.contacto-contenedor {
+    min-height: 65vh;
+    padding: 55px 20px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-panel {
+    width: 100%;
+    max-width: 650px;
+    padding: 38px;
+    color: var(--color-texto, #20252d);
+    background: var(--color-tarjeta, #ffffff);
+    border: 1px solid var(--color-borde, #e3e7ec);
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
+}
+
+/* INTRODUCCIÓN */
+
+.contacto-introduccion {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    text-align: center;
+    color: var(--color-texto-secundario, #626b78);
+}
+
+.contacto-separador {
+    width: 55px;
+    height: 4px;
+    margin: 25px auto 28px;
+    background: var(--color-principal, #1769aa);
+    border-radius: 10px;
+}
+
+/* MOTIVOS DE CONTACTO */
+
+.contacto-motivos ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacto-motivos li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 16px;
+    background: var(--color-fondo-secundario, #f4f7fa);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: var(--color-texto, #303640);
+    font-size: 0.98rem;
+    line-height: 1.5;
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.contacto-motivos li:hover {
+    transform: translateX(3px);
+    border-color: var(--color-borde, #dce3eb);
+}
+
+.contacto-motivos li span {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-tarjeta, #ffffff);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+/* CORREO */
+
+.contacto-correo {
+    margin-top: 28px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-fondo-secundario, #f4f7fa);
+    border: 1px solid var(--color-borde, #e3e7ec);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contacto-correo h2 {
+    margin: 0 0 15px;
+    font-size: 1.35rem;
+}
+
+.contacto-email {
+    margin-bottom: 20px;
+    color: var(--color-principal, #1769aa);
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    font-weight: 700;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    transition: opacity 0.2s ease;
+}
+
+.contacto-email:hover {
+    opacity: 0.75;
+    text-decoration: underline;
+}
+
+.contacto-boton {
+    width: 100%;
+    max-width: 260px;
+    min-height: 48px;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--color-principal, #1769aa);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        transform 0.2s ease,
+        filter 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.contacto-boton:hover {
+    transform: translateY(-2px);
+    filter: brightness(0.92);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.12);
+}
+
+.contacto-boton:focus-visible,
+.contacto-email:focus-visible {
+    outline: 3px solid var(--color-principal, #1769aa);
+    outline-offset: 4px;
+}
+
+/* DESPEDIDA */
+
+.contacto-despedida {
+    margin: 25px 0 0;
+    color: var(--color-texto-secundario, #626b78);
+    font-size: 0.92rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 600px) {
+    .contacto-contenedor {
+        min-height: auto;
+        padding: 28px 14px 40px;
+    }
+
+    .contacto-panel {
+        padding: 24px 18px;
+        border-radius: 15px;
+    }
+
+    .contacto-introduccion {
+        font-size: 1.02rem;
+    }
+
+    .contacto-separador {
+        margin: 22px auto;
+    }
+
+    .contacto-motivos ul {
+        gap: 9px;
+    }
+
+    .contacto-motivos li {
+        gap: 11px;
+        padding: 12px 10px;
+        font-size: 0.9rem;
+    }
+
+    .contacto-motivos li span {
+        width: 34px;
+        height: 34px;
+        font-size: 1.1rem;
+    }
+
+    .contacto-correo {
+        padding: 22px 15px;
+    }
+
+    .contacto-despedida {
+        font-size: 0.87rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .contacto-motivos li,
+    .contacto-boton,
+    .contacto-email {
+        transition: none;
+    }
+}

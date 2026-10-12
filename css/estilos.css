@@ -92,40 +92,6 @@ body {
 
 
 /* =========================================================
-   PUBLICIDAD
-========================================================= */
-
-.zona-publicidad {
-    min-height: 250px;
-
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.publicidad-placeholder {
-    width: 100%;
-    max-width: 180px;
-
-    min-height: 250px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    padding: 10px;
-
-    color: #5f6d86;
-
-    border: 1px dashed #34425c;
-    border-radius: 8px;
-
-    font-size: 11px;
-    letter-spacing: 1px;
-}
-
-
-/* =========================================================
    CONTENIDO CENTRAL
 ========================================================= */
 
@@ -630,10 +596,6 @@ body {
 
     .layout {
         grid-template-columns: minmax(0, 1fr);
-    }
-
-    .zona-publicidad {
-        display: none;
     }
 
     .contenido {
