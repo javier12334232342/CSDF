@@ -1,0 +1,145 @@
+.juego-impostores {
+    width: 100%;
+}
+
+.impostores-cabecera {
+    width: 100%;
+    margin-bottom: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+    color: #ffd18a;
+    font-weight: 700;
+}
+
+.impostores-consigna {
+    margin-bottom: 24px;
+}
+
+.impostores-consigna h2 {
+    margin-bottom: 8px;
+    font-size: 1.45rem;
+}
+
+.impostores-consigna p {
+    color: #9eabc1;
+}
+
+.impostores-jugadores {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.impostor-jugador {
+    min-width: 0;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    border: 2px solid #2b3b58;
+    border-radius: 12px;
+    background: #111a2e;
+    color: #fff;
+    cursor: pointer;
+
+    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.impostor-jugador:hover:not(:disabled) {
+    transform: translateY(-3px);
+    border-color: #ff7b72;
+}
+
+.impostor-jugador:focus-visible,
+.impostores-confirmar:focus-visible,
+.impostores-siguiente:focus-visible {
+    outline: 3px solid #39d9ff;
+    outline-offset: 3px;
+}
+
+.impostor-jugador[aria-pressed="true"] {
+    border-color: #ff7b72;
+    background: #392333;
+}
+
+.impostor-jugador.es-impostor {
+    border-color: #ff625e;
+    background: rgba(190, 57, 75, 0.32);
+}
+
+.impostor-jugador.cumple-consigna {
+    border-color: #39c98a;
+    background: rgba(35, 150, 98, 0.24);
+}
+
+.impostor-jugador img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.impostor-jugador strong {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+}
+
+.impostores-acciones {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.impostores-resultado {
+    color: #a8b5ca;
+    min-height: 1.4em;
+}
+
+.impostores-confirmar,
+.impostores-siguiente {
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 8px;
+    background: #39d9ff;
+    color: #07111f;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.impostores-siguiente {
+    background: #ffffff;
+    color: #07111f;
+}
+
+.impostores-confirmar:disabled {
+    opacity: 0.55;
+    cursor: default;
+}
+
+@media (max-width: 700px) {
+    .impostores-jugadores {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .impostores-jugadores .impostor-jugador:last-child {
+        grid-column: 1 / -1;
+        width: calc(50% - 6px);
+        justify-self: center;
+    }
+
+    .impostor-jugador img {
+        max-width: 150px;
+    }
+}

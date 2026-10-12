@@ -244,6 +244,18 @@ body {
         radial-gradient(circle at 88% 82%, transparent 0 32px, rgba(232, 189, 120, 0.08) 33px 34px, transparent 35px);
 }
 
+.juego-opcion.tema-impostores,
+.carrusel-item.tema-impostores {
+    --card-accent: #ff7b72;
+}
+
+.juego-opcion.tema-impostores::before,
+.carrusel-item.tema-impostores::before {
+    background:
+        radial-gradient(ellipse at 100% 0, rgba(190, 57, 75, 0.28), transparent 62%),
+        linear-gradient(145deg, rgba(107, 38, 56, 0.22), transparent 75%);
+}
+
 .juego-opcion:hover {
     transform: translateY(-4px);
     border-color: var(--card-accent);

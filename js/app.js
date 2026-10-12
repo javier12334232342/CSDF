@@ -52,6 +52,14 @@ const juegos = [
         modo: "duelo",
         tema: "mundial",
         iniciar: iniciarQuienJugoMasMundial
+    },
+    {
+        id: "impostores-futboleros",
+        titulo: "Impostores futboleros",
+        descripcion: "Encuentra a los jugadores que no cumplen la consigna y bate tu récord de racha.",
+        modo: "grupo",
+        tema: "impostores",
+        iniciar: iniciarImpostoresFutboleros
     }
     
 ];
@@ -91,6 +99,23 @@ function crearRachaHTML(idJuego) {
 
 
 function crearModoJuegoHTML(juego) {
+
+    if (juego.modo === "grupo") {
+        return `
+            <span class="modo-juego" aria-label="Modo de juego: impostor">
+                <svg
+                    class="modo-juego-icono"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                    focusable="false"
+                >
+                    <path d="M3 12c3-3 8-4 13-1 5-3 10-2 13 1-1 7-5 11-10 7l-3-3-3 3C8 23 4 19 3 12Z"></path>
+                    <path d="m4 13-3-2m27 2 3-2M13 14h6"></path>
+                </svg>
+                <span>impostor</span>
+            </span>
+        `;
+    }
 
     if (juego.modo !== "duelo") {
         return "";
