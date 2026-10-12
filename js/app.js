@@ -14,27 +14,6 @@ window.addEventListener("resize", actualizarCarruselOtrosJuegos);
 
 const juegos = [
     {
-        id: "maximos-goleadores",
-        titulo: "Máximos goleadores",
-        descripcion: "¿Cuánto sabes sobre los grandes goleadores del fútbol?",
-        iniciar: iniciarMaximosGoleadores
-    },
-
-    {
-        id: "quien-es-el-jugador",
-        titulo: "¿Quién es el jugador?",
-        descripcion: "Adivina qué futbolista se esconde detrás de las pistas.",
-        iniciar: iniciarQuienEsElJugador
-    },
-
-    {
-        id: "campeones-del-mundo",
-        titulo: "Campeones del mundo",
-        descripcion: "Pon a prueba tus conocimientos sobre los Mundiales.",
-        iniciar: iniciarCampeonesDelMundo
-    },
-
-    {
         id: "quien-marco-mas-champions",
         titulo: "Goleadores de Champions",
         descripcion: "¿Cuánto sabes de goleadores en Champions?",
