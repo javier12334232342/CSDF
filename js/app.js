@@ -17,30 +17,40 @@ const juegos = [
         id: "quien-marco-mas-champions",
         titulo: "Goleadores de Champions",
         descripcion: "¿Cuánto sabes de goleadores en Champions?",
+        modo: "duelo",
+        tema: "champions",
         iniciar: iniciarQuienMarcoMasChampions
     },
     {
         id: "quien-marco-mas-champions-historico",
         titulo: "Goleadores históricos de Champions",
         descripcion: "¿Quién marcó más goles en la historia de la Copa de Europa y la Champions?",
+        modo: "duelo",
+        tema: "champions",
         iniciar: iniciarQuienMarcoMasChampionsHistorico
     },
     {
         id: "quien-marco-mas-mundial",
         titulo: "Goleadores de Mundiales",
         descripcion: "¿Quién marcó más goles en la historia de los Mundiales?",
+        modo: "duelo",
+        tema: "mundial",
         iniciar: iniciarQuienMarcoMasMundial
     },
     {
         id: "quien-marco-mas-carrera",
         titulo: "Goleadores históricos",
         descripcion: "¿Quién marcó más goles oficiales en su carrera?",
+        modo: "duelo",
+        tema: "historico",
         iniciar: iniciarQuienMarcoMasCarrera
     },
     {
         id: "quien-jugo-mas-mundial",
         titulo: "Más partidos en Mundiales",
         descripcion: "¿Quién disputó más partidos en Copas del Mundo?",
+        modo: "duelo",
+        tema: "mundial",
         iniciar: iniciarQuienJugoMasMundial
     }
     
@@ -72,10 +82,54 @@ function crearRachaHTML(idJuego) {
     }
 
     return `
-        <div style="text-align: right" class="racha-juego">
-           ${racha} 🔥 
+        <div class="racha-juego">
+           <span>${racha}</span>
+           <span aria-hidden="true">🔥</span>
         </div>
     `;
+}
+
+
+function crearModoJuegoHTML(juego) {
+
+    if (juego.modo !== "duelo") {
+        return "";
+    }
+
+    return `
+        <span class="modo-juego" aria-label="Modo de juego: 2 opciones">
+            <svg
+                class="modo-juego-icono"
+                viewBox="0 0 32 32"
+                aria-hidden="true"
+                focusable="false"
+            >
+                <rect x="2.5" y="5" width="11" height="18" rx="3"></rect>
+                <rect x="18.5" y="5" width="11" height="18" rx="3"></rect>
+                <circle cx="8" cy="11" r="2"></circle>
+                <path d="M5.5 18c.4-2 1.3-3 2.5-3s2.1 1 2.5 3"></path>
+                <circle cx="24" cy="11" r="2"></circle>
+                <path d="M21.5 18c.4-2 1.3-3 2.5-3s2.1 1 2.5 3"></path>
+                <path d="M12.5 27h7m-2.5-2.5L19.5 27 17 29.5"></path>
+            </svg>
+            <span>2 opciones</span>
+        </span>
+    `;
+
+}
+
+
+function crearContenidoTarjetaJuegoHTML(juego) {
+
+    return `
+        <span class="juego-card-titulo">${juego.titulo}</span>
+        <span class="juego-card-descripcion">${juego.descripcion}</span>
+        <span class="juego-card-pie">
+            ${crearRachaHTML(juego.id)}
+            ${crearModoJuegoHTML(juego)}
+        </span>
+    `;
+
 }
 
 
@@ -101,19 +155,11 @@ function mostrarInicio() {
                 ${juegos.map(juego => `
 
                     <button
-                        class="juego-opcion"
+                        class="juego-opcion tema-${juego.tema}"
                         data-juego="${juego.id}"
                     >
 
-                        ${crearRachaHTML(juego.id)}
-
-                        <div class="juego-titulo">
-                            ${juego.titulo}
-                        </div>
-
-                        <div class="juego-descripcion">
-                            ${juego.descripcion}
-                        </div>
+                        ${crearContenidoTarjetaJuegoHTML(juego)}
 
                     </button>
 
@@ -382,19 +428,11 @@ function crearCarruselJuegos(juegoActual) {
         .map(juego => `
 
             <button
-                class="carrusel-item"
+                class="carrusel-item tema-${juego.tema}"
                 data-juego="${juego.id}"
             >
 
-                ${crearRachaHTML(juego.id)}
-
-                <strong>
-                    ${juego.titulo}
-                </strong>
-
-                <span>
-                    ${juego.descripcion}
-                </span>
+                ${crearContenidoTarjetaJuegoHTML(juego)}
 
             </button>
 

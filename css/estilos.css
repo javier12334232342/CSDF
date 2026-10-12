@@ -165,6 +165,8 @@ body {
 .lista-juegos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    align-items: stretch;
     gap: 16px;
 }
 
@@ -188,56 +190,188 @@ body {
 ========================================================= */
 
 .juego-opcion {
+    --card-accent: #39d9ff;
+
     width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 
-    padding: 22px 24px;
+    min-height: 220px;
+    padding: 20px;
 
-    display: block;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 
     text-align: left;
 
-    border: 1px solid #2b3b58;
-    border-radius: 12px;
+    border: 1px solid rgba(115, 146, 190, 0.22);
+    border-radius: 16px;
 
-    background: #151f34;
+    background: linear-gradient(145deg, #18253c, #111b2e 72%);
 
     color: #ffffff;
 
     cursor: pointer;
 
     transition:
-        transform 0.2s ease,
-        background 0.2s ease,
-        border-color 0.2s ease,
-        box-shadow 0.2s ease;
+        transform 0.22s ease,
+        border-color 0.22s ease,
+        box-shadow 0.22s ease,
+        background-color 0.22s ease;
+}
+
+.juego-opcion::before,
+.carrusel-item::before {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    border-radius: inherit;
+
+    content: "";
+    pointer-events: none;
+}
+
+.juego-opcion.tema-champions,
+.carrusel-item.tema-champions {
+    --card-accent: #b9a5ff;
+}
+
+.juego-opcion.tema-champions::before,
+.carrusel-item.tema-champions::before {
+    background:
+        radial-gradient(ellipse at 50% 120%, transparent 0 28%, rgba(185, 165, 255, 0.13) 28.3% 28.7%, transparent 29% 43%, rgba(185, 165, 255, 0.1) 43.3% 43.7%, transparent 44%),
+        radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.7) 0 1px, transparent 2px),
+        radial-gradient(circle at 78% 27%, rgba(255, 255, 255, 0.55) 0 1px, transparent 2px),
+        radial-gradient(ellipse at 100% 0, rgba(101, 76, 190, 0.28), transparent 62%);
+}
+
+.juego-opcion.tema-mundial,
+.carrusel-item.tema-mundial {
+    --card-accent: #8de2a4;
+}
+
+.juego-opcion.tema-mundial::before,
+.carrusel-item.tema-mundial::before {
+    background:
+        linear-gradient(90deg, transparent 49.7%, rgba(141, 226, 164, 0.1) 49.9% 50.1%, transparent 50.3%),
+        radial-gradient(ellipse at 50% 50%, transparent 0 21%, rgba(141, 226, 164, 0.1) 21.3% 21.7%, transparent 22%),
+        linear-gradient(90deg, transparent 12%, rgba(141, 226, 164, 0.08) 12.2% 12.5%, transparent 12.7% 87.3%, rgba(141, 226, 164, 0.08) 87.5% 87.8%, transparent 88%),
+        linear-gradient(145deg, rgba(34, 114, 82, 0.35), transparent 75%);
+}
+
+.juego-opcion.tema-historico,
+.carrusel-item.tema-historico {
+    --card-accent: #e8bd78;
+}
+
+.juego-opcion.tema-historico::before,
+.carrusel-item.tema-historico::before {
+    background:
+        repeating-linear-gradient(135deg, transparent 0 26px, rgba(232, 189, 120, 0.045) 27px 28px, transparent 29px 52px),
+        radial-gradient(ellipse at 100% 0, rgba(170, 111, 47, 0.24), transparent 62%),
+        radial-gradient(circle at 88% 82%, transparent 0 32px, rgba(232, 189, 120, 0.08) 33px 34px, transparent 35px);
 }
 
 .juego-opcion:hover {
-    transform: translateY(-2px);
-
-    background: #1a2944;
-
-    border-color: #39d9ff;
-
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-4px);
+    border-color: var(--card-accent);
+    box-shadow:
+        0 16px 32px rgba(0, 0, 0, 0.24),
+        0 0 0 1px color-mix(in srgb, var(--card-accent) 18%, transparent);
 }
 
 .juego-opcion:active {
     transform: translateY(0);
 }
 
-.juego-titulo {
-    margin-bottom: 8px;
+.juego-opcion:focus-visible,
+.carrusel-item:focus-visible {
+    outline: 3px solid #39d9ff;
+    outline-offset: 3px;
+}
 
-    font-size: 20px;
+.juego-card-pie {
+    margin-top: auto;
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.modo-juego {
+    min-height: 32px;
+    padding: 5px 9px 5px 7px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    border: 1px solid color-mix(in srgb, var(--card-accent) 28%, transparent);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--card-accent) 10%, transparent);
+
+    color: var(--card-accent);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+
+.modo-juego-icono {
+    width: 23px;
+    height: 23px;
+
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.6;
+}
+
+.modo-juego-icono circle {
+    fill: currentColor;
+    stroke: none;
+}
+
+.racha-juego {
+    padding: 5px 9px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+    border: 1px solid rgba(255, 179, 71, 0.2);
+    border-radius: 999px;
+    background: rgba(255, 179, 71, 0.08);
+
+    color: #ffd18a;
+    font-size: 12px;
     font-weight: 700;
 }
 
-.juego-descripcion {
-    color: #9eabc1;
+.juego-card-titulo {
+    width: 100%;
+    margin: 0 0 8px;
 
-    font-size: 14px;
-    line-height: 1.5;
+    color: #f5f8ff;
+    font-size: 19px;
+    font-weight: 750;
+    line-height: 1.3;
+    text-wrap: balance;
+}
+
+.juego-card-descripcion {
+    display: block;
+    color: #a8b5ca;
+    font-size: 13px;
+    line-height: 1.55;
 }
 
 
@@ -356,34 +490,41 @@ body {
 }
 
 .carrusel-item {
+    --card-accent: #39d9ff;
+
     flex: 0 0 calc(
         (100% - (var(--elementos-visibles) - 1) * 12px) /
         var(--elementos-visibles)
     );
 
     box-sizing: border-box;
-    min-height: 100px;
+    min-height: 190px;
 
-    padding: 18px;
+    padding: 16px;
+
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: stretch;
 
     text-align: left;
 
-    background: #151f34;
+    background: linear-gradient(145deg, #18253c, #111b2e 72%);
 
-    border: 1px solid #2b3b58;
-    border-radius: 10px;
+    border: 1px solid rgba(115, 146, 190, 0.22);
+    border-radius: 14px;
 
     color: #ffffff;
 
     cursor: pointer;
 
     transition:
-        background 0.2s ease,
-        border-color 0.2s ease;
+        transform 0.22s ease,
+        border-color 0.22s ease,
+        box-shadow 0.22s ease;
 }
 
 .carrusel-control {
@@ -419,20 +560,9 @@ body {
 }
 
 .carrusel-item:hover {
-    background: #1a2944;
-    border-color: #39d9ff;
-}
-
-.carrusel-item strong {
-    margin-bottom: 6px;
-
-    font-size: 15px;
-}
-
-.carrusel-item span {
-    color: #9eabc1;
-
-    font-size: 12px;
+    transform: translateY(-3px);
+    border-color: var(--card-accent);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 900px) {
@@ -542,11 +672,22 @@ body {
     }
 
     .juego-opcion {
-        padding: 18px;
+        min-height: 205px;
+        padding: 15px;
     }
 
-    .juego-titulo {
-        font-size: 18px;
+    .juego-card-titulo {
+        font-size: 16px;
+    }
+
+    .juego-card-descripcion {
+        font-size: 12px;
+    }
+
+    .modo-juego {
+        gap: 4px;
+        padding-right: 7px;
+        font-size: 10px;
     }
 
     .contenedor-juego {
