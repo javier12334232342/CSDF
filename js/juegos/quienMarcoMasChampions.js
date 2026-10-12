@@ -20,7 +20,7 @@ let respuestaBloqueada = false;
 // INICIAR JUEGO
 // ======================================================
 
-async function iniciarQuienMarcoMasChampions() {
+async function iniciarPartidaQuienMarcoMasChampions() {
 
     const zonaJuego = document.getElementById("zona-juego");
 
@@ -162,7 +162,7 @@ async function iniciarQuienMarcoMasChampions() {
 
         if (puntuacion === 0) {
 
-            iniciarQuienMarcoMasChampions();
+            iniciarPartidaQuienMarcoMasChampions();
 
         } else {
 
@@ -800,6 +800,179 @@ function actualizarPuntuacion() {
             puntuacion;
 
     }
+
+}
+// ======================================================
+// POPUP DE BIENVENIDA E INSTRUCCIONES
+// ======================================================
+
+function iniciarQuienMarcoMasChampions() {
+
+    const zonaJuego = document.getElementById("zona-juego");
+
+    if (!zonaJuego) {
+        console.error("No se encontró #zona-juego");
+        return;
+    }
+
+    zonaJuego.innerHTML = `
+        <style>
+            .popup-champions {
+                width: min(520px, calc(100% - 32px));
+                max-width: 520px;
+                max-height: 85vh;
+                overflow-y: auto;
+                padding: 32px;
+                border: none;
+                border-radius: 18px;
+                color: #222;
+                background: #fff;
+                box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+                text-align: center;
+            }
+
+            .popup-champions[open] {
+                position: fixed;
+                inset: 0;
+                margin: auto;
+            }
+
+            .popup-champions::backdrop {
+                background: rgba(0, 0, 0, 0.7);
+                backdrop-filter: blur(4px);
+            }
+
+            .popup-champions h2 {
+                margin: 0 0 16px;
+                font-size: 1.65rem;
+            }
+
+            .popup-champions .popup-icono {
+                font-size: 3rem;
+                margin-bottom: 12px;
+            }
+
+            .popup-champions p {
+                line-height: 1.65;
+                margin: 12px 0;
+            }
+
+            .popup-champions ul {
+                padding-left: 22px;
+                text-align: left;
+                line-height: 1.8;
+                margin: 20px 0;
+            }
+
+            .popup-champions .boton-empezar {
+                display: block;
+                width: 100%;
+                margin-top: 24px;
+                padding: 14px 20px;
+                border: none;
+                border-radius: 10px;
+                background: #1677ff;
+                color: #fff;
+                font-size: 1.05rem;
+                font-weight: 700;
+                cursor: pointer;
+                transition: background 0.2s, transform 0.2s;
+            }
+
+            .popup-champions .boton-empezar:hover {
+                background: #095dcc;
+                transform: translateY(-2px);
+            }
+
+            .popup-champions .popup-nota {
+                font-size: 0.9rem;
+                color: #666;
+            }
+
+            @media (max-width: 480px) {
+                .popup-champions {
+                    padding: 24px 20px;
+                }
+
+                .popup-champions h2 {
+                    font-size: 1.4rem;
+                }
+            }
+        </style>
+
+        <dialog
+            id="popupInstruccionesChampions"
+            class="popup-champions"
+            aria-labelledby="tituloPopupChampions"
+            aria-describedby="descripcionPopupChampions"
+        >
+            <div class="popup-icono" aria-hidden="true">⚽</div>
+
+            <h2 id="tituloPopupChampions">
+                ¿Quién marcó más goles?
+            </h2>
+
+            <p id="descripcionPopupChampions">
+                Pon a prueba tus conocimientos sobre los máximos
+                goleadores de la Champions League.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Compara dos jugadores:</strong>
+                    cada uno corresponde a una temporada diferente.
+                </li>
+
+                <li>
+                    <strong>Elige al goleador:</strong>
+                    pulsa sobre el jugador que marcó más goles
+                    en su temporada.
+                </li>
+
+                <li>
+                    <strong>Descubre las cifras:</strong>
+                    después de responder verás los goles de ambos
+                    jugadores.
+                </li>
+
+                <li>
+                    <strong>Consigue una racha:</strong>
+                    cada acierto consecutivo suma un punto.
+                    Si fallas, la racha vuelve a cero.
+                </li>
+            </ul>
+
+            <p class="popup-nota">
+                ¿Serás capaz de superar tu récord personal?
+            </p>
+
+            <button
+                type="button"
+                id="botonEmpezarChampions"
+                class="boton-empezar"
+            >
+                ¡Jugar!
+            </button>
+        </dialog>
+    `;
+
+    const popup = document.getElementById(
+        "popupInstruccionesChampions"
+    );
+
+    const botonEmpezar = document.getElementById(
+        "botonEmpezarChampions"
+    );
+
+    botonEmpezar.addEventListener("click", () => {
+
+        popup.close();
+
+        iniciarPartidaQuienMarcoMasChampions();
+
+    });
+
+    popup.showModal();
 
 }
 
