@@ -38,10 +38,22 @@ const juegos = [
         iniciar: iniciarQuienMarcoMasChampions
     },
     {
+        id: "quien-marco-mas-champions-historico",
+        titulo: "Goleadores históricos de Champions",
+        descripcion: "¿Quién marcó más goles en la historia de la Copa de Europa y la Champions?",
+        iniciar: iniciarQuienMarcoMasChampionsHistorico
+    },
+    {
         id: "quien-marco-mas-mundial",
         titulo: "Goleadores de Mundiales",
         descripcion: "¿Quién marcó más goles en la historia de los Mundiales?",
         iniciar: iniciarQuienMarcoMasMundial
+    },
+    {
+        id: "quien-marco-mas-carrera",
+        titulo: "Goleadores históricos",
+        descripcion: "¿Quién marcó más goles oficiales en su carrera?",
+        iniciar: iniciarQuienMarcoMasCarrera
     },
     {
         id: "quien-jugo-mas-mundial",
