@@ -1,0 +1,1281 @@
+[
+    {
+        "temporada": "2025/26",
+        "jugadores": [
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 15
+            },
+            {
+                "idJugador": "harry-kane",
+                "goles": 14
+            },
+            {
+                "idJugador": "julian-alvarez",
+                "goles": 10
+            },
+            {
+                "idJugador": "anthony-gordon",
+                "goles": 10
+            },
+            {
+                "idJugador": "khvicha-kvaratskhelia",
+                "goles": 10
+            },
+            {
+                "idJugador": "erling-haaland",
+                "goles": 8
+            },
+            {
+                "idJugador": "victor-osimhen",
+                "goles": 7
+            },
+            {
+                "idJugador": "luis-diaz",
+                "goles": 7
+            },
+            {
+                "idJugador": "ousmane-dembele",
+                "goles": 7
+            },
+            {
+                "idJugador": "lamine-yamal",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2024/25",
+        "jugadores": [
+            {
+                "idJugador": "serhou-guirassy",
+                "goles": 13
+            },
+            {
+                "idJugador": "raphinha",
+                "goles": 13
+            },
+            {
+                "idJugador": "harry-kane",
+                "goles": 11
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 11
+            },
+            {
+                "idJugador": "lautaro-martinez",
+                "goles": 9
+            },
+            {
+                "idJugador": "ousmane-dembele",
+                "goles": 8
+            },
+            {
+                "idJugador": "erling-haaland",
+                "goles": 8
+            },
+            {
+                "idJugador": "vinicius-junior",
+                "goles": 8
+            },
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 7
+            },
+            {
+                "idJugador": "julian-alvarez",
+                "goles": 7
+            }
+        ]
+    },
+    {
+        "temporada": "2023/24",
+        "jugadores": [
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 8
+            },
+            {
+                "idJugador": "harry-kane",
+                "goles": 8
+            },
+            {
+                "idJugador": "vinicius-junior",
+                "goles": 6
+            },
+            {
+                "idJugador": "erling-haaland",
+                "goles": 6
+            },
+            {
+                "idJugador": "antoine-griezmann",
+                "goles": 6
+            },
+            {
+                "idJugador": "julian-alvarez",
+                "goles": 5
+            },
+            {
+                "idJugador": "phil-foden",
+                "goles": 5
+            },
+            {
+                "idJugador": "galeno",
+                "goles": 5
+            },
+            {
+                "idJugador": "rasmus-hojlund",
+                "goles": 5
+            },
+            {
+                "idJugador": "rodrygo",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2022/23",
+        "jugadores": [
+            {
+                "idJugador": "erling-haaland",
+                "goles": 12
+            },
+            {
+                "idJugador": "mohamed-salah",
+                "goles": 8
+            },
+            {
+                "idJugador": "vinicius-junior",
+                "goles": 7
+            },
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 7
+            },
+            {
+                "idJugador": "joao-mario",
+                "goles": 6
+            },
+            {
+                "idJugador": "olivier-giroud",
+                "goles": 5
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 5
+            },
+            {
+                "idJugador": "victor-osimhen",
+                "goles": 5
+            },
+            {
+                "idJugador": "rodrygo",
+                "goles": 5
+            },
+            {
+                "idJugador": "rafa-silva",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2021/22",
+        "jugadores": [
+            {
+                "idJugador": "karim-benzema",
+                "goles": 15
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 13
+            },
+            {
+                "idJugador": "sebastien-haller",
+                "goles": 11
+            },
+            {
+                "idJugador": "mohamed-salah",
+                "goles": 8
+            },
+            {
+                "idJugador": "christopher-nkunku",
+                "goles": 7
+            },
+            {
+                "idJugador": "riyad-mahrez",
+                "goles": 7
+            },
+            {
+                "idJugador": "leroy-sane",
+                "goles": 6
+            },
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 6
+            },
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 6
+            },
+            {
+                "idJugador": "arnaut-danjuma",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2020/21",
+        "jugadores": [
+            {
+                "idJugador": "erling-haaland",
+                "goles": 10
+            },
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 8
+            },
+            {
+                "idJugador": "alvaro-morata",
+                "goles": 6
+            },
+            {
+                "idJugador": "marcus-rashford",
+                "goles": 6
+            },
+            {
+                "idJugador": "neymar",
+                "goles": 6
+            },
+            {
+                "idJugador": "olivier-giroud",
+                "goles": 6
+            },
+            {
+                "idJugador": "youssef-en-nesyri",
+                "goles": 6
+            },
+            {
+                "idJugador": "mohamed-salah",
+                "goles": 6
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 6
+            },
+            {
+                "idJugador": "alassane-plea",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2019/20",
+        "jugadores": [
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 15
+            },
+            {
+                "idJugador": "erling-haaland",
+                "goles": 10
+            },
+            {
+                "idJugador": "serge-gnabry",
+                "goles": 9
+            },
+            {
+                "idJugador": "harry-kane",
+                "goles": 6
+            },
+            {
+                "idJugador": "dries-mertens",
+                "goles": 6
+            },
+            {
+                "idJugador": "gabriel-jesus",
+                "goles": 6
+            },
+            {
+                "idJugador": "memphis-depay",
+                "goles": 6
+            },
+            {
+                "idJugador": "raheem-sterling",
+                "goles": 6
+            },
+            {
+                "idJugador": "son-heung-min",
+                "goles": 5
+            },
+            {
+                "idJugador": "mauro-icardi",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2018/19",
+        "jugadores": [
+            {
+                "idJugador": "lionel-messi",
+                "goles": 12
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 8
+            },
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 6
+            },
+            {
+                "idJugador": "dusan-tadic",
+                "goles": 6
+            },
+            {
+                "idJugador": "moussa-marega",
+                "goles": 6
+            },
+            {
+                "idJugador": "sergio-aguero",
+                "goles": 6
+            },
+            {
+                "idJugador": "andrej-kramaric",
+                "goles": 5
+            },
+            {
+                "idJugador": "paulo-dybala",
+                "goles": 5
+            },
+            {
+                "idJugador": "neymar",
+                "goles": 5
+            },
+            {
+                "idJugador": "edin-dzeko",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2017/18",
+        "jugadores": [
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 15
+            },
+            {
+                "idJugador": "roberto-firmino",
+                "goles": 10
+            },
+            {
+                "idJugador": "sadio-mane",
+                "goles": 10
+            },
+            {
+                "idJugador": "mohamed-salah",
+                "goles": 10
+            },
+            {
+                "idJugador": "edin-dzeko",
+                "goles": 8
+            },
+            {
+                "idJugador": "wissam-ben-yedder",
+                "goles": 8
+            },
+            {
+                "idJugador": "harry-kane",
+                "goles": 7
+            },
+            {
+                "idJugador": "edinson-cavani",
+                "goles": 6
+            },
+            {
+                "idJugador": "neymar",
+                "goles": 6
+            },
+            {
+                "idJugador": "lionel-messi",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2016/17",
+        "jugadores": [
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 12
+            },
+            {
+                "idJugador": "lionel-messi",
+                "goles": 11
+            },
+            {
+                "idJugador": "edinson-cavani",
+                "goles": 8
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 8
+            },
+            {
+                "idJugador": "pierre-emerick-aubameyang",
+                "goles": 7
+            },
+            {
+                "idJugador": "kylian-mbappe",
+                "goles": 6
+            },
+            {
+                "idJugador": "antoine-griezmann",
+                "goles": 6
+            },
+            {
+                "idJugador": "sergio-aguero",
+                "goles": 5
+            },
+            {
+                "idJugador": "dries-mertens",
+                "goles": 5
+            },
+            {
+                "idJugador": "radamel-falcao",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2015/16",
+        "jugadores": [
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 16
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 9
+            },
+            {
+                "idJugador": "luis-suarez",
+                "goles": 8
+            },
+            {
+                "idJugador": "thomas-muller",
+                "goles": 8
+            },
+            {
+                "idJugador": "antoine-griezmann",
+                "goles": 7
+            },
+            {
+                "idJugador": "lionel-messi",
+                "goles": 6
+            },
+            {
+                "idJugador": "artem-dzyuba",
+                "goles": 6
+            },
+            {
+                "idJugador": "olivier-giroud",
+                "goles": 5
+            },
+            {
+                "idJugador": "javier-hernandez",
+                "goles": 5
+            },
+            {
+                "idJugador": "willian",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2014/15",
+        "jugadores": [
+            {
+                "idJugador": "lionel-messi",
+                "goles": 10
+            },
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 10
+            },
+            {
+                "idJugador": "neymar",
+                "goles": 10
+            },
+            {
+                "idJugador": "luiz-adriano",
+                "goles": 9
+            },
+            {
+                "idJugador": "jackson-martinez",
+                "goles": 7
+            },
+            {
+                "idJugador": "thomas-muller",
+                "goles": 7
+            },
+            {
+                "idJugador": "luis-suarez",
+                "goles": 7
+            },
+            {
+                "idJugador": "carlos-tevez",
+                "goles": 7
+            },
+            {
+                "idJugador": "sergio-aguero",
+                "goles": 6
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2013/14",
+        "jugadores": [
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 17
+            },
+            {
+                "idJugador": "zlatan-ibrahimovic",
+                "goles": 10
+            },
+            {
+                "idJugador": "diego-costa",
+                "goles": 8
+            },
+            {
+                "idJugador": "lionel-messi",
+                "goles": 8
+            },
+            {
+                "idJugador": "sergio-aguero",
+                "goles": 6
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 6
+            },
+            {
+                "idJugador": "gareth-bale",
+                "goles": 6
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 5
+            },
+            {
+                "idJugador": "marco-reus",
+                "goles": 5
+            },
+            {
+                "idJugador": "thomas-muller",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2012/13",
+        "jugadores": [
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 12
+            },
+            {
+                "idJugador": "robert-lewandowski",
+                "goles": 10
+            },
+            {
+                "idJugador": "lionel-messi",
+                "goles": 8
+            },
+            {
+                "idJugador": "burak-yilmaz",
+                "goles": 8
+            },
+            {
+                "idJugador": "thomas-muller",
+                "goles": 8
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 5
+            },
+            {
+                "idJugador": "oscar",
+                "goles": 5
+            },
+            {
+                "idJugador": "jonas",
+                "goles": 5
+            },
+            {
+                "idJugador": "alan",
+                "goles": 5
+            },
+            {
+                "idJugador": "ezequiel-lavezzi",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2011/12",
+        "jugadores": [
+            {
+                "idJugador": "lionel-messi",
+                "goles": 14
+            },
+            {
+                "idJugador": "mario-gomez",
+                "goles": 12
+            },
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 10
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 7
+            },
+            {
+                "idJugador": "didier-drogba",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2010/11",
+        "jugadores": [
+            {
+                "idJugador": "lionel-messi",
+                "goles": 12
+            },
+            {
+                "idJugador": "mario-gomez",
+                "goles": 8
+            },
+            {
+                "idJugador": "samuel-etoo",
+                "goles": 8
+            },
+            {
+                "idJugador": "nicolas-anelka",
+                "goles": 7
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 6
+            },
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2009/10",
+        "jugadores": [
+            {
+                "idJugador": "lionel-messi",
+                "goles": 8
+            },
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 7
+            },
+            {
+                "idJugador": "ivica-olic",
+                "goles": 7
+            },
+            {
+                "idJugador": "diego-milito",
+                "goles": 6
+            },
+            {
+                "idJugador": "nicklas-bendtner",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2008/09",
+        "jugadores": [
+            {
+                "idJugador": "lionel-messi",
+                "goles": 9
+            },
+            {
+                "idJugador": "steven-gerrard",
+                "goles": 7
+            },
+            {
+                "idJugador": "miroslav-klose",
+                "goles": 7
+            },
+            {
+                "idJugador": "lisandro-lopez",
+                "goles": 6
+            },
+            {
+                "idJugador": "emmanuel-adebayor",
+                "goles": 5
+            },
+            {
+                "idJugador": "thierry-henry",
+                "goles": 5
+            },
+            {
+                "idJugador": "alessandro-del-piero",
+                "goles": 5
+            },
+            {
+                "idJugador": "didier-drogba",
+                "goles": 5
+            },
+            {
+                "idJugador": "robin-van-persie",
+                "goles": 5
+            },
+            {
+                "idJugador": "karim-benzema",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2007/08",
+        "jugadores": [
+            {
+                "idJugador": "cristiano-ronaldo",
+                "goles": 8
+            },
+            {
+                "idJugador": "didier-drogba",
+                "goles": 6
+            },
+            {
+                "idJugador": "steven-gerrard",
+                "goles": 6
+            },
+            {
+                "idJugador": "lionel-messi",
+                "goles": 6
+            },
+            {
+                "idJugador": "fernando-torres",
+                "goles": 6
+            },
+            {
+                "idJugador": "zlatan-ibrahimovic",
+                "goles": 5
+            },
+            {
+                "idJugador": "raul",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2006/07",
+        "jugadores": [
+            {
+                "idJugador": "kaka",
+                "goles": 10
+            },
+            {
+                "idJugador": "didier-drogba",
+                "goles": 6
+            },
+            {
+                "idJugador": "peter-crouch",
+                "goles": 6
+            },
+            {
+                "idJugador": "ruud-van-nistelrooy",
+                "goles": 6
+            },
+            {
+                "idJugador": "fernando-morientes",
+                "goles": 6
+            },
+            {
+                "idJugador": "raul",
+                "goles": 5
+            },
+            {
+                "idJugador": "filippo-inzaghi",
+                "goles": 4
+            },
+            {
+                "idJugador": "wayne-rooney",
+                "goles": 4
+            },
+            {
+                "idJugador": "francesco-totti",
+                "goles": 4
+            },
+            {
+                "idJugador": "david-villa",
+                "goles": 4
+            },
+            {
+                "idJugador": "claudio-pizarro",
+                "goles": 4
+            },
+            {
+                "idJugador": "filippo-inzaghi",
+                "goles": 4
+            }
+        ]
+    },
+    {
+        "temporada": "2005/06",
+        "jugadores": [
+            {
+                "idJugador": "andriy-shevchenko",
+                "goles": 9
+            },
+            {
+                "idJugador": "ronaldinho",
+                "goles": 7
+            },
+            {
+                "idJugador": "david-trezeguet",
+                "goles": 6
+            },
+            {
+                "idJugador": "samuel-etoo",
+                "goles": 6
+            },
+            {
+                "idJugador": "adriano",
+                "goles": 5
+            },
+            {
+                "idJugador": "thierry-henry",
+                "goles": 5
+            },
+            {
+                "idJugador": "kaka",
+                "goles": 5
+            },
+            {
+                "idJugador": "filippo-inzaghi",
+                "goles": 4
+            }
+        ]
+    },
+    {
+        "temporada": "2005/06",
+        "jugadores": [
+            {
+                "idJugador": "andriy-shevchenko",
+                "goles": 9
+            },
+            {
+                "idJugador": "ronaldinho",
+                "goles": 7
+            },
+            {
+                "idJugador": "david-trezeguet",
+                "goles": 6
+            },
+            {
+                "idJugador": "samuel-etoo",
+                "goles": 6
+            },
+            {
+                "idJugador": "adriano",
+                "goles": 5
+            },
+            {
+                "idJugador": "thierry-henry",
+                "goles": 5
+            },
+            {
+                "idJugador": "kaka",
+                "goles": 5
+            },
+            {
+                "idJugador": "filippo-inzaghi",
+                "goles": 4
+            }
+        ]
+    },
+    {
+        "temporada": "2004/05",
+        "jugadores": [
+            {
+                "idJugador": "ruud-van-nistelrooy",
+                "goles": 8
+            },
+            {
+                "idJugador": "adriano",
+                "goles": 7
+            },
+            {
+                "idJugador": "roy-makaay",
+                "goles": 7
+            },
+            {
+                "idJugador": "hernan-crespo",
+                "goles": 6
+            },
+            {
+                "idJugador": "andriy-shevchenko",
+                "goles": 6
+            },
+            {
+                "idJugador": "didier-drogba",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2003/04",
+        "jugadores": [
+            {
+                "idJugador": "fernando-morientes",
+                "goles": 9
+            },
+            {
+                "idJugador": "roy-makaay",
+                "goles": 6
+            },
+            {
+                "idJugador": "walter-pandiani",
+                "goles": 6
+            },
+            {
+                "idJugador": "didier-drogba",
+                "goles": 5
+            },
+            {
+                "idJugador": "juninho",
+                "goles": 5
+            },
+            {
+                "idJugador": "thierry-henry",
+                "goles": 5
+            }
+        ]
+    },
+    {
+        "temporada": "2002/03",
+        "jugadores": [
+            {
+                "idJugador": "ruud-van-nistelrooy",
+                "goles": 12
+            },
+            {
+                "idJugador": "filippo-inzaghi",
+                "goles": 10
+            },
+            {
+                "idJugador": "hernan-crespo",
+                "goles": 9
+            },
+            {
+                "idJugador": "raul",
+                "goles": 9
+            },
+            {
+                "idJugador": "roy-makaay",
+                "goles": 9
+            },
+            {
+                "idJugador": "jan-koller",
+                "goles": 8
+            },
+            {
+                "idJugador": "javier-saviola",
+                "goles": 7
+            },
+            {
+                "idJugador": "thierry-henry",
+                "goles": 7
+            },
+            {
+                "idJugador": "ronaldo-nazario",
+                "goles": 6
+            },
+            {
+                "idJugador": "alan-shearer",
+                "goles": 6
+            }
+        ]
+    },
+    {
+        "temporada": "2001/02",
+        "jugadores": [
+            {
+                "idJugador": "ruud-van-nistelrooy",
+                "goles": 10
+            },
+            {
+                "idJugador": "david-trezeguet",
+                "goles": 8
+            },
+            {
+                "idJugador": "ole-gunnar-solskjaer",
+                "goles": 7
+            },
+            {
+                "idJugador": "thierry-henry",
+                "goles": 7
+            },
+            {
+                "idJugador": "raul",
+                "goles": 6
+            },
+            {
+                "idJugador": "patrick-kluivert",
+                "goles": 6
+            },
+            {
+                "idJugador": "michael-ballack",
+                "goles": 6
+            }
+        ]
+    },
+    {
+    "temporada": "2000/01",
+    "jugadores": [
+        {
+            "idJugador": "raul",
+            "goles": 7
+        },
+        {
+            "idJugador": "rivaldo",
+            "goles": 6
+        },
+        {
+            "idJugador": "mario-jardel",
+            "goles": 6
+        },
+        {
+            "idJugador": "lee-bowyer",
+            "goles": 6
+        },
+        {
+            "idJugador": "giovane-elber",
+            "goles": 6
+        },
+        {
+            "idJugador": "paul-scholes",
+            "goles": 6
+        },
+        {
+            "idJugador": "walter-pandiani",
+            "goles": 5
+        }
+    ]
+},
+{
+    "temporada": "1999/00",
+    "jugadores": [
+        {
+            "idJugador": "mario-jardel",
+            "goles": 10
+        },
+        {
+            "idJugador": "rivaldo",
+            "goles": 10
+        },
+        {
+            "idJugador": "raul",
+            "goles": 10
+        },
+        {
+            "idJugador": "simone-inzaghi",
+            "goles": 9
+        },
+        {
+            "idJugador": "patrick-kluivert",
+            "goles": 7
+        },
+        {
+            "idJugador": "gabriel-batistuta",
+            "goles": 6
+        },
+        {
+            "idJugador": "luis-enrique",
+            "goles": 6
+        }
+    ]
+},
+{
+    "temporada": "1998/99",
+    "jugadores": [
+        {
+            "idJugador": "andriy-shevchenko",
+            "goles": 8
+        },
+        {
+            "idJugador": "filippo-inzaghi",
+            "goles": 6
+        },
+        {
+            "idJugador": "ruud-van-nistelrooy",
+            "goles": 5
+        },
+        {
+            "idJugador": "paul-scholes",
+            "goles": 4
+        },
+        {
+            "idJugador": "andy-cole",
+            "goles": 4
+        },
+        {
+            "idJugador": "ryan-giggs",
+            "goles": 4
+        }
+    ]
+},
+{
+    "temporada": "1997/98",
+    "jugadores": [
+        {
+            "idJugador": "alessandro-del-piero",
+            "goles": 10
+        },
+        {
+            "idJugador": "thierry-henry",
+            "goles": 7
+        },
+        {
+            "idJugador": "filippo-inzaghi",
+            "goles": 6
+        },
+        {
+            "idJugador": "andy-cole",
+            "goles": 5
+        },
+        {
+            "idJugador": "andriy-shevchenko",
+            "goles": 5
+        },
+        {
+            "idJugador": "fernando-morientes",
+            "goles": 4
+        },
+        {
+            "idJugador": "davor-suker",
+            "goles": 4
+        },
+        {
+            "idJugador": "david-trezeguet",
+            "goles": 4
+        }
+    ]
+},
+{
+    "temporada": "1996/97",
+    "jugadores": [
+        {
+            "idJugador": "alessandro-del-piero",
+            "goles": 4
+        },
+        {
+            "idJugador": "mario-jardel",
+            "goles": 4
+        },
+        {
+            "idJugador": "christian-vieri",
+            "goles": 4
+        }
+    ]
+},
+{
+    "temporada": "1995/96",
+    "jugadores": [
+        {
+            "idJugador": "jari-litmanen",
+            "goles": 9
+        },
+        {
+            "idJugador": "alessandro-del-piero",
+            "goles": 6
+        },
+        {
+            "idJugador": "raul",
+            "goles": 6
+        },
+        {
+            "idJugador": "patrick-kluivert",
+            "goles": 5
+        },
+        {
+            "idJugador": "ivan-zamorano",
+            "goles": 4
+        }
+    ]
+},
+{
+    "temporada": "1994/95",
+    "jugadores": [
+        {
+            "idJugador": "george-weah",
+            "goles": 7
+        },
+        {
+            "idJugador": "jari-litmanen",
+            "goles": 6
+        },
+        {
+            "idJugador": "claudio-caniggia",
+            "goles": 3
+        },
+        {
+            "idJugador": "romario",
+            "goles": 3
+        },
+        {
+            "idJugador": "hristo-stoichkov",
+            "goles": 3
+        }
+    ]
+},
+{
+    "temporada": "1993/94",
+    "jugadores": [
+        {
+            "idJugador": "ronald-koeman",
+            "goles": 8
+        },
+        {
+            "idJugador": "hristo-stoichkov",
+            "goles": 7
+        },
+        {
+            "idJugador": "jean-pierre-papin",
+            "goles": 4
+        }
+    ]
+},
+{
+    "temporada": "1992/93",
+    "jugadores": [
+        {
+            "idJugador": "romario",
+            "goles": 7
+        },
+        {
+            "idJugador": "marco-van-basten",
+            "goles": 6
+        }
+    ]
+}
+]

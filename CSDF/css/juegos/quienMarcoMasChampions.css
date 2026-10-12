@@ -1,0 +1,258 @@
+/* ======================================================
+   ¿QUIÉN MARCÓ MÁS? - CHAMPIONS
+   ====================================================== */
+
+.juego-goleadores-champions {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* ======================================================
+   CABECERA
+   ====================================================== */
+
+.cabecera-partida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.temporada {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.puntuacion {
+    font-weight: bold;
+}
+
+
+/* ======================================================
+   PREGUNTA
+   ====================================================== */
+
+.pregunta {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pregunta h2 {
+    margin: 0;
+}
+
+
+/* ======================================================
+   JUGADORES
+   ====================================================== */
+
+.jugadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+
+/* ======================================================
+   TARJETA DEL JUGADOR
+   ====================================================== */
+
+.tarjeta-jugador {
+    width: 300px;
+    max-width: 100%;
+
+    min-height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        opacity 0.2s ease;
+}
+
+
+/* Efecto al pasar el ratón */
+
+.tarjeta-jugador:hover {
+    transform: translateY(-5px);
+}
+
+
+/* ======================================================
+   IMÁGENES
+   ====================================================== */
+
+.imagen-jugador {
+    display: block;
+
+    width: 100%;
+    max-width: 220px;
+
+    height: 260px;
+    max-height: 260px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    margin-bottom: 15px;
+}
+
+
+/* ======================================================
+   NOMBRE
+   ====================================================== */
+
+.tarjeta-jugador h3 {
+    margin: 5px 0 10px;
+
+    text-align: center;
+
+    font-size: 1.3rem;
+}
+
+
+/* ======================================================
+   GOLES
+   ====================================================== */
+
+.goles-jugador {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+/* ======================================================
+   VS
+   ====================================================== */
+
+.vs {
+    flex: 0 0 auto;
+
+    font-size: 2rem;
+    font-weight: bold;
+
+    user-select: none;
+}
+
+
+/* ======================================================
+   ESTADOS DE RESPUESTA
+   ====================================================== */
+
+.tarjeta-jugador.correcta {
+    box-shadow: 0 0 0 4px #2ecc71;
+}
+
+.tarjeta-jugador.incorrecta {
+    opacity: 0.6;
+}
+
+.tarjeta-jugador.empate {
+    box-shadow: 0 0 0 4px #f1c40f;
+}
+
+.tarjeta-jugador.desactivada {
+    cursor: default;
+}
+
+.tarjeta-jugador.desactivada:hover {
+    transform: none;
+}
+
+
+/* ======================================================
+   RESULTADO
+   ====================================================== */
+
+.resultado {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resultado h3 {
+    margin-bottom: 10px;
+}
+
+.resultado p {
+    margin-bottom: 20px;
+}
+
+
+/* ======================================================
+   BOTONES
+   ====================================================== */
+
+.boton-siguiente,
+.boton-pasar {
+    cursor: pointer;
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 1rem;
+}
+
+.boton-pasar {
+    display: block;
+
+    margin: 30px auto 0;
+}
+
+
+/* ======================================================
+   MÓVIL
+   ====================================================== */
+
+@media (max-width: 700px) {
+
+    .cabecera-partida {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .jugadores {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    .vs {
+        font-size: 1.5rem;
+    }
+
+
+    .tarjeta-jugador {
+        width: min(300px, 100%);
+        min-height: auto;
+    }
+
+
+    .imagen-jugador {
+        width: 100%;
+
+        max-width: 200px;
+
+        height: 220px;
+        max-height: 220px;
+    }
+}

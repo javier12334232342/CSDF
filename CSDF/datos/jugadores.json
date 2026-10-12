@@ -1,0 +1,1112 @@
+[
+    {
+        "id": "kylian-mbappe",
+        "nombre": "Kylian Mbappé",
+        "imagen": "img/jugadores/kylian-mbappe.jpg"
+    },
+    {
+        "id": "harry-kane",
+        "nombre": "Harry Kane",
+        "imagen": "img/jugadores/harry-kane.jpg"
+    },
+    {
+        "id": "julian-alvarez",
+        "nombre": "Julián Álvarez",
+        "imagen": "img/jugadores/julian-alvarez.jpg"
+    },
+    {
+        "id": "anthony-gordon",
+        "nombre": "Anthony Gordon",
+        "imagen": "img/jugadores/anthony-gordon.jpg"
+    },
+    {
+        "id": "khvicha-kvaratskhelia",
+        "nombre": "Khvicha Kvaratskhelia",
+        "imagen": "img/jugadores/khvicha-kvaratskhelia.jpg"
+    },
+    {
+        "id": "erling-haaland",
+        "nombre": "Erling Haaland",
+        "imagen": "img/jugadores/erling-haaland.jpg"
+    },
+    {
+        "id": "victor-osimhen",
+        "nombre": "Victor Osimhen",
+        "imagen": "img/jugadores/victor-osimhen.jpg"
+    },
+    {
+        "id": "luis-diaz",
+        "nombre": "Luis Díaz",
+        "imagen": "img/jugadores/luis-diaz.jpg"
+    },
+    {
+        "id": "ousmane-dembele",
+        "nombre": "Ousmane Dembélé",
+        "imagen": "img/jugadores/ousmane-dembele.jpg"
+    },
+    {
+        "id": "lamine-yamal",
+        "nombre": "Lamine Yamal",
+        "imagen": "img/jugadores/lamine-yamal.jpg"
+    },
+    {
+        "id": "serhou-guirassy",
+        "nombre": "Serhou Guirassy",
+        "imagen": "img/jugadores/serhou-guirassy.jpg"
+    },
+    {
+        "id": "raphinha",
+        "nombre": "Raphinha",
+        "imagen": "img/jugadores/raphinha.jpg"
+    },
+    {
+        "id": "robert-lewandowski",
+        "nombre": "Robert Lewandowski",
+        "imagen": "img/jugadores/robert-lewandowski.jpg"
+    },
+    {
+        "id": "lautaro-martinez",
+        "nombre": "Lautaro Martínez",
+        "imagen": "img/jugadores/lautaro-martinez.jpg"
+    },
+    {
+        "id": "vinicius-junior",
+        "nombre": "Vinícius Júnior",
+        "imagen": "img/jugadores/vinicius-junior.jpg"
+    },
+    {
+        "id": "antoine-griezmann",
+        "nombre": "Antoine Griezmann",
+        "imagen": "img/jugadores/antoine-griezmann.jpg"
+    },
+    {
+        "id": "phil-foden",
+        "nombre": "Phil Foden",
+        "imagen": "img/jugadores/phil-foden.jpg"
+    },
+    {
+        "id": "galeno",
+        "nombre": "Galeno",
+        "imagen": "img/jugadores/galeno.jpg"
+    },
+    {
+        "id": "rasmus-hojlund",
+        "nombre": "Rasmus Højlund",
+        "imagen": "img/jugadores/rasmus-hojlund.jpg"
+    },
+    {
+        "id": "rodrygo",
+        "nombre": "Rodrygo",
+        "imagen": "img/jugadores/rodrygo.jpg"
+    },
+    {
+        "id": "mohamed-salah",
+        "nombre": "Mohamed Salah",
+        "imagen": "img/jugadores/mohamed-salah.jpg"
+    },
+    {
+        "id": "joao-mario",
+        "nombre": "João Mário",
+        "imagen": "img/jugadores/joao-mario.jpg"
+    },
+    {
+        "id": "olivier-giroud",
+        "nombre": "Olivier Giroud",
+        "imagen": "img/jugadores/olivier-giroud.jpg"
+    },
+    {
+        "id": "rafa-silva",
+        "nombre": "Rafa Silva",
+        "imagen": "img/jugadores/rafa-silva.jpg"
+    },
+    {
+        "id": "mehdi-taremi",
+        "nombre": "Mehdi Taremi",
+        "imagen": "img/jugadores/mehdi-taremi.jpg"
+    },
+    {
+        "id": "karim-benzema",
+        "nombre": "Karim Benzema",
+        "imagen": "img/jugadores/karim-benzema.jpg"
+    },
+    {
+        "id": "sebastien-haller",
+        "nombre": "Sébastien Haller",
+        "imagen": "img/jugadores/sebastien-haller.jpg"
+    },
+    {
+        "id": "christopher-nkunku",
+        "nombre": "Christopher Nkunku",
+        "imagen": "img/jugadores/christopher-nkunku.jpg"
+    },
+    {
+        "id": "riyad-mahrez",
+        "nombre": "Riyad Mahrez",
+        "imagen": "img/jugadores/riyad-mahrez.jpg"
+    },
+    {
+        "id": "leroy-sane",
+        "nombre": "Leroy Sané",
+        "imagen": "img/jugadores/leroy-sane.jpg"
+    },
+    {
+        "id": "cristiano-ronaldo",
+        "nombre": "Cristiano Ronaldo",
+        "imagen": "img/jugadores/cristiano-ronaldo.jpg"
+    },
+    {
+        "id": "luis-enrique",
+        "nombre": "Luis Enrique",
+        "imagen": "img/jugadores/luis-enrique.jpg"
+    },
+    {
+        "id": "arnaut-danjuma",
+        "nombre": "Arnaut Danjuma",
+        "imagen": "img/jugadores/arnaut-danjuma.jpg"
+    },
+    {
+        "id": "alvaro-morata",
+        "nombre": "Álvaro Morata",
+        "imagen": "img/jugadores/alvaro-morata.jpg"
+    },
+    {
+        "id": "marcus-rashford",
+        "nombre": "Marcus Rashford",
+        "imagen": "img/jugadores/marcus-rashford.jpg"
+    },
+    {
+        "id": "neymar",
+        "nombre": "Neymar",
+        "imagen": "img/jugadores/neymar.jpg"
+    },
+    {
+        "id": "youssef-en-nesyri",
+        "nombre": "Youssef En-Nesyri",
+        "imagen": "img/jugadores/youssef-en-nesyri.jpg"
+    },
+    {
+        "id": "alassane-plea",
+        "nombre": "Alassane Pléa",
+        "imagen": "img/jugadores/alassane-plea.jpg"
+    },
+    {
+        "id": "serge-gnabry",
+        "nombre": "Serge Gnabry",
+        "imagen": "img/jugadores/serge-gnabry.jpg"
+    },
+    {
+        "id": "dries-mertens",
+        "nombre": "Dries Mertens",
+        "imagen": "img/jugadores/dries-mertens.jpg"
+    },
+    {
+        "id": "gabriel-jesus",
+        "nombre": "Gabriel Jesus",
+        "imagen": "img/jugadores/gabriel-jesus.jpg"
+    },
+    {
+        "id": "memphis-depay",
+        "nombre": "Memphis Depay",
+        "imagen": "img/jugadores/memphis-depay.jpg"
+    },
+    {
+        "id": "raheem-sterling",
+        "nombre": "Raheem Sterling",
+        "imagen": "img/jugadores/raheem-sterling.jpg"
+    },
+    {
+        "id": "son-heung-min",
+        "nombre": "Son Heung-min",
+        "imagen": "img/jugadores/son-heung-min.jpg"
+    },
+    {
+        "id": "mauro-icardi",
+        "nombre": "Mauro Icardi",
+        "imagen": "img/jugadores/mauro-icardi.jpg"
+    },
+    {
+        "id": "lionel-messi",
+        "nombre": "Lionel Messi",
+        "imagen": "img/jugadores/lionel-messi.jpg"
+    },
+    {
+        "id": "dusan-tadic",
+        "nombre": "Dušan Tadić",
+        "imagen": "img/jugadores/dusan-tadic.jpg"
+    },
+    {
+        "id": "moussa-marega",
+        "nombre": "Moussa Marega",
+        "imagen": "img/jugadores/moussa-marega.jpg"
+    },
+    {
+        "id": "sergio-aguero",
+        "nombre": "Sergio Agüero",
+        "imagen": "img/jugadores/sergio-aguero.jpg"
+    },
+    {
+        "id": "andrej-kramaric",
+        "nombre": "Andrej Kramarić",
+        "imagen": "img/jugadores/andrej-kramaric.jpg"
+    },
+    {
+        "id": "paulo-dybala",
+        "nombre": "Paulo Dybala",
+        "imagen": "img/jugadores/paulo-dybala.jpg"
+    },
+    {
+        "id": "edin-dzeko",
+        "nombre": "Edin Džeko",
+        "imagen": "img/jugadores/edin-dzeko.jpg"
+    },
+    {
+        "id": "roberto-firmino",
+        "nombre": "Roberto Firmino",
+        "imagen": "img/jugadores/roberto-firmino.jpg"
+    },
+    {
+        "id": "sadio-mane",
+        "nombre": "Sadio Mané",
+        "imagen": "img/jugadores/sadio-mane.jpg"
+    },
+    {
+        "id": "wissam-ben-yedder",
+        "nombre": "Wissam Ben Yedder",
+        "imagen": "img/jugadores/wissam-ben-yedder.jpg"
+    },
+    {
+        "id": "edinson-cavani",
+        "nombre": "Edinson Cavani",
+        "imagen": "img/jugadores/edinson-cavani.jpg"
+    },
+    {
+        "id": "pierre-emerick-aubameyang",
+        "nombre": "Pierre-Emerick Aubameyang",
+        "imagen": "img/jugadores/pierre-emerick-aubameyang.jpg"
+    },
+    {
+        "id": "radamel-falcao",
+        "nombre": "Radamel Falcao",
+        "imagen": "img/jugadores/radamel-falcao.jpg"
+    },
+    {
+        "id": "luis-suarez",
+        "nombre": "Luis Suárez",
+        "imagen": "img/jugadores/luis-suarez.jpg"
+    },
+    {
+        "id": "thomas-muller",
+        "nombre": "Thomas Müller",
+        "imagen": "img/jugadores/thomas-muller.jpg"
+    },
+    {
+        "id": "artem-dzyuba",
+        "nombre": "Artem Dzyuba",
+        "imagen": "img/jugadores/artem-dzyuba.jpg"
+    },
+    {
+        "id": "javier-hernandez",
+        "nombre": "Javier Hernández",
+        "imagen": "img/jugadores/javier-hernandez.jpg"
+    },
+    {
+        "id": "willian",
+        "nombre": "Willian",
+        "imagen": "img/jugadores/willian.jpg"
+    },
+    {
+        "id": "luiz-adriano",
+        "nombre": "Luiz Adriano",
+        "imagen": "img/jugadores/luiz-adriano.jpg"
+    },
+    {
+        "id": "adriano",
+        "nombre": "Adriano",
+        "imagen": "img/jugadores/adriano.jpg"
+    },
+    {
+        "id": "jackson-martinez",
+        "nombre": "Jackson Martínez",
+        "imagen": "img/jugadores/jackson-martinez.jpg"
+    },
+    {
+        "id": "carlos-tevez",
+        "nombre": "Carlos Tévez",
+        "imagen": "img/jugadores/carlos-tevez.jpg"
+    },
+    {
+        "id": "zlatan-ibrahimovic",
+        "nombre": "Zlatan Ibrahimović",
+        "imagen": "img/jugadores/zlatan-ibrahimovic.jpg"
+    },
+    {
+        "id": "diego-costa",
+        "nombre": "Diego Costa",
+        "imagen": "img/jugadores/diego-costa.jpg"
+    },
+    {
+        "id": "gareth-bale",
+        "nombre": "Gareth Bale",
+        "imagen": "img/jugadores/gareth-bale.jpg"
+    },
+    {
+        "id": "marco-reus",
+        "nombre": "Marco Reus",
+        "imagen": "img/jugadores/marco-reus.jpg"
+    },
+    {
+        "id": "burak-yilmaz",
+        "nombre": "Burak Yılmaz",
+        "imagen": "img/jugadores/burak-yilmaz.jpg"
+    },
+    {
+        "id": "oscar",
+        "nombre": "Oscar",
+        "imagen": "img/jugadores/oscar.jpg"
+    },
+    {
+        "id": "jonas",
+        "nombre": "Jonas",
+        "imagen": "img/jugadores/jonas.jpg"
+    },
+    {
+        "id": "alan",
+        "nombre": "Alan",
+        "imagen": "img/jugadores/alan.jpg"
+    },
+    {
+        "id": "ezequiel-lavezzi",
+        "nombre": "Ezequiel Lavezzi",
+        "imagen": "img/jugadores/ezequiel-lavezzi.jpg"
+    },
+    {
+        "id": "mario-gomez",
+        "nombre": "Mario Gómez",
+        "imagen": "img/jugadores/mario-gomez.jpg"
+    },
+    {
+        "id": "didier-drogba",
+        "nombre": "Didier Drogba",
+        "imagen": "img/jugadores/didier-drogba.jpg"
+    },
+    {
+        "id": "samuel-etoo",
+        "nombre": "Samuel Eto'o",
+        "imagen": "img/jugadores/samuel-etoo.jpg"
+    },
+    {
+        "id": "nicolas-anelka",
+        "nombre": "Nicolas Anelka",
+        "imagen": "img/jugadores/nicolas-anelka.jpg"
+    },
+    {
+        "id": "ivica-olic",
+        "nombre": "Ivica Olić",
+        "imagen": "img/jugadores/ivica-olic.jpg"
+    },
+    {
+        "id": "diego-milito",
+        "nombre": "Diego Milito",
+        "imagen": "img/jugadores/diego-milito.jpg"
+    },
+    {
+        "id": "nicklas-bendtner",
+        "nombre": "Nicklas Bendtner",
+        "imagen": "img/jugadores/nicklas-bendtner.jpg"
+    },
+    {
+        "id": "steven-gerrard",
+        "nombre": "Steven Gerrard",
+        "imagen": "img/jugadores/steven-gerrard.jpg"
+    },
+    {
+        "id": "miroslav-klose",
+        "nombre": "Miroslav Klose",
+        "imagen": "img/jugadores/miroslav-klose.jpg"
+    },
+    {
+        "id": "lisandro-lopez",
+        "nombre": "Lisandro López",
+        "imagen": "img/jugadores/lisandro-lopez.jpg"
+    },
+    {
+        "id": "emmanuel-adebayor",
+        "nombre": "Emmanuel Adebayor",
+        "imagen": "img/jugadores/emmanuel-adebayor.jpg"
+    },
+    {
+        "id": "thierry-henry",
+        "nombre": "Thierry Henry",
+        "imagen": "img/jugadores/thierry-henry.jpg"
+    },
+    {
+        "id": "alessandro-del-piero",
+        "nombre": "Alessandro Del Piero",
+        "imagen": "img/jugadores/alessandro-del-piero.jpg"
+    },
+    {
+        "id": "robin-van-persie",
+        "nombre": "Robin van Persie",
+        "imagen": "img/jugadores/robin-van-persie.jpg"
+    },
+    {
+        "id": "fernando-torres",
+        "nombre": "Fernando Torres",
+        "imagen": "img/jugadores/fernando-torres.jpg"
+    },
+    {
+        "id": "frederic-kanoute",
+        "nombre": "Frédéric Kanouté",
+        "imagen": "img/jugadores/frederic-kanoute.jpg"
+    },
+    {
+        "id": "raul",
+        "nombre": "Raúl González",
+        "imagen": "img/jugadores/raul.jpg"
+    },
+    {
+        "id": "kaka",
+        "nombre": "Kaká",
+        "imagen": "img/jugadores/kaka.jpg"
+    },
+    {
+        "id": "peter-crouch",
+        "nombre": "Peter Crouch",
+        "imagen": "img/jugadores/peter-crouch.jpg"
+    },
+    {
+        "id": "ruud-van-nistelrooy",
+        "nombre": "Ruud van Nistelrooy",
+        "imagen": "img/jugadores/ruud-van-nistelrooy.jpg"
+    },
+    {
+        "id": "fernando-morientes",
+        "nombre": "Fernando Morientes",
+        "imagen": "img/jugadores/fernando-morientes.jpg"
+    },
+    {
+        "id": "ivan-zamorano",
+        "nombre": "Ivan Zamorano",
+        "imagen": "img/jugadores/ivan-zamorano.jpg"
+    },
+    {
+        "id": "romario",
+        "nombre": "Romário",
+        "imagen": "img/jugadores/romario.jpg"
+    },
+    {
+        "id": "filippo-inzaghi",
+        "nombre": "Filippo Inzaghi",
+        "imagen": "img/jugadores/filippo-inzaghi.jpg"
+    },
+    {
+        "id": "wayne-rooney",
+        "nombre": "Wayne Rooney",
+        "imagen": "img/jugadores/wayne-rooney.jpg"
+    },
+    {
+        "id": "francesco-totti",
+        "nombre": "Francesco Totti",
+        "imagen": "img/jugadores/francesco-totti.jpg"
+    },
+    {
+        "id": "david-villa",
+        "nombre": "David Villa",
+        "imagen": "img/jugadores/david-villa.jpg"
+    },
+    {
+        "id": "andriy-shevchenko",
+        "nombre": "Andriy Shevchenko",
+        "imagen": "img/jugadores/andriy-shevchenko.jpg"
+    },
+    {
+        "id": "ronaldinho",
+        "nombre": "Ronaldinho",
+        "imagen": "img/jugadores/ronaldinho.jpg"
+    },
+    {
+        "id": "david-trezeguet",
+        "nombre": "David Trezeguet",
+        "imagen": "img/jugadores/david-trezeguet.jpg"
+    },
+    {
+        "id": "roy-makaay",
+        "nombre": "Roy Makaay",
+        "imagen": "img/jugadores/roy-makaay.jpg"
+    },
+    {
+        "id": "hernan-crespo",
+        "nombre": "Hernán Crespo",
+        "imagen": "img/jugadores/hernan-crespo.jpg"
+    },
+    {
+        "id": "juninho",
+        "nombre": "Juninho",
+        "imagen": "img/jugadores/juninho.jpg"
+    },
+    {
+        "id": "walter-pandiani",
+        "nombre": "Walter Pandiani",
+        "imagen": "img/jugadores/walter-pandiani.jpg"
+    },
+    {
+        "id": "ronaldo-nazario",
+        "nombre": "Ronaldo Nazário",
+        "imagen": "img/jugadores/ronaldo-nazario.jpg"
+    },
+    {
+        "id": "alan-shearer",
+        "nombre": "Alan Shearer",
+        "imagen": "img/jugadores/alan-shearer.jpg"
+    },
+    {
+        "id": "javier-saviola",
+        "nombre": "Javier Saviola",
+        "imagen": "img/jugadores/javier-saviola.jpg"
+    },
+    {
+        "id": "jan-koller",
+        "nombre": "Jan Koller",
+        "imagen": "img/jugadores/jan-koller.jpg"
+    },
+    {
+        "id": "michael-ballack",
+        "nombre": "Michael Ballack",
+        "imagen": "img/jugadores/michael-ballack.jpg"
+    },
+    {
+        "id": "patrick-kluivert",
+        "nombre": "Patrick Kluivert",
+        "imagen": "img/jugadores/patrick-kluivert.jpg"
+    },
+    {
+        "id": "ole-gunnar-solskjaer",
+        "nombre": "Ole Gunnar Solskjaer",
+        "imagen": "img/jugadores/ole-gunnar-solskjaer.jpg"
+    },
+    {
+        "id": "jan-koller",
+        "nombre": "Jan Koller",
+        "imagen": "img/jugadores/jan-koller.jpg"
+    },
+    {
+        "id": "paul-scholes",
+        "nombre": "Paul Scholes",
+        "imagen": "img/jugadores/paul-scholes.jpg"
+    },
+    {
+        "id": "giovane-elber",
+        "nombre": "Giovane Elber",
+        "imagen": "img/jugadores/giovane-elber.jpg"
+    },
+    {
+        "id": "lee-bowyer",
+        "nombre": "Lee Bowyer",
+        "imagen": "img/jugadores/lee-bowyer.jpg"
+    },
+    {
+        "id": "mario-jardel",
+        "nombre": "Mario Jardel",
+        "imagen": "img/jugadores/mario-jardel.jpg"
+    },
+    {
+        "id": "rivaldo",
+        "nombre": "Rivaldo",
+        "imagen": "img/jugadores/rivaldor.jpg"
+    },
+    {
+        "id": "simone-inzaghi",
+        "nombre": "Simone Inzaghi",
+        "imagen": "img/jugadores/simone-inzaghi.jpg"
+    },
+    {
+        "id": "andy-cole",
+        "nombre": "Andy Cole",
+        "imagen": "img/jugadores/andy-cole.jpg"
+    },
+    {
+        "id": "ryan-giggs",
+        "nombre": "Ryan Giggs",
+        "imagen": "img/jugadores/ryan-giggs.jpg"
+    },
+    {
+        "id": "davor-suker",
+        "nombre": "Davor Suker",
+        "imagen": "img/jugadores/davor-suker.jpg"
+    },
+    {
+        "id": "christian-vieri",
+        "nombre": "Christian Vieri",
+        "imagen": "img/jugadores/christian-vieri.jpg"
+    },
+    {
+        "id": "jari-litmanen",
+        "nombre": "Jari Litmanen",
+        "imagen": "img/jugadores/jari-litmanen.jpg"
+    },
+    {
+        "id": "george-weah",
+        "nombre": "George Weah",
+        "imagen": "img/jugadores/george-weah.jpg"
+    },
+    {
+        "id": "claudio-caniggia",
+        "nombre": "Claudio Caniggia",
+        "imagen": "img/jugadores/claudio-caniggia.jpg"
+    },
+    {
+        "id": "ronald-koeman",
+        "nombre": "Ronald Koeman",
+        "imagen": "img/jugadores/ronald-koeman.jpg"
+    },
+    {
+        "id": "hristo-stoichkov",
+        "nombre": "Hristo Stoichkov",
+        "imagen": "img/jugadores/hristo-stoichkov.jpg"
+    },
+    {
+        "id": "jean-pierre-papin",
+        "nombre": "Jean-Pierre Papin",
+        "imagen": "img/jugadores/jean-pierre-papin.jpg"
+    },
+    {
+        "id": "marco-van-basten",
+        "nombre": "Marco van Basten",
+        "imagen": "img/jugadores/marco-van-basten.jpg"
+    },
+    {
+        "id": "pele",
+        "nombre": "Pelé",
+        "imagen": "img/jugadores/pele.jpg"
+    },
+    {
+        "id": "diego-maradona",
+        "nombre": "Diego Maradona",
+        "imagen": "img/jugadores/diego-maradona.jpg"
+    },
+    {
+        "id": "gerd-muller",
+        "nombre": "Gerd Müller",
+        "imagen": "img/jugadores/gerd-muller.jpg"
+    },
+    {
+        "id": "just-fontaine",
+        "nombre": "Just Fontaine",
+        "imagen": "img/jugadores/just-fontaine.jpg"
+    },
+    {
+        "id": "eusebio",
+        "nombre": "Eusébio",
+        "imagen": "img/jugadores/eusebio.jpg"
+    },
+    {
+        "id": "garrincha",
+        "nombre": "Garrincha",
+        "imagen": "img/jugadores/garrincha.jpg"
+    },
+    {
+        "id": "jairzinho",
+        "nombre": "Jairzinho",
+        "imagen": "img/jugadores/jairzinho.jpg"
+    },
+    {
+        "id": "mario-kempes",
+        "nombre": "Mario Kempes",
+        "imagen": "img/jugadores/mario-kempes.jpg"
+    },
+    {
+        "id": "zico",
+        "nombre": "Zico",
+        "imagen": "img/jugadores/zico.jpg"
+    },
+    {
+        "id": "johan-cruyff",
+        "nombre": "Johan Cruyff",
+        "imagen": "img/jugadores/johan-cruyff.jpg"
+    },
+    {
+        "id": "franz-beckenbauer",
+        "nombre": "Franz Beckenbauer",
+        "imagen": "img/jugadores/franz-beckenbauer.jpg"
+    },
+    {
+        "id": "lothar-matthaus",
+        "nombre": "Lothar Matthäus",
+        "imagen": "img/jugadores/lothar-matthaus.jpg"
+    },
+    {
+        "id": "paolo-maldini",
+        "nombre": "Paolo Maldini",
+        "imagen": "img/jugadores/paolo-maldini.jpg"
+    },
+    {
+        "id": "cafu",
+        "nombre": "Cafú",
+        "imagen": "img/jugadores/cafu.jpg"
+    },
+    {
+        "id": "roberto-carlos",
+        "nombre": "Roberto Carlos",
+        "imagen": "img/jugadores/roberto-carlos.jpg"
+    },
+    {
+        "id": "philipp-lahm",
+        "nombre": "Philipp Lahm",
+        "imagen": "img/jugadores/philipp-lahm.jpg"
+    },
+    {
+        "id": "manuel-neuer",
+        "nombre": "Manuel Neuer",
+        "imagen": "img/jugadores/manuel-neuer.jpg"
+    },
+    {
+        "id": "hugo-lloris",
+        "nombre": "Hugo Lloris",
+        "imagen": "img/jugadores/hugo-lloris.jpg"
+    },
+    {
+        "id": "javier-mascherano",
+        "nombre": "Javier Mascherano",
+        "imagen": "img/jugadores/javier-mascherano.jpg"
+    },
+    {
+        "id": "bastian-schweinsteiger",
+        "nombre": "Bastian Schweinsteiger",
+        "imagen": "img/jugadores/bastian-schweinsteiger.jpg"
+    },
+    {
+        "id": "luka-modric",
+        "nombre": "Luka Modrić",
+        "imagen": "img/jugadores/luka-modric.jpg"
+    },
+    {
+        "id": "andres-iniesta",
+        "nombre": "Andrés Iniesta",
+        "imagen": "img/jugadores/andres-iniesta.jpg"
+    },
+    {
+        "id": "xavi",
+        "nombre": "Xavi Hernández",
+        "imagen": "img/jugadores/xavi.jpg"
+    },
+    {
+        "id": "zinedine-zidane",
+        "nombre": "Zinedine Zidane",
+        "imagen": "img/jugadores/zinedine-zidane.jpg"
+    },
+    {
+        "id": "luis-figo",
+        "nombre": "Luís Figo",
+        "imagen": "img/jugadores/luis-figo.jpg"
+    },
+    {
+        "id": "dennis-bergkamp",
+        "nombre": "Dennis Bergkamp",
+        "imagen": "img/jugadores/dennis-bergkamp.jpg"
+    },
+    {
+        "id": "wesley-sneijder",
+        "nombre": "Wesley Sneijder",
+        "imagen": "img/jugadores/wesley-sneijder.jpg"
+    },
+    {
+        "id": "arjen-robben",
+        "nombre": "Arjen Robben",
+        "imagen": "img/jugadores/arjen-robben.jpg"
+    },
+    {
+        "id": "uwe-seeler",
+        "nombre": "Uwe Seeler",
+        "imagen": "img/jugadores/uwe-seeler.jpg"
+    },
+    {
+        "id": "gary-lineker",
+        "nombre": "Gary Lineker",
+        "imagen": "img/jugadores/gary-lineker.jpg"
+    },
+    {
+        "id": "bobby-charlton",
+        "nombre": "Bobby Charlton",
+        "imagen": "img/jugadores/bobby-charlton.jpg"
+    },
+    {
+        "id": "bobby-moore",
+        "nombre": "Bobby Moore",
+        "imagen": "img/jugadores/bobby-moore.jpg"
+    },
+    {
+        "id": "sandor-kocsis",
+        "nombre": "Sándor Kocsis",
+        "imagen": "img/jugadores/sandor-kocsis.jpg"
+    },
+    {
+        "id": "guillermo-stabile",
+        "nombre": "Guillermo Stábile",
+        "imagen": "img/jugadores/guillermo-stabile.jpg"
+    },
+    {
+        "id": "leonidas",
+        "nombre": "Leônidas",
+        "imagen": "img/jugadores/leonidas.jpg"
+    },
+    {
+        "id": "teofilo-cubillas",
+        "nombre": "Teófilo Cubillas",
+        "imagen": "img/jugadores/teofilo-cubillas.jpg"
+    },
+    {
+        "id": "paolo-rossi",
+        "nombre": "Paolo Rossi",
+        "imagen": "img/jugadores/paolo-rossi.jpg"
+    },
+    {
+        "id": "rob-rensenbrink",
+        "nombre": "Rob Rensenbrink",
+        "imagen": "img/jugadores/rob-rensenbrink.jpg"
+    },
+    {
+        "id": "ferenc-puskas",
+        "nombre": "Ferenc Puskás",
+        "imagen": "img/jugadores/ferenc-puskas.jpg"
+    },
+    {
+        "id": "ferenc-puskas",
+        "nombre": "Didi",
+        "imagen": "img/jugadores/didi.jpg"
+    },
+    {
+        "id": "vava",
+        "nombre": "Vavá",
+        "imagen": "img/jugadores/vava.jpg"
+    },
+    {
+        "id": "rivelino",
+        "nombre": "Rivelino",
+        "imagen": "img/jugadores/rivelino.jpg"
+    },
+    {
+        "id": "antonio-carbajal",
+        "nombre": "Antonio Carbajal",
+        "imagen": "img/jugadores/antonio-carbajal.jpg"
+    },
+    {
+        "id": "wladyslaw-zmuda",
+        "nombre": "Władysław Żmuda",
+        "imagen": "img/jugadores/wladyslaw-zmuda.jpg"
+    },
+    {
+        "id": "rafael-marquez",
+        "nombre": "Rafael Márquez",
+        "imagen": "img/jugadores/rafael-marquez.jpg"
+    },
+    {
+        "id": "guillermo-ochoa",
+        "nombre": "Guillermo Ochoa",
+        "imagen": "img/jugadores/guillermo-ochoa.jpg"
+    },
+    {
+        "id": "nicolas-otamendi",
+        "nombre": "Nicolás Otamendi",
+        "imagen": "img/jugadores/nicolas-otamendi.jpg"
+    },
+    {
+        "id": "angel-di-maria",
+        "nombre": "Ángel Di María",
+        "imagen": "img/jugadores/angel-di-maria.jpg"
+    },
+    {
+        "id": "gonzalo-higuain",
+        "nombre": "Gonzalo Higuaín",
+        "imagen": "img/jugadores/gonzalo-higuain.jpg"
+    },
+    {
+        "id": "oscar-ruggeri",
+        "nombre": "Oscar Ruggeri",
+        "imagen": "img/jugadores/oscar-ruggeri.jpg"
+    },
+    {
+        "id": "jorge-burruchaga",
+        "nombre": "Jorge Burruchaga",
+        "imagen": "img/jugadores/jorge-burruchaga.jpg"
+    },
+    {
+        "id": "ubaldo-fillol",
+        "nombre": "Ubaldo Fillol",
+        "imagen": "img/jugadores/ubaldo-fillol.jpg"
+    },
+    {
+        "id": "mario-zagallo",
+        "nombre": "Mario Zagallo",
+        "imagen": "img/jugadores/mario-zagallo.jpg"
+    },
+    {
+        "id": "nilton-santos",
+        "nombre": "Nílton Santos",
+        "imagen": "img/jugadores/nilton-santos.jpg"
+    },
+    {
+        "id": "carlos-alberto",
+        "nombre": "Carlos Alberto",
+        "imagen": "img/jugadores/carlos-alberto.jpg"
+    },
+    {
+        "id": "socrates",
+        "nombre": "Sócrates",
+        "imagen": "img/jugadores/socrates.jpg"
+    },
+    {
+        "id": "coutinho",
+        "nombre": "Coutinho",
+        "imagen": "img/jugadores/coutinho.jpg"
+    },
+    {
+        "id": "amarildo",
+        "nombre": "Amarildo",
+        "imagen": "img/jugadores/amarildo.jpg"
+    },
+    {
+        "id": "tostao",
+        "nombre": "Tostão",
+        "imagen": "img/jugadores/tostao.jpg"
+    },
+    {
+        "id": "dino-zoff",
+        "nombre": "Dino Zoff",
+        "imagen": "img/jugadores/dino-zoff.jpg"
+    },
+    {
+        "id": "gaetano-scirea",
+        "nombre": "Gaetano Scirea",
+        "imagen": "img/jugadores/gaetano-scirea.jpg"
+    },
+    {
+        "id": "franco-baresi",
+        "nombre": "Franco Baresi",
+        "imagen": "img/jugadores/franco-baresi.jpg"
+    },
+    {
+        "id": "claudio-gentile",
+        "nombre": "Claudio Gentile",
+        "imagen": "img/jugadores/claudio-gentile.jpg"
+    },
+    {
+        "id": "marco-tardelli",
+        "nombre": "Marco Tardelli",
+        "imagen": "img/jugadores/marco-tardelli.jpg"
+    },
+    {
+        "id": "bruno-conti",
+        "nombre": "Bruno Conti",
+        "imagen": "img/jugadores/bruno-conti.jpg"
+    },
+    {
+        "id": "karl-heinz-rummenigge",
+        "nombre": "Karl-Heinz Rummenigge",
+        "imagen": "img/jugadores/karl-heinz-rummenigge.jpg"
+    },
+    {
+        "id": "jurgen-klinsmann",
+        "nombre": "Jürgen Klinsmann",
+        "imagen": "img/jugadores/jurgen-klinsmann.jpg"
+    },
+    {
+        "id": "michael-laudrup",
+        "nombre": "Michael Laudrup",
+        "imagen": "img/jugadores/michael-laudrup.jpg"
+    },
+    {
+        "id": "brian-laudrup",
+        "nombre": "Brian Laudrup",
+        "imagen": "img/jugadores/brian-laudrup.jpg"
+    },
+    {
+        "id": "ruud-gullit",
+        "nombre": "Ruud Gullit",
+        "imagen": "img/jugadores/ruud-gullit.jpg"
+    },
+    {
+        "id": "frank-rijkaard",
+        "nombre": "Frank Rijkaard",
+        "imagen": "img/jugadores/frank-rijkaard.jpg"
+    },
+    {
+        "id": "didier-deschamps",
+        "nombre": "Didier Deschamps",
+        "imagen": "img/jugadores/didier-deschamps.jpg"
+    },
+    {
+        "id": "laurent-blanc",
+        "nombre": "Laurent Blanc",
+        "imagen": "img/jugadores/laurent-blanc.jpg"
+    },
+    {
+        "id": "fabien-barthez",
+        "nombre": "Fabien Barthez",
+        "imagen": "img/jugadores/fabien-barthez.jpg"
+    },
+    {
+        "id": "youri-djorkaeff",
+        "nombre": "Youri Djorkaeff",
+        "imagen": "img/jugadores/youri-djorkaeff.jpg"
+    },
+    {
+        "id": "robert-pires",
+        "nombre": "Robert Pires",
+        "imagen": "img/jugadores/robert-pires.jpg"
+    },
+    {
+        "id": "emmanuel-petit",
+        "nombre": "Emmanuel Petit",
+        "imagen": "img/jugadores/emmanuel-petit.jpg"
+    },
+    {
+        "id": "geoff-hurst",
+        "nombre": "Geoff Hurst",
+        "imagen": "img/jugadores/geoff-hurst.jpg"
+    },
+    {
+        "id": "peter-shilton",
+        "nombre": "Peter Shilton",
+        "imagen": "img/jugadores/peter-shilton.jpg"
+    },
+    {
+        "id": "michael-owen",
+        "nombre": "Michael Owen",
+        "imagen": "img/jugadores/michael-owen.jpg"
+    },
+    {
+        "id": "zbigniew-boniek",
+        "nombre": "Zbigniew Boniek",
+        "imagen": "img/jugadores/zbigniew-boniek.jpg"
+    },
+    {
+        "id": "asamoah-gyan",
+        "nombre": "Asamoah Gyan",
+        "imagen": "img/jugadores/asamoah-gyan.jpg"
+    },
+    {
+        "id": "gabriel-batistuta",
+        "nombre": "Gabriel Batistuta",
+        "imagen": "img/jugadores/gabriel-batistuta.jpg"
+    },
+    {
+        "id": "didi",
+        "nombre": "Didi",
+        "imagen": "img/jugadores/didi.jpg"
+    },
+    {
+        "id": "gaetano-scirеa",
+        "nombre": "Gaetano Scirea",
+        "imagen": "img/jugadores/gaetano-scirеa.jpg"
+    },
+    {
+        "id": "kevin-keegan",
+        "nombre": "Kevin Keegan",
+        "imagen": "img/jugadores/kevin-keegan.jpg"
+    },
+    {
+        "id": "claudio-pizarro",
+        "nombre": "Claudio Pizarro",
+        "imagen": "img/jugadores/claudio-pizarro.jpg"
+    }
+]
