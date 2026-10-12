@@ -1,8 +1,11 @@
 const contenido = document.getElementById("contenido");
 const logo = document.getElementById("logo");
 const anio = document.getElementById("anio");
+let indiceCarruselOtrosJuegos = 0;
 
 anio.textContent = new Date().getFullYear();
+
+window.addEventListener("resize", actualizarCarruselOtrosJuegos);
 
 
 /* =========================================================
@@ -198,10 +201,36 @@ function abrirJuego(idJuego) {
                     Otros juegos
                 </h2>
 
-                <div class="carrusel">
+                <div class="carrusel-contenedor">
 
-                    ${crearCarruselJuegos(idJuego)}
+                    <button
+                        type="button"
+                        class="carrusel-control carrusel-anterior"
+                        aria-label="Ver juegos anteriores"
+                        aria-controls="carrusel-otros-juegos"
+                    >
+                        &#10094;
+                    </button>
 
+                    <div class="carrusel-ventana">
+                        <div
+                            id="carrusel-otros-juegos"
+                            class="carrusel"
+                        >
+
+                            ${crearCarruselJuegos(idJuego)}
+
+                        </div>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="carrusel-control carrusel-siguiente"
+                        aria-label="Ver siguientes juegos"
+                        aria-controls="carrusel-otros-juegos"
+                    >
+                        &#10095;
+                    </button>
                 </div>
 
             </div>
@@ -213,6 +242,19 @@ function abrirJuego(idJuego) {
     /* Iniciar la lógica del juego */
 
     juego.iniciar();
+
+    indiceCarruselOtrosJuegos = 0;
+    actualizarCarruselOtrosJuegos();
+
+
+    document
+        .querySelector(".carrusel-anterior")
+        .addEventListener("click", () => moverCarruselOtrosJuegos(-1));
+
+
+    document
+        .querySelector(".carrusel-siguiente")
+        .addEventListener("click", () => moverCarruselOtrosJuegos(1));
 
 
     /* Eventos de otros juegos */
@@ -228,6 +270,119 @@ function abrirJuego(idJuego) {
             });
 
         });
+}
+
+function moverCarruselOtrosJuegos(direccion) {
+
+    const ventana =
+        document.querySelector(".carrusel-ventana");
+
+    const carrusel =
+        document.querySelector(".carrusel");
+
+    if (!ventana || !carrusel) {
+        return;
+    }
+
+
+    const elementos =
+        carrusel.querySelectorAll(".carrusel-item");
+
+    const elementosVisibles =
+        Number(
+            getComputedStyle(ventana)
+                .getPropertyValue("--elementos-visibles")
+        ) || 1;
+
+    const indiceMaximo =
+        Math.max(0, elementos.length - elementosVisibles);
+
+    if (indiceMaximo === 0) {
+        return;
+    }
+
+
+    if (direccion > 0) {
+        indiceCarruselOtrosJuegos = Math.min(
+            indiceMaximo,
+            indiceCarruselOtrosJuegos + elementosVisibles
+        );
+    } else if (indiceCarruselOtrosJuegos === indiceMaximo) {
+        indiceCarruselOtrosJuegos =
+            Math.floor((indiceMaximo - 1) / elementosVisibles) *
+            elementosVisibles;
+    } else {
+        indiceCarruselOtrosJuegos = Math.max(
+            0,
+            indiceCarruselOtrosJuegos - elementosVisibles
+        );
+    }
+
+    actualizarCarruselOtrosJuegos();
+
+}
+
+
+function actualizarCarruselOtrosJuegos() {
+
+    const ventana =
+        document.querySelector(".carrusel-ventana");
+
+    const carrusel =
+        document.querySelector(".carrusel");
+
+    if (!ventana || !carrusel) {
+        return;
+    }
+
+
+    const elementos =
+        carrusel.querySelectorAll(".carrusel-item");
+
+    const elementosVisibles =
+        Number(
+            getComputedStyle(ventana)
+                .getPropertyValue("--elementos-visibles")
+        ) || 1;
+
+    const indiceMaximo =
+        Math.max(0, elementos.length - elementosVisibles);
+
+
+    indiceCarruselOtrosJuegos =
+        Math.min(indiceCarruselOtrosJuegos, indiceMaximo);
+
+
+    const elemento =
+        elementos[indiceCarruselOtrosJuegos];
+
+    const desplazamiento =
+        elemento && elementos[0]
+            ? elemento.getBoundingClientRect().left -
+                elementos[0].getBoundingClientRect().left
+            : 0;
+
+
+    carrusel.style.transform =
+        `translateX(-${desplazamiento}px)`;
+
+
+    const botonAnterior =
+        document.querySelector(".carrusel-anterior");
+
+    const botonSiguiente =
+        document.querySelector(".carrusel-siguiente");
+
+    const hayMasDeUnaPagina =
+        elementos.length > elementosVisibles;
+
+
+    botonAnterior.disabled =
+        !hayMasDeUnaPagina || indiceCarruselOtrosJuegos === 0;
+
+    botonSiguiente.disabled =
+        !hayMasDeUnaPagina || indiceCarruselOtrosJuegos === indiceMaximo;
+
 }
 
 

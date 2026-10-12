@@ -334,30 +334,34 @@ body {
     font-size: 20px;
 }
 
+.carrusel-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carrusel-ventana {
+    --elementos-visibles: 3;
+
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
 .carrusel {
     display: flex;
-
+    width: 100%;
     gap: 12px;
-
-    overflow-x: auto;
-
-    padding-bottom: 8px;
-
-    scrollbar-width: thin;
-}
-
-.carrusel::-webkit-scrollbar {
-    height: 6px;
-}
-
-.carrusel::-webkit-scrollbar-thumb {
-    background: #34425c;
-    border-radius: 10px;
+    transition: transform 0.35s ease;
 }
 
 .carrusel-item {
-    flex: 0 0 190px;
+    flex: 0 0 calc(
+        (100% - (var(--elementos-visibles) - 1) * 12px) /
+        var(--elementos-visibles)
+    );
 
+    box-sizing: border-box;
     min-height: 100px;
 
     padding: 18px;
@@ -382,6 +386,38 @@ body {
         border-color 0.2s ease;
 }
 
+.carrusel-control {
+    flex: 0 0 38px;
+    width: 38px;
+    height: 38px;
+
+    display: grid;
+    place-items: center;
+
+    background: #151f34;
+    border: 1px solid #2b3b58;
+    border-radius: 50%;
+
+    color: #ffffff;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.carrusel-control:not(:disabled):hover {
+    background: #1a2944;
+    border-color: #39d9ff;
+}
+
+.carrusel-control:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
 .carrusel-item:hover {
     background: #1a2944;
     border-color: #39d9ff;
@@ -397,6 +433,18 @@ body {
     color: #9eabc1;
 
     font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .carrusel-ventana {
+        --elementos-visibles: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .carrusel-ventana {
+        --elementos-visibles: 1;
+    }
 }
 
 
@@ -451,7 +499,7 @@ body {
 @media (max-width: 900px) {
 
     .layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .zona-publicidad {
@@ -460,6 +508,7 @@ body {
 
     .contenido {
         max-width: 700px;
+        min-width: 0;
         margin: 0 auto;
     }
 
