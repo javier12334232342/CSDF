@@ -374,7 +374,9 @@ function construirListaJugadoresMundial() {
     const lista = [];
 
 
-    datosGoleadoresMundial.forEach(
+    datosGoleadoresMundial
+        .filter(datosGoleador => datosGoleador.goles > 0)
+        .forEach(
         datosGoleador => {
 
             const jugador =
