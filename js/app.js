@@ -1,11 +1,10 @@
 const contenido = document.getElementById("contenido");
-const logo = document.getElementById("logo");
 const anio = document.getElementById("anio");
 let indiceCarruselOtrosJuegos = 0;
 
-anio.textContent = new Date().getFullYear();
-
-window.addEventListener("resize", actualizarCarruselOtrosJuegos);
+if (anio) {
+    anio.textContent = new Date().getFullYear();
+}
 
 
 /* =========================================================
@@ -19,7 +18,7 @@ const juegos = [
         descripcion: "¿Cuánto sabes de goleadores en Champions?",
         modo: "duelo",
         tema: "champions",
-        iniciar: iniciarQuienMarcoMasChampions
+        iniciar: () => window.iniciarQuienMarcoMasChampions()
     },
     {
         id: "quien-marco-mas-champions-historico",
@@ -27,7 +26,7 @@ const juegos = [
         descripcion: "¿Quién marcó más goles en la historia de la Copa de Europa y la Champions?",
         modo: "duelo",
         tema: "champions",
-        iniciar: iniciarQuienMarcoMasChampionsHistorico
+        iniciar: () => window.iniciarQuienMarcoMasChampionsHistorico()
     },
     {
         id: "quien-marco-mas-mundial",
@@ -35,7 +34,7 @@ const juegos = [
         descripcion: "¿Quién marcó más goles en la historia de los Mundiales?",
         modo: "duelo",
         tema: "mundial",
-        iniciar: iniciarQuienMarcoMasMundial
+        iniciar: () => window.iniciarQuienMarcoMasMundial()
     },
     {
         id: "quien-marco-mas-carrera",
@@ -43,7 +42,7 @@ const juegos = [
         descripcion: "¿Quién marcó más goles oficiales en su carrera?",
         modo: "duelo",
         tema: "historico",
-        iniciar: iniciarQuienMarcoMasCarrera
+        iniciar: () => window.iniciarQuienMarcoMasCarrera()
     },
     {
         id: "quien-jugo-mas-mundial",
@@ -51,7 +50,7 @@ const juegos = [
         descripcion: "¿Quién disputó más partidos en Copas del Mundo?",
         modo: "duelo",
         tema: "mundial",
-        iniciar: iniciarQuienJugoMasMundial
+        iniciar: () => window.iniciarQuienJugoMasMundial()
     },
     {
         id: "impostores-futboleros",
@@ -59,7 +58,7 @@ const juegos = [
         descripcion: "Encuentra a los jugadores que no cumplen la consigna y bate tu récord de racha.",
         modo: "grupo",
         tema: "impostores",
-        iniciar: iniciarImpostoresFutboleros
+        iniciar: () => window.iniciarImpostoresFutboleros()
     }
     
 ];
@@ -179,14 +178,14 @@ function mostrarInicio() {
 
                 ${juegos.map(juego => `
 
-                    <button
+                    <a
                         class="juego-opcion tema-${juego.tema}"
-                        data-juego="${juego.id}"
+                        href="/juegos/${juego.id}/"
                     >
 
                         ${crearContenidoTarjetaJuegoHTML(juego)}
 
-                    </button>
+                    </a>
 
                 `).join("")}
 
@@ -196,15 +195,6 @@ function mostrarInicio() {
     `;
 
 
-    document.querySelectorAll(".juego-opcion").forEach(boton => {
-
-        boton.addEventListener("click", () => {
-
-            abrirJuego(boton.dataset.juego);
-
-        });
-
-    });
 }
 
 
@@ -452,33 +442,103 @@ function crearCarruselJuegos(juegoActual) {
 
         .map(juego => `
 
-            <button
+            <a
+                href="/juegos/${juego.id}/"
                 class="carrusel-item tema-${juego.tema}"
                 data-juego="${juego.id}"
+                aria-label="Abrir juego ${juego.titulo}"
             >
 
                 ${crearContenidoTarjetaJuegoHTML(juego)}
 
-            </button>
+            </a>
 
         `)
 
         .join("");
 }
 
+function renderizarCarruselOtrosJuegos(juegoActualId) {
+    let contenedor = document.getElementById("otros-juegos");
 
-/* =========================================================
-   BOTÓN CSDF
-========================================================= */
+    if (!contenedor) {
+        const navRelacionados = document.querySelector(".juegos-relacionados");
 
-logo.addEventListener("click", mostrarInicio);
+        if (navRelacionados) {
+            navRelacionados.outerHTML = '<div id="otros-juegos" aria-label="Otros juegos de fútbol"></div>';
+            contenedor = document.getElementById("otros-juegos");
+        } else {
+            const contenidoPrincipal = document.getElementById("contenido");
 
+            if (!contenidoPrincipal) {
+                return;
+            }
+
+            contenedor = document.createElement("div");
+            contenedor.id = "otros-juegos";
+            contenedor.setAttribute("aria-label", "Otros juegos de fútbol");
+            contenidoPrincipal.appendChild(contenedor);
+        }
+    }
+
+    if (!contenedor) {
+        return;
+    }
+
+    contenedor.innerHTML = `
+        <div class="otros-juegos">
+            <h2>Otros juegos</h2>
+
+            <div class="carrusel-contenedor">
+                <button
+                    type="button"
+                    class="carrusel-control carrusel-anterior"
+                    aria-label="Ver juegos anteriores"
+                    aria-controls="carrusel-otros-juegos"
+                >&#10094;</button>
+
+                <div class="carrusel-ventana">
+                    <div id="carrusel-otros-juegos" class="carrusel">
+                        ${crearCarruselJuegos(juegoActualId)}
+                    </div>
+                </div>
+
+                <button
+                    type="button"
+                    class="carrusel-control carrusel-siguiente"
+                    aria-label="Ver siguientes juegos"
+                    aria-controls="carrusel-otros-juegos"
+                >&#10095;</button>
+            </div>
+        </div>
+    `;
+
+    indiceCarruselOtrosJuegos = 0;
+    actualizarCarruselOtrosJuegos();
+
+    document.querySelector(".carrusel-anterior")?.addEventListener("click", () => moverCarruselOtrosJuegos(-1));
+    document.querySelector(".carrusel-siguiente")?.addEventListener("click", () => moverCarruselOtrosJuegos(1));
+
+}
 
 /* =========================================================
    INICIAR
 ========================================================= */
 
-mostrarInicio();
+const idJuegoInicial = document.body?.dataset?.juego;
+
+if (idJuegoInicial) {
+    const juegoInicial = juegos.find(juego => juego.id === idJuegoInicial);
+
+    if (juegoInicial) {
+        juegoInicial.iniciar();
+        renderizarCarruselOtrosJuegos(idJuegoInicial);
+    } else {
+        console.error("Juego inicial no encontrado:", idJuegoInicial);
+    }
+} else {
+    mostrarInicio();
+}
 
 
 /* async function probarJugadorSinTemporada() {

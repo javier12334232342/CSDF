@@ -43,6 +43,14 @@ body {
     border-bottom: 1px solid #24314a;
 }
 
+/* Logo CSDF: sin subrayado */
+.cabecera .logo,
+.cabecera .logo:hover,
+.cabecera .logo:focus,
+.cabecera .logo:active {
+    text-decoration: none;
+}
+
 .logo {
     border: none;
     background: transparent;
@@ -174,6 +182,7 @@ body {
     align-items: stretch;
 
     text-align: left;
+    text-decoration: none;
 
     border: 1px solid rgba(115, 146, 190, 0.22);
     border-radius: 16px;
@@ -377,6 +386,52 @@ body {
     color: #9eabc1;
 }
 
+.introduccion-juego {
+    margin: 0 auto 26px;
+    max-width: 760px;
+    color: #b7c3d6;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.introduccion-juego h2 {
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.juegos-relacionados {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #2b3b58;
+    border-radius: 12px;
+    background: #111a2e;
+}
+
+.juegos-relacionados h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.juegos-relacionados ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    list-style: none;
+}
+
+.juegos-relacionados a {
+    color: #8de2f5;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.juegos-relacionados a:hover,
+.juegos-relacionados a:focus-visible {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 
 /* =========================================================
    CONTENEDOR DEL JUEGO
@@ -489,6 +544,7 @@ body {
     align-items: stretch;
 
     text-align: left;
+    text-decoration: none;
 
     background: linear-gradient(145deg, #18253c, #111b2e 72%);
 

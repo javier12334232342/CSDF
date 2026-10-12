@@ -26,9 +26,9 @@
 
     <!-- CABECERA -->
     <header class="cabecera">
-        <button id="logo" class="logo" aria-label="Volver al inicio">
+        <a id="logo" class="logo" href="/" aria-label="Volver al inicio">
             CSDF
-        </button>
+        </a>
     </header>
 
 
@@ -46,7 +46,39 @@
         <!-- CONTENIDO CENTRAL -->
         <section id="contenido" class="contenido">
 
-            <!-- JavaScript carga aquí el menú o el juego -->
+            <div class="menu-principal">
+                <h1 class="titulo-principal">¿Cuánto sabes de fútbol?</h1>
+                <p class="subtitulo-principal">
+                    Pon a prueba tus conocimientos con nuestros juegos.
+                </p>
+
+                <nav class="lista-juegos" aria-label="Juegos de fútbol">
+                    <a class="juego-opcion tema-champions" href="/juegos/quien-marco-mas-champions/">
+                        <span class="juego-card-titulo">Goleadores de Champions</span>
+                        <span class="juego-card-descripcion">¿Cuánto sabes de goleadores en Champions?</span>
+                    </a>
+                    <a class="juego-opcion tema-champions" href="/juegos/quien-marco-mas-champions-historico/">
+                        <span class="juego-card-titulo">Goleadores históricos de Champions</span>
+                        <span class="juego-card-descripcion">¿Quién marcó más goles en la historia de la Copa de Europa y la Champions?</span>
+                    </a>
+                    <a class="juego-opcion tema-mundial" href="/juegos/quien-marco-mas-mundial/">
+                        <span class="juego-card-titulo">Goleadores de Mundiales</span>
+                        <span class="juego-card-descripcion">¿Quién marcó más goles en la historia de los Mundiales?</span>
+                    </a>
+                    <a class="juego-opcion tema-historico" href="/juegos/quien-marco-mas-carrera/">
+                        <span class="juego-card-titulo">Goleadores históricos</span>
+                        <span class="juego-card-descripcion">¿Quién marcó más goles oficiales en su carrera?</span>
+                    </a>
+                    <a class="juego-opcion tema-mundial" href="/juegos/quien-jugo-mas-mundial/">
+                        <span class="juego-card-titulo">Más partidos en Mundiales</span>
+                        <span class="juego-card-descripcion">¿Quién disputó más partidos en Copas del Mundo?</span>
+                    </a>
+                    <a class="juego-opcion tema-impostores" href="/juegos/impostores-futboleros/">
+                        <span class="juego-card-titulo">Impostores futboleros</span>
+                        <span class="juego-card-descripcion">Encuentra a los jugadores que no cumplen la consigna y bate tu récord de racha.</span>
+                    </a>
+                </nav>
+            </div>
 
         </section>
 
