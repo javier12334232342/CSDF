@@ -1,0 +1,432 @@
+[
+    {
+        "idJugador": "pele",
+        "partidos": 14,
+        "goles": 12
+    },
+    {
+        "idJugador": "diego-maradona",
+        "partidos": 21,
+        "goles": 8
+    },
+    {
+        "idJugador": "gerd-muller",
+        "partidos": 13,
+        "goles": 14
+    },
+    {
+        "idJugador": "just-fontaine",
+        "partidos": 6,
+        "goles": 13
+    },
+    {
+        "idJugador": "eusebio",
+        "partidos": 6,
+        "goles": 9
+    },
+    {
+        "idJugador": "garrincha",
+        "partidos": 12,
+        "goles": 5
+    },
+    {
+        "idJugador": "jairzinho",
+        "partidos": 16,
+        "goles": 9
+    },
+    {
+        "idJugador": "mario-kempes",
+        "partidos": 18,
+        "goles": 6
+    },
+    {
+        "idJugador": "zico",
+        "partidos": 14,
+        "goles": 5
+    },
+    {
+        "idJugador": "johan-cruyff",
+        "partidos": 7,
+        "goles": 3
+    },
+    {
+        "idJugador": "franz-beckenbauer",
+        "partidos": 18,
+        "goles": 5
+    },
+    {
+        "idJugador": "lothar-matthaus",
+        "partidos": 25,
+        "goles": 6
+    },
+    {
+        "idJugador": "paolo-maldini",
+        "partidos": 23,
+        "goles": 0
+    },
+    {
+        "idJugador": "cafu",
+        "partidos": 20,
+        "goles": 0
+    },
+    {
+        "idJugador": "roberto-carlos",
+        "partidos": 17,
+        "goles": 1
+    },
+    {
+        "idJugador": "philipp-lahm",
+        "partidos": 20,
+        "goles": 1
+    },
+    {
+        "idJugador": "manuel-neuer",
+        "partidos": 23,
+        "goles": 0
+    },
+    {
+        "idJugador": "hugo-lloris",
+        "partidos": 20,
+        "goles": 0
+    },
+    {
+        "idJugador": "javier-mascherano",
+        "partidos": 20,
+        "goles": 0
+    },
+    {
+        "idJugador": "bastian-schweinsteiger",
+        "partidos": 20,
+        "goles": 0
+    },
+    {
+        "idJugador": "luka-modric",
+        "partidos": 23,
+        "goles": 2
+    },
+    {
+        "idJugador": "andres-iniesta",
+        "partidos": 14,
+        "goles": 2
+    },
+    {
+        "idJugador": "xavi",
+        "partidos": 15,
+        "goles": 0
+    },
+    {
+        "idJugador": "zinedine-zidane",
+        "partidos": 12,
+        "goles": 5
+    },
+    {
+        "idJugador": "luis-figo",
+        "partidos": 6,
+        "goles": 1
+    },
+    {
+        "idJugador": "dennis-bergkamp",
+        "partidos": 12,
+        "goles": 6
+    },
+    {
+        "idJugador": "wesley-sneijder",
+        "partidos": 17,
+        "goles": 6
+    },
+    {
+        "idJugador": "arjen-robben",
+        "partidos": 15,
+        "goles": 6
+    },
+    {
+        "idJugador": "uwe-seeler",
+        "partidos": 21,
+        "goles": 9
+    },
+    {
+        "idJugador": "gary-lineker",
+        "partidos": 12,
+        "goles": 10
+    },
+    {
+        "idJugador": "bobby-charlton",
+        "partidos": 14,
+        "goles": 4
+    },
+    {
+        "idJugador": "bobby-moore",
+        "partidos": 14,
+        "goles": 0
+    },
+    {
+        "idJugador": "sandor-kocsis",
+        "partidos": 5,
+        "goles": 11
+    },
+    {
+        "idJugador": "guillermo-stabile",
+        "partidos": 4,
+        "goles": 8
+    },
+    {
+        "idJugador": "leonidas",
+        "partidos": 5,
+        "goles": 8
+    },
+    {
+        "idJugador": "gabriel-batistuta",
+        "partidos": 12,
+        "goles": 10
+    },
+    {
+        "idJugador": "teofilo-cubillas",
+        "partidos": 13,
+        "goles": 10
+    },
+    {
+        "idJugador": "paolo-rossi",
+        "partidos": 14,
+        "goles": 9
+    },
+    {
+        "idJugador": "rob-rensenbrink",
+        "partidos": 13,
+        "goles": 6
+    },
+    {
+        "idJugador": "ferenc-puskas",
+        "partidos": 6,
+        "goles": 4
+    },
+    {
+        "idJugador": "didi",
+        "partidos": 15,
+        "goles": 3
+    },
+    {
+        "idJugador": "vava",
+        "partidos": 10,
+        "goles": 9
+    },
+    {
+        "idJugador": "rivelino",
+        "partidos": 15,
+        "goles": 6
+    },
+    {
+        "idJugador": "antonio-carbajal",
+        "partidos": 11,
+        "goles": 0
+    },
+    {
+        "idJugador": "wladyslaw-zmuda",
+        "partidos": 21,
+        "goles": 0
+    },
+    {
+        "idJugador": "rafael-marquez",
+        "partidos": 19,
+        "goles": 3
+    },
+    {
+        "idJugador": "guillermo-ochoa",
+        "partidos": 12,
+        "goles": 0
+    },
+    {
+        "idJugador": "nicolas-otamendi",
+        "partidos": 21,
+        "goles": 0
+    },
+    {
+        "idJugador": "angel-di-maria",
+        "partidos": 18,
+        "goles": 3
+    },
+    {
+        "idJugador": "gonzalo-higuain",
+        "partidos": 14,
+        "goles": 5
+    },
+    {
+        "idJugador": "oscar-ruggeri",
+        "partidos": 16,
+        "goles": 1
+    },
+    {
+        "idJugador": "jorge-burruchaga",
+        "partidos": 14,
+        "goles": 4
+    },
+    {
+        "idJugador": "ubaldo-fillol",
+        "partidos": 13,
+        "goles": 0
+    },
+    {
+        "idJugador": "mario-zagallo",
+        "partidos": 20,
+        "goles": 1
+    },
+    {
+        "idJugador": "nilton-santos",
+        "partidos": 11,
+        "goles": 1
+    },
+    {
+        "idJugador": "carlos-alberto",
+        "partidos": 6,
+        "goles": 1
+    },
+    {
+        "idJugador": "socrates",
+        "partidos": 10,
+        "goles": 2
+    },
+    {
+        "idJugador": "coutinho",
+        "partidos": 5,
+        "goles": 2
+    },
+    {
+        "idJugador": "amarildo",
+        "partidos": 7,
+        "goles": 3
+    },
+    {
+        "idJugador": "tostao",
+        "partidos": 6,
+        "goles": 3
+    },
+    {
+        "idJugador": "dino-zoff",
+        "partidos": 17,
+        "goles": 0
+    },
+    {
+        "idJugador": "gaetano-scirеa",
+        "partidos": 18,
+        "goles": 0
+    },
+    {
+        "idJugador": "franco-baresi",
+        "partidos": 10,
+        "goles": 0
+    },
+    {
+        "idJugador": "claudio-gentile",
+        "partidos": 9,
+        "goles": 0
+    },
+    {
+        "idJugador": "marco-tardelli",
+        "partidos": 7,
+        "goles": 2
+    },
+    {
+        "idJugador": "bruno-conti",
+        "partidos": 7,
+        "goles": 1
+    },
+    {
+        "idJugador": "karl-heinz-rummenigge",
+        "partidos": 19,
+        "goles": 9
+    },
+    {
+        "idJugador": "jurgen-klinsmann",
+        "partidos": 17,
+        "goles": 11
+    },
+    {
+        "idJugador": "michael-laudrup",
+        "partidos": 9,
+        "goles": 2
+    },
+    {
+        "idJugador": "brian-laudrup",
+        "partidos": 5,
+        "goles": 2
+    },
+    {
+        "idJugador": "ruud-gullit",
+        "partidos": 4,
+        "goles": 1
+    },
+    {
+        "idJugador": "frank-rijkaard",
+        "partidos": 10,
+        "goles": 0
+    },
+    {
+        "idJugador": "didier-deschamps",
+        "partidos": 6,
+        "goles": 0
+    },
+    {
+        "idJugador": "laurent-blanc",
+        "partidos": 7,
+        "goles": 1
+    },
+    {
+        "idJugador": "fabien-barthez",
+        "partidos": 17,
+        "goles": 0
+    },
+    {
+        "idJugador": "robert-pires",
+        "partidos": 3,
+        "goles": 0
+    },
+    {
+        "idJugador": "david-trezeguet",
+        "partidos": 12,
+        "goles": 1
+    },
+    {
+        "idJugador": "youri-djorkaeff",
+        "partidos": 10,
+        "goles": 1
+    },
+    {
+        "idJugador": "emmanuel-petit",
+        "partidos": 8,
+        "goles": 2
+    },
+    {
+        "idJugador": "geoff-hurst",
+        "partidos": 6,
+        "goles": 4
+    },
+    {
+        "idJugador": "peter-shilton",
+        "partidos": 17,
+        "goles": 0
+    },
+    {
+        "idJugador": "kevin-keegan",
+        "partidos": 2,
+        "goles": 0
+    },
+    {
+        "idJugador": "michael-owen",
+        "partidos": 10,
+        "goles": 4
+    },
+    {
+        "idJugador": "zbigniew-boniek",
+        "partidos": 16,
+        "goles": 6
+    },
+    {
+        "idJugador": "asamoah-gyan",
+        "partidos": 11,
+        "goles": 6
+    },
+    {
+        "idJugador": "andriy-shevchenko",
+        "partidos": 6,
+        "goles": 2
+    }
+]

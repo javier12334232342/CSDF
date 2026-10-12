@@ -1,0 +1,514 @@
+/* =========================================================
+   RESET
+========================================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #0b1220;
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   CABECERA
+========================================================= */
+
+.cabecera {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 22px 20px;
+
+    background: #111a2e;
+
+    border-bottom: 1px solid #24314a;
+}
+
+.logo {
+    border: none;
+    background: transparent;
+
+    color: #ffffff;
+
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 4px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        color 0.2s ease;
+}
+
+.logo:hover {
+    color: #39d9ff;
+    transform: scale(1.04);
+}
+
+
+/* =========================================================
+   LAYOUT PRINCIPAL
+========================================================= */
+
+.layout {
+    width: 100%;
+    max-width: 1500px;
+
+    flex: 1;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(140px, 1fr)
+        minmax(320px, 800px)
+        minmax(140px, 1fr);
+
+    gap: 25px;
+
+    padding: 30px 20px;
+}
+
+
+/* =========================================================
+   PUBLICIDAD
+========================================================= */
+
+.zona-publicidad {
+    min-height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.publicidad-placeholder {
+    width: 100%;
+    max-width: 180px;
+
+    min-height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+    color: #5f6d86;
+
+    border: 1px dashed #34425c;
+    border-radius: 8px;
+
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   CONTENIDO CENTRAL
+========================================================= */
+
+.contenido {
+    width: 100%;
+}
+
+
+/* =========================================================
+   MENU PRINCIPAL
+========================================================= */
+
+.menu-principal {
+    width: 100%;
+}
+
+.titulo-principal {
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.subtitulo-principal {
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    color: #9eabc1;
+
+    font-size: 16px;
+}
+
+
+.lista-juegos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+/* Pantallas medianas */
+@media (min-width: 900px) {
+    .lista-juegos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+    .lista-juegos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+/* =========================================================
+   TARJETAS DE JUEGO
+========================================================= */
+
+.juego-opcion {
+    width: 100%;
+
+    padding: 22px 24px;
+
+    display: block;
+
+    text-align: left;
+
+    border: 1px solid #2b3b58;
+    border-radius: 12px;
+
+    background: #151f34;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.juego-opcion:hover {
+    transform: translateY(-2px);
+
+    background: #1a2944;
+
+    border-color: #39d9ff;
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.juego-opcion:active {
+    transform: translateY(0);
+}
+
+.juego-titulo {
+    margin-bottom: 8px;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.juego-descripcion {
+    color: #9eabc1;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   VISTA DE JUEGO
+========================================================= */
+
+.vista-juego {
+    width: 100%;
+}
+
+.cabecera-juego {
+    margin-bottom: 25px;
+
+    text-align: center;
+}
+
+.cabecera-juego h1 {
+    margin-bottom: 8px;
+
+    font-size: 30px;
+}
+
+.cabecera-juego p {
+    color: #9eabc1;
+}
+
+
+/* =========================================================
+   CONTENEDOR DEL JUEGO
+========================================================= */
+
+.contenedor-juego {
+    width: 100%;
+
+    min-height: 400px;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: #151f34;
+
+    border: 1px solid #2b3b58;
+    border-radius: 12px;
+}
+
+
+/* =========================================================
+   BOTONES
+========================================================= */
+
+.boton {
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #39d9ff;
+    color: #07111f;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+.boton:hover {
+    transform: translateY(-1px);
+    opacity: 0.9;
+}
+
+
+/* =========================================================
+   CARRUSEL DE OTROS JUEGOS
+========================================================= */
+
+.otros-juegos {
+    margin-top: 35px;
+}
+
+.otros-juegos h2 {
+    margin-bottom: 15px;
+
+    font-size: 20px;
+}
+
+.carrusel {
+    display: flex;
+
+    gap: 12px;
+
+    overflow-x: auto;
+
+    padding-bottom: 8px;
+
+    scrollbar-width: thin;
+}
+
+.carrusel::-webkit-scrollbar {
+    height: 6px;
+}
+
+.carrusel::-webkit-scrollbar-thumb {
+    background: #34425c;
+    border-radius: 10px;
+}
+
+.carrusel-item {
+    flex: 0 0 190px;
+
+    min-height: 100px;
+
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: left;
+
+    background: #151f34;
+
+    border: 1px solid #2b3b58;
+    border-radius: 10px;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.carrusel-item:hover {
+    background: #1a2944;
+    border-color: #39d9ff;
+}
+
+.carrusel-item strong {
+    margin-bottom: 6px;
+
+    font-size: 15px;
+}
+
+.carrusel-item span {
+    color: #9eabc1;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer {
+    width: 100%;
+
+    padding: 22px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    background: #111a2e;
+
+    border-top: 1px solid #24314a;
+
+    color: #71809a;
+
+    font-size: 13px;
+}
+
+.footer-enlaces {
+    display: flex;
+
+    gap: 18px;
+}
+
+.footer a {
+    color: #8d9bb2;
+
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #39d9ff;
+}
+
+
+/* =========================================================
+   RESPONSIVE - TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .zona-publicidad {
+        display: none;
+    }
+
+    .contenido {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE - MOVIL
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .cabecera {
+        padding: 16px;
+    }
+
+    .logo {
+        font-size: 34px;
+    }
+
+    .layout {
+        padding: 20px 14px;
+    }
+
+    .titulo-principal {
+        font-size: 26px;
+    }
+
+    .subtitulo-principal {
+        font-size: 14px;
+    }
+
+    .juego-opcion {
+        padding: 18px;
+    }
+
+    .juego-titulo {
+        font-size: 18px;
+    }
+
+    .contenedor-juego {
+        min-height: 350px;
+        padding: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+}
