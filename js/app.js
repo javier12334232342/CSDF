@@ -18,6 +18,29 @@ const juegos = [
         descripcion: "¿Cuánto sabes de goleadores en Champions?",
         modo: "duelo",
         tema: "champions",
+        normas: {
+            titulo: "¿Quién marcó más goles?",
+            descripcion: "Pon a prueba tus conocimientos sobre los máximos goleadores de la Champions League.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada uno corresponde a una temporada diferente."
+                },
+                {
+                    titulo: "Elige al goleador:",
+                    descripcion: "pulsa sobre el jugador que marcó más goles en su temporada."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los goles de ambos jugadores."
+                },
+                {
+                    titulo: "Consigue una racha:",
+                    descripcion: "cada acierto consecutivo suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "¿Serás capaz de superar tu récord personal?"
+        },
         iniciar: () => window.iniciarQuienMarcoMasChampions()
     },
     {
@@ -26,6 +49,29 @@ const juegos = [
         descripcion: "¿Quién marcó más goles en la historia de la Copa de Europa y la Champions?",
         modo: "duelo",
         tema: "champions",
+        normas: {
+            titulo: "¿Quién marcó más goles?",
+            descripcion: "Compara a dos futbolistas y descubre quién ha marcado más goles en toda la historia de la Copa de Europa y la Champions League.",
+            reglas: [
+                {
+                    titulo: "Compara dos leyendas:",
+                    descripcion: "aparecerán dos futbolistas con sus goles acumulados."
+                },
+                {
+                    titulo: "Elige al máximo goleador:",
+                    descripcion: "pulsa sobre el jugador que tenga más goles históricos."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder podrás ver los goles de ambos."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "cada acierto suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Se excluyen las rondas clasificatorias."
+        },
         iniciar: () => window.iniciarQuienMarcoMasChampionsHistorico()
     },
     {
@@ -34,6 +80,29 @@ const juegos = [
         descripcion: "¿Quién marcó más goles en la historia de los Mundiales?",
         modo: "duelo",
         tema: "mundial",
+        normas: {
+            titulo: "¿Quién marcó más goles?",
+            descripcion: "Compara los goles anotados por dos futbolistas en la fase final de la Copa del Mundo.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige al goleador:",
+                    descripcion: "selecciona a quien haya marcado más goles en los Mundiales."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los goles de ambos."
+                },
+                {
+                    titulo: "Consigue una racha:",
+                    descripcion: "cada acierto consecutivo suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Las estadísticas corresponden a las Copas del Mundo."
+        },
         iniciar: () => window.iniciarQuienMarcoMasMundial()
     },
     {
@@ -42,6 +111,29 @@ const juegos = [
         descripcion: "¿Quién marcó más goles oficiales en su carrera?",
         modo: "duelo",
         tema: "historico",
+        normas: {
+            titulo: "¿Quién marcó más goles?",
+            descripcion: "Compara los goles oficiales acumulados por dos futbolistas durante sus carreras.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "se muestran sus goles oficiales de clubes y selección absoluta."
+                },
+                {
+                    titulo: "Elige al máximo goleador:",
+                    descripcion: "selecciona a quien tenga más goles en total."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los goles de ambos."
+                },
+                {
+                    titulo: "Consigue una racha:",
+                    descripcion: "cada acierto consecutivo suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Las cifras históricas pueden variar según la fuente."
+        },
         iniciar: () => window.iniciarQuienMarcoMasCarrera()
     },
     {
@@ -50,6 +142,29 @@ const juegos = [
         descripcion: "¿Quién disputó más partidos en Copas del Mundo?",
         modo: "duelo",
         tema: "mundial",
+        normas: {
+            titulo: "¿Quién jugó más partidos?",
+            descripcion: "Compara los partidos disputados por dos futbolistas en la fase final de la Copa del Mundo.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige a quien jugó más:",
+                    descripcion: "selecciona a quien haya disputado más partidos en los Mundiales."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los partidos de ambos."
+                },
+                {
+                    titulo: "Consigue una racha:",
+                    descripcion: "cada acierto consecutivo suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Las estadísticas corresponden a las Copas del Mundo."
+        },
         iniciar: () => window.iniciarQuienJugoMasMundial()
     },
     {
@@ -58,6 +173,29 @@ const juegos = [
         descripcion: "Encuentra a los jugadores que no cumplen la consigna y bate tu récord de racha.",
         modo: "grupo",
         tema: "impostores",
+        normas: {
+            titulo: "Encuentra a los impostores",
+            descripcion: "En cada ronda verás una consigna estadística y cinco futbolistas.",
+            reglas: [
+                {
+                    titulo: "Lee la consigna:",
+                    descripcion: "indica una estadística y un mínimo que deben superar."
+                },
+                {
+                    titulo: "Selecciona a los impostores:",
+                    descripcion: "marca todos los jugadores que no superan ese mínimo."
+                },
+                {
+                    titulo: "Confirma tu selección:",
+                    descripcion: "para acertar debes marcar exactamente a todos los impostores, sin dejar ninguno ni añadir jugadores."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "un acierto suma un punto y un error la devuelve a cero."
+                }
+            ],
+            nota: "Las consignas usan goles oficiales de carrera, goles en Champions y estadísticas de los Mundiales."
+        },
         iniciar: () => window.iniciarImpostoresFutboleros()
     }
     
@@ -281,7 +419,7 @@ function abrirJuego(idJuego) {
 
     /* Iniciar la lógica del juego */
 
-    juego.iniciar();
+    iniciarJuego(juego);
 
     indiceCarruselOtrosJuegos = 0;
     actualizarCarruselOtrosJuegos();
@@ -310,6 +448,70 @@ function abrirJuego(idJuego) {
             });
 
         });
+}
+
+function iniciarJuego(juego) {
+    if (!juego.normas) {
+        juego.iniciar();
+        return;
+    }
+
+    mostrarDialogoNormas(juego.normas, juego.iniciar);
+}
+
+function mostrarDialogoNormas(normas, iniciar) {
+    document.getElementById("dialogoNormasJuego")?.remove();
+
+    const dialogo = document.createElement("dialog");
+    dialogo.id = "dialogoNormasJuego";
+    dialogo.className = "dialogo-normas-juego";
+    dialogo.setAttribute("aria-labelledby", "tituloDialogoNormasJuego");
+    dialogo.setAttribute("aria-describedby", "descripcionDialogoNormasJuego");
+
+    const icono = document.createElement("div");
+    icono.className = "dialogo-normas-icono";
+    icono.setAttribute("aria-hidden", "true");
+    icono.textContent = "⚽";
+
+    const titulo = document.createElement("h2");
+    titulo.id = "tituloDialogoNormasJuego";
+    titulo.textContent = normas.titulo;
+
+    const descripcion = document.createElement("p");
+    descripcion.id = "descripcionDialogoNormasJuego";
+    descripcion.textContent = normas.descripcion;
+
+    const lista = document.createElement("ul");
+    normas.reglas.forEach(regla => {
+        const elemento = document.createElement("li");
+        const etiqueta = document.createElement("strong");
+        etiqueta.textContent = regla.titulo;
+        elemento.append(etiqueta, ` ${regla.descripcion}`);
+        lista.append(elemento);
+    });
+
+    dialogo.append(icono, titulo, descripcion, lista);
+
+    if (normas.nota) {
+        const nota = document.createElement("p");
+        nota.className = "dialogo-normas-nota";
+        nota.textContent = normas.nota;
+        dialogo.append(nota);
+    }
+
+    const botonEmpezar = document.createElement("button");
+    botonEmpezar.type = "button";
+    botonEmpezar.className = "dialogo-normas-empezar";
+    botonEmpezar.textContent = "¡Jugar!";
+    botonEmpezar.addEventListener("click", () => {
+        dialogo.close();
+        dialogo.remove();
+        iniciar();
+    });
+
+    dialogo.append(botonEmpezar);
+    document.body.append(dialogo);
+    dialogo.showModal();
 }
 
 function moverCarruselOtrosJuegos(direccion) {
@@ -531,7 +733,7 @@ if (idJuegoInicial) {
     const juegoInicial = juegos.find(juego => juego.id === idJuegoInicial);
 
     if (juegoInicial) {
-        juegoInicial.iniciar();
+        iniciarJuego(juegoInicial);
         renderizarCarruselOtrosJuegos(idJuegoInicial);
     } else {
         console.error("Juego inicial no encontrado:", idJuegoInicial);

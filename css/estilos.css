@@ -676,6 +676,103 @@ body {
 
 
 /* =========================================================
+   DIÁLOGO DE NORMAS
+========================================================= */
+
+.dialogo-normas-juego {
+    width: min(520px, calc(100% - 32px));
+    max-width: 520px;
+    max-height: 85vh;
+    overflow-y: auto;
+    margin: auto;
+    padding: 32px;
+    border: none;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #172033;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dialogo-normas-juego::backdrop {
+    background: rgba(5, 12, 24, 0.78);
+    backdrop-filter: blur(4px);
+}
+
+.dialogo-normas-icono {
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.dialogo-normas-juego h2 {
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.dialogo-normas-juego > p {
+    margin-bottom: 16px;
+    color: #475569;
+    line-height: 1.5;
+}
+
+.dialogo-normas-juego ul {
+    margin: 0 0 16px;
+    padding-left: 22px;
+}
+
+.dialogo-normas-juego li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.dialogo-normas-juego li strong {
+    color: #172033;
+}
+
+.dialogo-normas-juego .dialogo-normas-nota {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.dialogo-normas-empezar {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #1677ff;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.dialogo-normas-empezar:hover {
+    background: #095dcc;
+    transform: translateY(-2px);
+}
+
+.dialogo-normas-empezar:focus-visible {
+    outline: 3px solid #39d9ff;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    .dialogo-normas-juego {
+        padding: 24px 20px;
+    }
+
+    .dialogo-normas-juego h2 {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* =========================================================
    RESPONSIVE - MOVIL
 ========================================================= */
 
