@@ -665,6 +665,37 @@ body {
    DIÁLOGO DE NORMAS
 ========================================================= */
 
+.contenedor-juego-con-normas {
+    position: relative;
+    width: 100%;
+}
+
+.boton-normas-juego {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 1;
+    padding: 8px 12px;
+    border: 1px solid #39d9ff;
+    border-radius: 8px;
+    background: #111a2e;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.boton-normas-juego:hover {
+    background: #1a2944;
+    transform: translateY(-2px);
+}
+
+.boton-normas-juego:focus-visible {
+    outline: 3px solid #39d9ff;
+    outline-offset: 3px;
+}
+
 .dialogo-normas-juego {
     width: min(520px, calc(100% - 32px));
     max-width: 520px;

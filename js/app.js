@@ -455,7 +455,40 @@ function iniciarJuego(juego) {
         return;
     }
 
+    prepararBotonNormas(juego);
     mostrarDialogoNormas(juego.normas, juego.iniciar);
+}
+
+function prepararBotonNormas(juego) {
+    const zonaJuego = document.getElementById("zona-juego");
+
+    if (!zonaJuego) {
+        return;
+    }
+
+    let contenedor = zonaJuego.parentElement;
+
+    if (!contenedor.classList.contains("contenedor-juego-con-normas")) {
+        const nuevoContenedor = document.createElement("div");
+        nuevoContenedor.className = "contenedor-juego-con-normas";
+        zonaJuego.before(nuevoContenedor);
+        nuevoContenedor.append(zonaJuego);
+        contenedor = nuevoContenedor;
+    }
+
+    if (contenedor.querySelector(".boton-normas-juego")) {
+        return;
+    }
+
+    const botonNormas = document.createElement("button");
+    botonNormas.type = "button";
+    botonNormas.className = "boton-normas-juego";
+    botonNormas.setAttribute("aria-haspopup", "dialog");
+    botonNormas.textContent = "ⓘ ¿Cómo jugar?";
+    botonNormas.addEventListener("click", () => {
+        mostrarDialogoNormas(juego.normas);
+    });
+    contenedor.append(botonNormas);
 }
 
 function mostrarDialogoNormas(normas, iniciar) {
@@ -501,11 +534,11 @@ function mostrarDialogoNormas(normas, iniciar) {
     const botonEmpezar = document.createElement("button");
     botonEmpezar.type = "button";
     botonEmpezar.className = "dialogo-normas-empezar";
-    botonEmpezar.textContent = "¡Jugar!";
+    botonEmpezar.textContent = iniciar ? "¡Jugar!" : "Cerrar";
     botonEmpezar.addEventListener("click", () => {
         dialogo.close();
         dialogo.remove();
-        iniciar();
+        iniciar?.();
     });
 
     dialogo.append(botonEmpezar);
