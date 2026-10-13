@@ -77,6 +77,7 @@
 
     box-sizing: border-box;
 
+    border: 2px solid #2b3b58;
     border-radius: 15px;
 
     cursor: pointer;
@@ -84,14 +85,19 @@
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease,
+        border-color 0.2s ease,
+        background-color 0.2s ease,
         opacity 0.2s ease;
 }
 
 
-/* Efecto al pasar el ratón */
-
-.tarjeta-jugador:hover {
-    transform: translateY(-5px);
+@media (hover: hover) and (pointer: fine) {
+    .tarjeta-jugador:hover:not(.desactivada) {
+        transform: translateY(-3px);
+        background-color: rgba(57, 217, 255, 0.12);
+        border-color: #39d9ff;
+        box-shadow: 0 0 0 2px #39d9ff;
+    }
 }
 
 
@@ -158,11 +164,14 @@
    ====================================================== */
 
 .tarjeta-jugador.correcta {
+    border-color: #2ecc71;
     box-shadow: 0 0 0 4px #2ecc71;
 }
 
 .tarjeta-jugador.incorrecta {
-    opacity: 0.6;
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 4px #e74c3c;
+    background-color: rgba(231, 76, 60, 0.16);
 }
 
 .tarjeta-jugador.empate {

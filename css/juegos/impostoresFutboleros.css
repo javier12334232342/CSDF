@@ -50,13 +50,18 @@
     color: #fff;
     cursor: pointer;
 
-    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
 @media (hover: hover) and (pointer: fine) {
     .impostor-jugador:hover:not(:disabled) {
         transform: translateY(-3px);
-        border-color: #ff7b72;
+        border-color: #39d9ff;
+        
     }
 }
 

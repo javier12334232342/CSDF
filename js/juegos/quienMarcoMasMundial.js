@@ -743,19 +743,6 @@ function comprobarRespuesta(
             );
 
 
-        document
-            .getElementById(
-                `boton${
-                    respuesta === "A"
-                        ? "B"
-                        : "A"
-                }`
-            )
-            .classList.add(
-                "incorrecta"
-            );
-
-
         document.getElementById(
             "tituloResultado"
         ).textContent =

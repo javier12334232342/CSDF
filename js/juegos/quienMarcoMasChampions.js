@@ -54,7 +54,12 @@ async function iniciarPartidaQuienMarcoMasChampions() {
                     role="button"
                     tabindex="0"
                 >
+                     <h3 id="nombreJugadorA"></h3>
 
+                    <div
+                        id="temporadaJugadorA"
+                        class="temporada-jugador"
+                    ></div>
                     <img
                         id="imagenJugadorA"
                         class="imagen-jugador"
@@ -62,12 +67,7 @@ async function iniciarPartidaQuienMarcoMasChampions() {
                         alt=""
                     >
 
-                    <h3 id="nombreJugadorA"></h3>
-
-                    <div
-                        id="temporadaJugadorA"
-                        class="temporada-jugador"
-                    ></div>
+                   
 
                     <div
                         id="golesJugadorA"
@@ -88,7 +88,12 @@ async function iniciarPartidaQuienMarcoMasChampions() {
                     role="button"
                     tabindex="0"
                 >
+                <h3 id="nombreJugadorB"></h3>
 
+                    <div
+                        id="temporadaJugadorB"
+                        class="temporada-jugador"
+                    ></div>
                     <img
                         id="imagenJugadorB"
                         class="imagen-jugador"
@@ -96,12 +101,7 @@ async function iniciarPartidaQuienMarcoMasChampions() {
                         alt=""
                     >
 
-                    <h3 id="nombreJugadorB"></h3>
-
-                    <div
-                        id="temporadaJugadorB"
-                        class="temporada-jugador"
-                    ></div>
+                    
 
                     <div
                         id="golesJugadorB"
@@ -665,13 +665,6 @@ function comprobarRespuesta(respuesta) {
         document
             .getElementById(`boton${respuesta}`)
             .classList.add("correcta");
-
-
-        document
-            .getElementById(
-                `boton${respuesta === "A" ? "B" : "A"}`
-            )
-            .classList.add("incorrecta");
 
 
         document.getElementById("tituloResultado").textContent =

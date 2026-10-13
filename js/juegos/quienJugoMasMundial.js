@@ -739,19 +739,6 @@ function comprobarRespuestaPartidos(
             );
 
 
-        document
-            .getElementById(
-                `boton${
-                    respuesta === "A"
-                        ? "B"
-                        : "A"
-                }`
-            )
-            .classList.add(
-                "incorrecta"
-            );
-
-
         document.getElementById(
             "tituloResultado"
         ).textContent =
