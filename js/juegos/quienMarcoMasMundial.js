@@ -70,7 +70,7 @@ async function iniciarQuienMarcoMasMundial() {
                     role="button"
                     tabindex="0"
                 >
-
+                    <h3 id="nombreJugadorA"></h3>
                     <img
                         id="imagenJugadorA"
                         class="imagen-jugador"
@@ -78,7 +78,7 @@ async function iniciarQuienMarcoMasMundial() {
                         alt=""
                     >
 
-                    <h3 id="nombreJugadorA"></h3>
+                    
 
                     <div
                         id="golesJugadorA"
@@ -99,7 +99,7 @@ async function iniciarQuienMarcoMasMundial() {
                     role="button"
                     tabindex="0"
                 >
-
+                    <h3 id="nombreJugadorB"></h3>
                     <img
                         id="imagenJugadorB"
                         class="imagen-jugador"
@@ -107,7 +107,7 @@ async function iniciarQuienMarcoMasMundial() {
                         alt=""
                     >
 
-                    <h3 id="nombreJugadorB"></h3>
+                    
 
                     <div
                         id="golesJugadorB"

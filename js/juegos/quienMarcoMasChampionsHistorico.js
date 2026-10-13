@@ -48,13 +48,14 @@
                         role="button"
                         tabindex="0"
                     >
+                    <h3 id="nombreChampionsHistoricoA"></h3>
                         <img
                             id="imagenChampionsHistoricoA"
                             class="imagen-jugador"
                             src=""
                             alt=""
                         >
-                        <h3 id="nombreChampionsHistoricoA"></h3>
+                       
                         <div id="golesChampionsHistoricoA" class="goles-jugador">?</div>
                     </div>
 
@@ -66,13 +67,14 @@
                         role="button"
                         tabindex="0"
                     >
+                    <h3 id="nombreChampionsHistoricoB"></h3>
                         <img
                             id="imagenChampionsHistoricoB"
                             class="imagen-jugador"
                             src=""
                             alt=""
                         >
-                        <h3 id="nombreChampionsHistoricoB"></h3>
+                        
                         <div id="golesChampionsHistoricoB" class="goles-jugador">?</div>
                     </div>
 

@@ -35,25 +35,21 @@
                 </div>
 
                 <div class="pregunta">
-                    <h2>¿Quién marcó más goles oficiales en su carrera?</h2>
-                    <p>
-                        Se cuentan clubes y selección absoluta. Las cifras históricas
-                        pueden variar según la fuente.
-                    </p>
+                    <h2>¿Quién marcó más goles?</h2>
                 </div>
 
                 <div class="jugadores">
                     <div id="botonCarreraA" class="tarjeta-jugador" role="button" tabindex="0">
-                        <img id="imagenCarreraA" class="imagen-jugador" src="" alt="">
                         <h3 id="nombreCarreraA"></h3>
+                        <img id="imagenCarreraA" class="imagen-jugador" src="" alt="">
                         <div id="golesCarreraA" class="goles-jugador">?</div>
                     </div>
 
                     <div class="vs">VS</div>
 
                     <div id="botonCarreraB" class="tarjeta-jugador" role="button" tabindex="0">
-                        <img id="imagenCarreraB" class="imagen-jugador" src="" alt="">
                         <h3 id="nombreCarreraB"></h3>
+                        <img id="imagenCarreraB" class="imagen-jugador" src="" alt="">
                         <div id="golesCarreraB" class="goles-jugador">?</div>
                     </div>
                 </div>
