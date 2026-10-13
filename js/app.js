@@ -14,8 +14,8 @@ if (anio) {
 const juegos = [
     {
         id: "quien-marco-mas-champions",
-        titulo: "Goleadores de Champions",
-        descripcion: "¿Cuánto sabes de goleadores en Champions?",
+        titulo: "Pichichis de Champions",
+        descripcion: "¿Cuánto sabes de los pichichis de la Champions League?",
         modo: "duelo",
         tema: "champions",
         normas: {
@@ -45,7 +45,7 @@ const juegos = [
     },
     {
         id: "quien-marco-mas-champions-historico",
-        titulo: "Goleadores históricos de Champions",
+        titulo: "Goleadores de Champions",
         descripcion: "¿Quién marcó más goles en la historia de la Copa de Europa y la Champions?",
         modo: "duelo",
         tema: "champions",
@@ -106,37 +106,6 @@ const juegos = [
         iniciar: () => window.iniciarQuienMarcoMasMundial()
     },
     {
-        id: "quien-marco-mas-carrera",
-        titulo: "Goleadores históricos",
-        descripcion: "¿Quién marcó más goles oficiales en su carrera?",
-        modo: "duelo",
-        tema: "historico",
-        normas: {
-            titulo: "¿Quién marcó más goles?",
-            descripcion: "Compara los goles oficiales acumulados por dos futbolistas durante sus carreras.",
-            reglas: [
-                {
-                    titulo: "Compara dos jugadores:",
-                    descripcion: "se muestran sus goles oficiales de clubes y selección absoluta."
-                },
-                {
-                    titulo: "Elige al máximo goleador:",
-                    descripcion: "selecciona a quien tenga más goles en total."
-                },
-                {
-                    titulo: "Descubre las cifras:",
-                    descripcion: "después de responder verás los goles de ambos."
-                },
-                {
-                    titulo: "Consigue una racha:",
-                    descripcion: "cada acierto consecutivo suma un punto; si fallas, la racha vuelve a cero."
-                }
-            ],
-            nota: "Las cifras históricas pueden variar según la fuente."
-        },
-        iniciar: () => window.iniciarQuienMarcoMasCarrera()
-    },
-    {
         id: "quien-jugo-mas-mundial",
         titulo: "Más partidos en Mundiales",
         descripcion: "¿Quién disputó más partidos en Copas del Mundo?",
@@ -168,9 +137,40 @@ const juegos = [
         iniciar: () => window.iniciarQuienJugoMasMundial()
     },
     {
+        id: "quien-marco-mas-carrera",
+        titulo: "Goleadores históricos",
+        descripcion: "¿Quién marcó más goles oficiales en su carrera?",
+        modo: "duelo",
+        tema: "historico",
+        normas: {
+            titulo: "¿Quién marcó más goles?",
+            descripcion: "Compara los goles oficiales acumulados por dos futbolistas durante sus carreras.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "se muestran sus goles oficiales de clubes y selección absoluta."
+                },
+                {
+                    titulo: "Elige al máximo goleador:",
+                    descripcion: "selecciona a quien tenga más goles en total."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los goles de ambos."
+                },
+                {
+                    titulo: "Consigue una racha:",
+                    descripcion: "cada acierto consecutivo suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Las cifras históricas pueden variar según la fuente."
+        },
+        iniciar: () => window.iniciarQuienMarcoMasCarrera()
+    },
+    {
         id: "impostores-futboleros",
-        titulo: "Impostores futboleros",
-        descripcion: "Encuentra a los jugadores que no cumplen la consigna y bate tu récord de racha.",
+        titulo: "Encuentra los impostores",
+        descripcion: "¿Quién de estos jugadores no cumple la consigna?",
         modo: "grupo",
         tema: "impostores",
         normas: {
@@ -194,11 +194,10 @@ const juegos = [
                     descripcion: "un acierto suma un punto y un error la devuelve a cero."
                 }
             ],
-            nota: "Las consignas usan goles oficiales de carrera, goles en Champions y estadísticas de los Mundiales."
         },
         iniciar: () => window.iniciarImpostoresFutboleros()
     }
-    
+
 ];
 
 
@@ -601,7 +600,7 @@ function actualizarCarruselOtrosJuegos() {
     const desplazamiento =
         elemento && elementos[0]
             ? elemento.getBoundingClientRect().left -
-                elementos[0].getBoundingClientRect().left
+            elementos[0].getBoundingClientRect().left
             : 0;
 
 

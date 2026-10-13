@@ -56,7 +56,7 @@ async function iniciarQuienMarcoMasMundial() {
             <div class="pregunta">
 
                 <h2>
-                    ¿Quién marcó más goles en Copas del Mundo?
+                    ¿Quién marcó más goles?
                 </h2>
 
             </div>

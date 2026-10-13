@@ -386,20 +386,6 @@ body {
     color: #9eabc1;
 }
 
-.introduccion-juego {
-    margin: 0 auto 26px;
-    max-width: 760px;
-    color: #b7c3d6;
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-.introduccion-juego h2 {
-    margin-bottom: 8px;
-    color: #ffffff;
-    font-size: 19px;
-}
-
 .juegos-relacionados {
     margin-top: 30px;
     padding: 20px;

@@ -54,7 +54,7 @@ async function iniciarQuienJugoMasMundial() {
             <div class="pregunta">
 
                 <h2>
-                    ¿Quién disputó más partidos en Copas del Mundo?
+                    ¿Quién disputó más partidos?
                 </h2>
 
             </div>

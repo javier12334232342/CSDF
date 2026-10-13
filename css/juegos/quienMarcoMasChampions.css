@@ -225,34 +225,117 @@
 @media (max-width: 700px) {
 
     .cabecera-partida {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         gap: 10px;
+        margin-bottom: 15px;
     }
 
+    .temporada {
+        font-size: 0.95rem;
+    }
 
+    .puntuacion {
+        font-size: 0.9rem;
+        text-align: right;
+    }
+
+    .pregunta {
+        margin-bottom: 15px;
+    }
+
+    .pregunta h2 {
+        font-size: 1.15rem;
+    }
+
+    /* Mantener los dos jugadores en la misma fila */
     .jugadores {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
     }
 
-
-    .vs {
-        font-size: 1.5rem;
-    }
-
-
+    /* Tarjetas más compactas */
     .tarjeta-jugador {
-        width: min(300px, 100%);
+        flex: 1 1 0;
+        width: 0;
+        min-width: 0;
         min-height: auto;
+        padding: 10px 6px;
+        border-radius: 10px;
     }
 
+    .tarjeta-jugador:hover {
+        transform: none;
+    }
 
+    /* Reducir imágenes para que quepan ambas tarjetas */
     .imagen-jugador {
         width: 100%;
+        max-width: 130px;
+        height: 135px;
+        max-height: 135px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 8px;
+    }
 
-        max-width: 200px;
+    .tarjeta-jugador h3 {
+        font-size: 0.95rem;
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+        margin: 4px 0 8px;
+    }
 
-        height: 220px;
-        max-height: 220px;
+    .goles-jugador {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    /* VS más pequeño */
+    .vs {
+        flex: 0 0 auto;
+        align-self: center;
+        font-size: 1.1rem;
+    }
+
+    .resultado {
+        margin-top: 20px;
+    }
+
+    .boton-pasar {
+        margin-top: 20px;
+    }
+}
+
+/* Móviles estrechos */
+@media (max-width: 380px) {
+
+    .jugadores {
+        gap: 5px;
+    }
+
+    .tarjeta-jugador {
+        padding: 8px 4px;
+    }
+
+    .imagen-jugador {
+        max-width: 105px;
+        height: 110px;
+        max-height: 110px;
+    }
+
+    .tarjeta-jugador h3 {
+        font-size: 0.82rem;
+    }
+
+    .goles-jugador {
+        font-size: 0.8rem;
+    }
+
+    .vs {
+        font-size: 0.95rem;
     }
 }

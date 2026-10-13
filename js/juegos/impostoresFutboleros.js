@@ -25,7 +25,6 @@
                 </div>
                 <div class="impostores-consigna">
                     <h2 id="consignaImpostores"></h2>
-                    <p>Selecciona a todos los impostores y confirma tu respuesta.</p>
                 </div>
                 <div id="jugadoresImpostores" class="impostores-jugadores"></div>
                 <div class="impostores-acciones">

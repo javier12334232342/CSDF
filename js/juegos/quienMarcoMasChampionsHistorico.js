@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="pregunta">
-                    <h2>¿Quién marcó más goles en la historia de la Champions?</h2>
+                    <h2>¿Quién marcó más goles?</h2>
                 </div>
 
                 <div class="jugadores">
