@@ -585,11 +585,6 @@
         "imagen": "img/jugadores/ole-gunnar-solskjaer.jpg"
     },
     {
-        "id": "jan-koller",
-        "nombre": "Jan Koller",
-        "imagen": "img/jugadores/jan-koller.jpg"
-    },
-    {
         "id": "paul-scholes",
         "nombre": "Paul Scholes",
         "imagen": "img/jugadores/paul-scholes.jpg"
@@ -870,11 +865,6 @@
         "imagen": "img/jugadores/ferenc-puskas.jpg"
     },
     {
-        "id": "ferenc-puskas",
-        "nombre": "Didi",
-        "imagen": "img/jugadores/didi.jpg"
-    },
-    {
         "id": "vava",
         "nombre": "Vavá",
         "imagen": "img/jugadores/vava.jpg"
@@ -1093,11 +1083,6 @@
         "id": "didi",
         "nombre": "Didi",
         "imagen": "img/jugadores/didi.jpg"
-    },
-    {
-        "id": "gaetano-scirеa",
-        "nombre": "Gaetano Scirea",
-        "imagen": "img/jugadores/gaetano-scirеa.jpg"
     },
     {
         "id": "kevin-keegan",
