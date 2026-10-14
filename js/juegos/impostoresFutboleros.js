@@ -98,7 +98,7 @@
                     datosGolesCarrera,
                     "goles",
                     jugadoresPorId,
-                    [100, 150, 200, 250, 300, 350, 400, 500, 600, 700]
+                    [50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 700]
                 ),
                 crearCategoria(
                     "golesChampions",
@@ -106,7 +106,7 @@
                     datosGolesChampions,
                     "goles",
                     jugadoresPorId,
-                    [10, 20, 25, 30, 40, 50, 60, 75, 100]
+                    [5, 10, 20, 25, 30, 40, 50, 60, 75, 100]
                 ),
                 crearCategoria(
                     "golesMundiales",
