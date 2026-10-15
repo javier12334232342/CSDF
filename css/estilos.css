@@ -90,6 +90,20 @@ body {
     padding: 30px 20px;
 }
 
+body[data-juego] .layout {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(145deg, #18253c, #111b2e 72%);
+}
+
+body[data-juego] .layout::before {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    content: "";
+    pointer-events: none;
+}
+
 
 /* =========================================================
    CONTENIDO CENTRAL
@@ -210,12 +224,14 @@ body {
 }
 
 .juego-opcion.tema-champions::before,
-.carrusel-item.tema-champions::before {
-    background:
-        radial-gradient(ellipse at 50% 120%, transparent 0 28%, rgba(185, 165, 255, 0.13) 28.3% 28.7%, transparent 29% 43%, rgba(185, 165, 255, 0.1) 43.3% 43.7%, transparent 44%),
-        radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.7) 0 1px, transparent 2px),
-        radial-gradient(circle at 78% 27%, rgba(255, 255, 255, 0.55) 0 1px, transparent 2px),
+.carrusel-item.tema-champions::before,
+body[data-juego="quien-marco-mas-champions"] .layout::before,
+body[data-juego="quien-marco-mas-champions-historico"] .layout::before {
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='31' fill='none' stroke='%23b9a5ff' stroke-opacity='.2' stroke-width='2'/%3E%3Cpath d='m50 37 12 9-5 14H43l-5-14z' fill='%23b9a5ff' fill-opacity='.2' stroke='%23b9a5ff' stroke-opacity='.2' stroke-width='2'/%3E%3Cpath d='m50 37 0-18m12 27 16-6M57 60l10 15M43 60 33 75M38 46l-16-6' fill='none' stroke='%23b9a5ff' stroke-opacity='.2' stroke-width='2'/%3E%3C/svg%3E"),
         radial-gradient(ellipse at 100% 0, rgba(101, 76, 190, 0.28), transparent 62%);
+    background-repeat: repeat, no-repeat;
+    background-size: 100px 100px, auto;
 }
 
 .juego-opcion.tema-mundial,
@@ -224,7 +240,9 @@ body {
 }
 
 .juego-opcion.tema-mundial::before,
-.carrusel-item.tema-mundial::before {
+.carrusel-item.tema-mundial::before,
+body[data-juego="quien-marco-mas-mundial"] .layout::before,
+body[data-juego="quien-jugo-mas-mundial"] .layout::before {
     background:
         linear-gradient(90deg, transparent 49.7%, rgba(141, 226, 164, 0.1) 49.9% 50.1%, transparent 50.3%),
         radial-gradient(ellipse at 50% 50%, transparent 0 21%, rgba(141, 226, 164, 0.1) 21.3% 21.7%, transparent 22%),
@@ -238,11 +256,12 @@ body {
 }
 
 .juego-opcion.tema-historico::before,
-.carrusel-item.tema-historico::before {
+.carrusel-item.tema-historico::before,
+body[data-juego="quien-marco-mas-carrera"] .layout::before {
     background:
-        repeating-linear-gradient(135deg, transparent 0 26px, rgba(232, 189, 120, 0.045) 27px 28px, transparent 29px 52px),
-        radial-gradient(ellipse at 100% 0, rgba(170, 111, 47, 0.24), transparent 62%),
-        radial-gradient(circle at 88% 82%, transparent 0 32px, rgba(232, 189, 120, 0.08) 33px 34px, transparent 35px);
+        repeating-linear-gradient(0deg, transparent 0 27px, rgba(232, 189, 120, 0.08) 28px 29px, transparent 30px 56px),
+        repeating-linear-gradient(90deg, transparent 0 27px, rgba(232, 189, 120, 0.08) 28px 29px, transparent 30px 56px),
+        radial-gradient(ellipse at 100% 0, rgba(170, 111, 47, 0.24), transparent 62%);
 }
 
 .juego-opcion.tema-impostores,
@@ -251,10 +270,14 @@ body {
 }
 
 .juego-opcion.tema-impostores::before,
-.carrusel-item.tema-impostores::before {
-    background:
+.carrusel-item.tema-impostores::before,
+body[data-juego="impostores-futboleros"] .layout::before {
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='23' y='18' width='20' height='44' rx='3' transform='rotate(-10 33 40)' fill='%23ffd166' fill-opacity='.17' stroke='%23ffd166' stroke-opacity='.2' stroke-width='2'/%3E%3Crect x='58' y='38' width='20' height='44' rx='3' transform='rotate(10 68 60)' fill='%23ff625e' fill-opacity='.18' stroke='%23ff625e' stroke-opacity='.22' stroke-width='2'/%3E%3C/svg%3E"),
         radial-gradient(ellipse at 100% 0, rgba(190, 57, 75, 0.28), transparent 62%),
         linear-gradient(145deg, rgba(107, 38, 56, 0.22), transparent 75%);
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-size: 100px 100px, auto, auto;
 }
 
 .juego-opcion:hover {
@@ -430,7 +453,6 @@ body {
     text-align: center;
 
     background: #151f34;
-
     border: 1px solid #2b3b58;
     border-radius: 12px;
 }
