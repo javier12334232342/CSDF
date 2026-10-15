@@ -52,17 +52,7 @@ body {
 }
 
 .logo {
-    border: none;
-    background: transparent;
-
-    color: #ffffff;
-
-    font-size: 42px;
-    font-weight: 900;
-    letter-spacing: 4px;
-
     cursor: pointer;
-
     transition:
         transform 0.2s ease,
         color 0.2s ease;
@@ -71,6 +61,10 @@ body {
 .logo:hover {
     color: #39d9ff;
     transform: scale(1.04);
+}
+
+.cabecera .logo img {
+    height: 100px;
 }
 
 
@@ -89,9 +83,7 @@ body {
     display: grid;
 
     grid-template-columns:
-        minmax(140px, 1fr)
-        minmax(320px, 800px)
-        minmax(140px, 1fr);
+        minmax(140px, 1fr) minmax(320px, 800px) minmax(140px, 1fr);
 
     gap: 25px;
 
@@ -511,10 +503,7 @@ body {
 .carrusel-item {
     --card-accent: #39d9ff;
 
-    flex: 0 0 calc(
-        (100% - (var(--elementos-visibles) - 1) * 12px) /
-        var(--elementos-visibles)
-    );
+    flex: 0 0 calc((100% - (var(--elementos-visibles) - 1) * 12px) / var(--elementos-visibles));
 
     box-sizing: border-box;
     min-height: 190px;
@@ -728,7 +717,7 @@ body {
     font-size: 1.6rem;
 }
 
-.dialogo-normas-juego > p {
+.dialogo-normas-juego>p {
     margin-bottom: 16px;
     color: #475569;
     line-height: 1.5;
@@ -799,8 +788,8 @@ body {
         padding: 16px;
     }
 
-    .logo {
-        font-size: 34px;
+    .cabecera .logo img {
+        height: 80px;
     }
 
     .layout {
