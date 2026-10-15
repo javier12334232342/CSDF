@@ -367,7 +367,13 @@ body[data-juego="impostores-futboleros"] .layout::before {
 .juego-card-titulo {
     width: 100%;
     margin: 0 0 8px;
+    padding-left: 5px;
 
+    border: 1px solid rgba(115, 146, 190, 0.2);
+    border-left: 3px solid var(--card-accent);
+    border-radius: 8px;
+    background: rgba(23, 36, 54, 0.92);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     color: #f5f8ff;
     font-size: 19px;
     font-weight: 750;
@@ -714,18 +720,38 @@ body[data-juego="impostores-futboleros"] .layout::before {
 }
 
 .dialogo-normas-juego {
+    --dialogo-acento: #39d9ff;
+
     width: min(520px, calc(100% - 32px));
     max-width: 520px;
     max-height: 85vh;
     overflow-y: auto;
     margin: auto;
     padding: 32px;
-    border: none;
-    border-radius: 18px;
-    background: #ffffff;
-    color: #172033;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    border: 1px solid color-mix(in srgb, var(--dialogo-acento) 40%, #2b3b58);
+    border-radius: 16px;
+    background: linear-gradient(145deg, #18253c, #111a2e 72%);
+    color: #ffffff;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body[data-juego="quien-marco-mas-champions"] .dialogo-normas-juego,
+body[data-juego="quien-marco-mas-champions-historico"] .dialogo-normas-juego {
+    --dialogo-acento: #b9a5ff;
+}
+
+body[data-juego="quien-marco-mas-mundial"] .dialogo-normas-juego,
+body[data-juego="quien-jugo-mas-mundial"] .dialogo-normas-juego {
+    --dialogo-acento: #8de2a4;
+}
+
+body[data-juego="quien-marco-mas-carrera"] .dialogo-normas-juego {
+    --dialogo-acento: #e8bd78;
+}
+
+body[data-juego="impostores-futboleros"] .dialogo-normas-juego {
+    --dialogo-acento: #ff7b72;
 }
 
 .dialogo-normas-juego::backdrop {
@@ -734,39 +760,59 @@ body[data-juego="impostores-futboleros"] .layout::before {
 }
 
 .dialogo-normas-icono {
+    width: 64px;
+    height: 64px;
     margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+    border: 1px solid color-mix(in srgb, var(--dialogo-acento) 40%, transparent);
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--dialogo-acento) 12%, #111a2e);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .dialogo-normas-juego h2 {
     margin-bottom: 12px;
     text-align: center;
     font-size: 1.6rem;
+    color: var(--dialogo-acento);
 }
 
 .dialogo-normas-juego>p {
     margin-bottom: 16px;
-    color: #475569;
+    color: #c3cee0;
     line-height: 1.5;
 }
 
 .dialogo-normas-juego ul {
     margin: 0 0 16px;
-    padding-left: 22px;
+    padding: 16px 16px 6px 36px;
+    border: 1px solid rgba(115, 146, 190, 0.18);
+    border-radius: 12px;
+    background: rgba(5, 12, 24, 0.24);
 }
 
 .dialogo-normas-juego li {
     margin-bottom: 10px;
     line-height: 1.5;
+    color: #c3cee0;
+}
+
+.dialogo-normas-juego li::marker {
+    color: var(--dialogo-acento);
 }
 
 .dialogo-normas-juego li strong {
-    color: #172033;
+    color: #ffffff;
 }
 
 .dialogo-normas-juego .dialogo-normas-nota {
-    color: #64748b;
+    padding-left: 12px;
+    border-left: 2px solid var(--dialogo-acento);
+    color: #9eabc1;
     font-size: 0.9rem;
 }
 
@@ -777,21 +823,21 @@ body[data-juego="impostores-futboleros"] .layout::before {
     padding: 14px 20px;
     border: none;
     border-radius: 10px;
-    background: #1677ff;
-    color: #ffffff;
+    background: var(--dialogo-acento);
+    color: #07111f;
     font-size: 1.05rem;
     font-weight: 700;
     cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
+    transition: filter 0.2s, transform 0.2s;
 }
 
 .dialogo-normas-empezar:hover {
-    background: #095dcc;
+    filter: brightness(1.08);
     transform: translateY(-2px);
 }
 
 .dialogo-normas-empezar:focus-visible {
-    outline: 3px solid #39d9ff;
+    outline: 3px solid var(--dialogo-acento);
     outline-offset: 3px;
 }
 
