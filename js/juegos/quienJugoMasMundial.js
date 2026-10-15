@@ -98,7 +98,7 @@ async function iniciarQuienJugoMasMundial() {
                     role="button"
                     tabindex="0"
                 >
-
+                    <h3 id="nombreJugadorB"></h3>
                     <img
                         id="imagenJugadorB"
                         class="imagen-jugador"
@@ -106,7 +106,7 @@ async function iniciarQuienJugoMasMundial() {
                         alt=""
                     >
 
-                    <h3 id="nombreJugadorB"></h3>
+                    
 
                     <div
                         id="partidosJugadorB"
