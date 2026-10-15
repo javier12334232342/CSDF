@@ -226,11 +226,11 @@ function crearRachaHTML(idJuego) {
     }
 
     return `
-        <div class="racha-juego">
-           <span>${racha}</span>
-           <span aria-hidden="true">🔥</span>
-        </div>
-    `;
+    <div class="racha-juego">
+        <span>${racha}</span>
+        <img src="img/iconos/trofeo.png" alt="" aria-hidden="true">
+    </div>
+`;
 }
 
 
@@ -248,7 +248,7 @@ function crearModoJuegoHTML(juego) {
                     <path d="M3 12c3-3 8-4 13-1 5-3 10-2 13 1-1 7-5 11-10 7l-3-3-3 3C8 23 4 19 3 12Z"></path>
                     <path d="m4 13-3-2m27 2 3-2M13 14h6"></path>
                 </svg>
-                <span>impostor</span>
+                <span>Descartar</span>
             </span>
         `;
     }
@@ -273,7 +273,7 @@ function crearModoJuegoHTML(juego) {
                 <path d="M21.5 18c.4-2 1.3-3 2.5-3s2.1 1 2.5 3"></path>
                 <path d="M12.5 27h7m-2.5-2.5L19.5 27 17 29.5"></path>
             </svg>
-            <span>2 opciones</span>
+            <span>Elegir</span>
         </span>
     `;
 

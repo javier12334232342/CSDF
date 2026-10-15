@@ -31,8 +31,9 @@
             <div class="juego-goleadores-champions">
 
                 <div class="cabecera-partida">
-                    <div class="puntuacion">
-                        <span id="puntuacionChampionsHistorico">0</span> 🔥
+                    <div class="racha-actual">
+                        <span id="puntuacionChampionsHistorico">0</span>
+                        <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
                     </div>
                 </div>
 

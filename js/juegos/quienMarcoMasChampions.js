@@ -34,8 +34,9 @@ async function iniciarPartidaQuienMarcoMasChampions() {
 
             <div class="cabecera-partida">
 
-                <div class="puntuacion">
-                    <span id="puntuacion">0</span> 🔥 
+                <div class="racha-actual">
+                    <span id="puntuacion">0</span> 
+                    <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
                 </div>
 
             </div>

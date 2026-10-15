@@ -21,7 +21,10 @@
         zonaJuego.innerHTML = `
             <div class="juego-impostores">
                 <div class="impostores-cabecera">
-                    <span>Racha: <span id="puntuacionImpostores">0</span> 🔥</span>
+                    <span class="racha-actual">
+                        <span id="puntuacionImpostores">0</span>
+                        <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
+                    </span>
                 </div>
                 <div class="impostores-consigna">
                     <h2 id="consignaImpostores"></h2>

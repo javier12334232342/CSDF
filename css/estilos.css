@@ -360,9 +360,18 @@ body[data-juego="impostores-futboleros"] .layout::before {
     background: rgba(255, 179, 71, 0.08);
 
     color: #ffd18a;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
 }
+
+.racha-actual {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+    color: rgb(104, 211, 143);;
+}
+
 
 .juego-card-titulo {
     width: 100%;
