@@ -1,19 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Contacto | CSDF - ¿Cuánto sabes de fútbol?</title>
 
-    <meta
-        name="description"
-        content="Contacta con CSDF para resolver dudas, comunicar errores, enviar quejas o compartir sugerencias sobre nuestros juegos de fútbol."
-    >
+    <meta name="description"
+        content="Contacta con CSDF para resolver dudas, comunicar errores, enviar quejas o compartir sugerencias sobre nuestros juegos de fútbol.">
+
+    <meta name="theme-color" content="#1769aa">
 
     <link rel="canonical" href="https://cuantosabesdefutbol.com/contacto.html">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/img/iconos/logo.png">
+    <link rel="shortcut icon" href="/img/iconos/logo.png">
+    <link rel="apple-touch-icon" href="/img/iconos/logo.png">
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/contacto.css">
 </head>
@@ -22,74 +28,66 @@
 
     <!-- CABECERA -->
     <header class="cabecera">
-        <a
-            href="index.html"
-            class="logo"
-            aria-label="Volver al inicio de CSDF"
-        >
-            CSDF
+        <a href="index.html" class="logo" aria-label="Volver al inicio de CSDF">
+            <img src="img/iconos/logo.png" alt="CSDF - ¿Cuánto sabes de fútbol?" class="logo-imagen">
         </a>
     </header>
 
     <!-- CONTENIDO PRINCIPAL -->
     <main class="contacto-contenedor">
 
-        <section class="contacto-panel">
+        <section class="contacto-panel" aria-labelledby="titulo-contacto">
 
+            <header class="contacto-cabecera">
+                <h1 id="titulo-contacto">Contacto</h1>
+                <p class="contacto-introduccion">
+                    ¿Tienes alguna duda, sugerencia o queja? Estaré encantado de leerte.
+                </p>
+            </header>
 
-            <p class="contacto-introduccion">
-                ¿Tienes alguna duda, sugerencia o has encontrado algún
-                problema? Estaré encantado de leerte.
-            </p>
+            <div class="contacto-separador" aria-hidden="true"></div>
 
-            <div class="contacto-separador"></div>
-
-            <section class="contacto-seccion contacto-motivos">
-
+            <section class="contacto-seccion contacto-motivos" aria-label="Motivos de contacto">
                 <ul>
                     <li>
-                        <span aria-hidden="true">💬</span>
-                        Resolver dudas sobre la web o sus juegos.
+                        <img src="img/iconos/mensaje.png" alt="" aria-hidden="true">
+                        <span>Resolver dudas sobre la web o sus juegos.</span>
                     </li>
                     <li>
-                        <span aria-hidden="true">🐛</span>
-                        Informar de errores o problemas técnicos.
+                        <img src="img/iconos/error.png" alt="" aria-hidden="true">
+                        <span>Informar de errores o problemas técnicos.</span>
                     </li>
                     <li>
-                        <span aria-hidden="true">💡</span>
-                        Proponer nuevos juegos o mejoras.
+                        <img src="img/iconos/ideas.png" alt="" aria-hidden="true">
+                        <span>Proponer nuevos juegos o mejoras.</span>
                     </li>
                     <li>
-                        <span aria-hidden="true">📩</span>
-                        Enviar quejas o cualquier otra consulta.
+                        <img src="img/iconos/correo.png" alt="" aria-hidden="true">
+                        <span>Enviar quejas o cualquier otra consulta.</span>
                     </li>
                 </ul>
             </section>
 
-            <section class="contacto-correo">
-                <h2>Escríbenos</h2>
+            <section class="contacto-correo" aria-labelledby="titulo-correo">
+                <h2 id="titulo-correo">¿Hablamos?</h2>
 
-                <a
-                    class="contacto-email"
-                    href="mailto:juegosjgl@gmail.com?subject=Contacto%20-%20CSDF"
-                >
-                    juegosjgl@gmail.com
+                <p class="contacto-correo-descripcion">
+                    Escríbenos y cuéntanos qué necesitas.
+                </p>
+
+                <a class="contacto-email" href="mailto:juegosjglcomputer@gmail.com?subject=Contacto%20-%20CSDF">
+                    juegosjglcomputer@gmail.com
                 </a>
 
-                <a
-                    class="contacto-boton"
-                    href="mailto:juegosjgl@gmail.com?subject=Contacto%20-%20CSDF"
-                >
+
+                <a class="contacto-boton"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=juegosjglcomputer@gmail.com&su=Contacto%20-%20CSDF"
+                    target="_blank" rel="noopener noreferrer">
                     <span aria-hidden="true">✉</span>
                     Enviar un correo
                 </a>
 
             </section>
-
-            <p class="contacto-despedida">
-                Gracias por visitar CSDF y ayudarnos a seguir mejorando.
-                ¡Nos vemos en el próximo reto futbolístico!
-            </p>
 
         </section>
 
@@ -97,7 +95,6 @@
 
     <!-- PIE DE PÁGINA -->
     <footer class="footer">
-
         <p>
             © <span id="anio">2026</span> CSDF - ¿Cuánto sabes de fútbol?
         </p>
@@ -107,8 +104,8 @@
             <a href="index.html#enlace-cookies">Cookies</a>
             <a href="contacto.html" aria-current="page">Contacto</a>
         </nav>
-
     </footer>
 
 </body>
+
 </html>
