@@ -230,6 +230,37 @@ const juegos = [
         iniciar: () => window.iniciarQuienMarcoMasCarrera()
     },
     {
+        id: "ordenar-futboleros",
+        titulo: "Ordena a los futbolistas",
+        descripcion: "Ordena cinco futbolistas de mayor a menor según la estadística de la consigna.",
+        modo: "ordenar",
+        tema: "ordenar",
+        normas: {
+            titulo: "Ordena de mayor a menor",
+            descripcion: "En cada ronda verás cinco futbolistas y una estadística. Ordénalos del valor más alto al más bajo.",
+            reglas: [
+                {
+                    titulo: "Lee la consigna:",
+                    descripcion: "indica qué estadística debes comparar."
+                },
+                {
+                    titulo: "Pulsa en el orden elegido:",
+                    descripcion: "selecciona primero al jugador con el valor más alto y termina con el más bajo. Los números muestran el orden."
+                },
+                {
+                    titulo: "Confirma tu respuesta:",
+                    descripcion: "cuando hayas asignado un puesto a los cinco jugadores, confirma el orden."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "un acierto suma un punto y un error la devuelve a cero."
+                }
+            ],
+            nota: "Puedes volver a pulsar un jugador para quitarlo del orden y elegirlo de nuevo."
+        },
+        iniciar: () => window.iniciarOrdenarFutboleros()
+    },
+    {
         id: "impostores-futboleros",
         titulo: "Encuentra los impostores",
         descripcion: "¿Quién de estos jugadores no cumple la consigna?",
@@ -297,6 +328,23 @@ function crearRachaHTML(idJuego) {
 
 
 function crearModoJuegoHTML(juego) {
+
+    if (juego.modo === "ordenar") {
+        return `
+            <span class="modo-juego" aria-label="Modo de juego: ordenar">
+                <svg
+                    class="modo-juego-icono"
+                    viewBox="0 0 32 32"
+                    aria-hidden="true"
+                    focusable="false"
+                >
+                    <path d="M13 7h16M13 16h16M13 25h16"></path>
+                    <path d="m3 8 2-2 2 2M5 6v5m-2 5h4l-4 5h4m-4 4h4"></path>
+                </svg>
+                <span>Ordenar</span>
+            </span>
+        `;
+    }
 
     if (juego.modo === "grupo") {
         return `

@@ -277,6 +277,12 @@ body[data-juego="quien-marco-mas-carrera"] .layout::before {
     --card-accent: #ff7b72;
 }
 
+.juego-opcion.tema-ordenar,
+.carrusel-item.tema-ordenar {
+    --card-accent: #ffb454;
+    background: linear-gradient(145deg, #28211f, #171b27 72%);
+}
+
 .juego-opcion.tema-impostores::before,
 .carrusel-item.tema-impostores::before,
 body[data-juego="impostores-futboleros"] .layout::before {
@@ -286,6 +292,42 @@ body[data-juego="impostores-futboleros"] .layout::before {
         linear-gradient(145deg, rgba(107, 38, 56, 0.22), transparent 75%);
     background-repeat: repeat, no-repeat, no-repeat;
     background-size: 100px 100px, auto, auto;
+}
+
+.juego-opcion.tema-ordenar::before,
+.carrusel-item.tema-ordenar::before {
+    background:
+        repeating-linear-gradient(135deg, transparent 0 22px, rgba(255, 180, 84, 0.07) 23px 24px, transparent 25px 46px),
+        radial-gradient(ellipse at 100% 0, rgba(193, 105, 50, 0.25), transparent 65%);
+}
+
+body[data-juego="ordenar-futboleros"] .layout {
+    background: linear-gradient(145deg, #28211f, #171b27 72%);
+}
+
+body[data-juego="ordenar-futboleros"] .layout::before {
+    background:
+        repeating-linear-gradient(135deg, transparent 0 34px, rgba(255, 180, 84, 0.035) 35px 36px, transparent 37px 70px),
+        radial-gradient(ellipse at 100% 0, rgba(193, 105, 50, 0.2), transparent 62%);
+}
+
+body[data-juego="ordenar-futboleros"] .contenedor-juego {
+    border-color: rgba(255, 180, 84, 0.2);
+    background: linear-gradient(145deg, #28211f, #1c1a20 72%);
+}
+
+body[data-juego="ordenar-futboleros"] #zona-juego {
+    justify-content: flex-start;
+}
+
+body[data-juego="ordenar-futboleros"] .boton-normas-juego {
+    border-color: #ffb454;
+    background: #ffb454;
+    color: #21170d;
+}
+
+body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
+    outline-color: #ffb454;
 }
 
 .juego-opcion:hover {
@@ -785,6 +827,16 @@ body[data-juego="quien-marco-mas-carrera"] .dialogo-normas-juego {
 
 body[data-juego="impostores-futboleros"] .dialogo-normas-juego {
     --dialogo-acento: #ff7b72;
+}
+
+body[data-juego="ordenar-futboleros"] .dialogo-normas-juego {
+    --dialogo-acento: #ffb454;
+    border-color: rgba(255, 180, 84, 0.35);
+    background: linear-gradient(145deg, #302620, #211d23 72%);
+}
+
+body[data-juego="ordenar-futboleros"] .dialogo-normas-icono {
+    background: color-mix(in srgb, var(--dialogo-acento) 12%, #211d23);
 }
 
 .dialogo-normas-juego::backdrop {
