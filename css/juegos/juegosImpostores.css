@@ -10,15 +10,7 @@
 }
 
 .juego-orden .racha-actual {
-    color: var(--orden-acento);
-}
-
-.juego-orden .racha-actual img {
-    filter: sepia(1) saturate(4) hue-rotate(350deg);
-}
-
-.juego-orden .impostores-consigna h2 {
-    color: var(--orden-acento);
+    color: #39d9ff;
 }
 
 .juego-orden .impostores-consigna p {
@@ -174,13 +166,15 @@
 
 .juego-orden .impostores-confirmar,
 .juego-orden .impostores-siguiente {
-    background: var(--orden-acento);
-    color: #21170d;
+    border-color: #39d9ff;
+    background: linear-gradient(135deg, #39d9ff, #16bce8);
+    color: #07111f;
 }
 
 .juego-orden .impostores-confirmar:disabled {
-    background: #51453a;
-    color: #d0c3b5;
+    border-color: #35606b;
+    background: #22414c;
+    color: #a9d5df;
 }
 
 .orden-resultado[hidden] {
@@ -304,18 +298,8 @@
 .impostores-confirmar,
 .impostores-siguiente {
     padding: 12px 24px;
-    border: 0;
-    border-radius: 8px;
-    background: #39d9ff;
-    color: #07111f;
     font-size: 15px;
-    font-weight: 700;
     cursor: pointer;
-}
-
-.impostores-siguiente {
-    background: #ffffff;
-    color: #07111f;
 }
 
 .impostores-confirmar:disabled {

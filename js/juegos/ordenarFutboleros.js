@@ -357,6 +357,7 @@
                 "Orden perfecto";
             document.getElementById("tituloResultadoOrdenar").textContent =
                 "¡Clasificación acertada!";
+            window.mostrarNotificacionJuego("¡Orden perfecto!", true);
             accion.textContent = "Siguiente ronda";
         } else {
             puntuacion = 0;
@@ -364,6 +365,7 @@
                 "Clasificación correcta";
             document.getElementById("tituloResultadoOrdenar").textContent =
                 "Esta vez no salió";
+            window.mostrarNotificacionJuego("Esta vez no salió", false);
             accion.textContent = "Volver a jugar";
         }
 

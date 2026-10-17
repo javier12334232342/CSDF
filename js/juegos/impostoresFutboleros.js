@@ -23,7 +23,7 @@
                 <div class="impostores-cabecera">
                     <span class="racha-actual">
                         <span id="puntuacionImpostores">0</span>
-                        <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
+                        <img src="/img/iconos/rayo.png" alt="" aria-hidden="true">
                     </span>
                 </div>
                 <div class="impostores-consigna">
@@ -319,11 +319,13 @@
 
         if (acierto) {
             puntuacion++;
-            resultado.textContent = "¡Correcto! Has encontrado a todos los impostores.";
+            resultado.textContent = "";
+            window.mostrarNotificacionJuego("¡Correcto! Has encontrado a todos los impostores.", true);
             accion.textContent = "Siguiente ronda";
         } else {
             puntuacion = 0;
-            resultado.textContent = "No es correcto. ¡Inténtalo de nuevo!";
+            resultado.textContent = "";
+            window.mostrarNotificacionJuego("No es correcto. ¡Inténtalo de nuevo!", false);
             accion.textContent = "Volver a jugar";
         }
 

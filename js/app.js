@@ -1,6 +1,24 @@
 const contenido = document.getElementById("contenido");
 const anio = document.getElementById("anio");
 let indiceCarruselOtrosJuegos = 0;
+let temporizadorNotificacionJuego;
+
+window.mostrarNotificacionJuego = (mensaje, acierto) => {
+    document.querySelector(".notificacion-resultado-juego")?.remove();
+    window.clearTimeout(temporizadorNotificacionJuego);
+
+    const notificacion = document.createElement("div");
+    notificacion.className = `notificacion-resultado-juego ${acierto ? "es-correcta" : "es-incorrecta"}`;
+    notificacion.setAttribute("role", "status");
+    notificacion.setAttribute("aria-live", "polite");
+    notificacion.setAttribute("aria-atomic", "true");
+    notificacion.textContent = mensaje;
+    document.body.append(notificacion);
+
+    temporizadorNotificacionJuego = window.setTimeout(() => {
+        notificacion.remove();
+    }, 2600);
+};
 
 if (anio) {
     anio.textContent = new Date().getFullYear();
@@ -554,7 +572,7 @@ function abrirJuego(idJuego) {
 
     contenido.innerHTML = `
 
-        <div class="vista-juego">
+        <div class="vista-juego tema-${juego.tema}">
 
             <div class="cabecera-juego">
 

@@ -33,7 +33,7 @@
                 <div class="cabecera-partida">
                     <div class="racha-actual">
                         <span id="puntuacionChampionsHistorico">0</span>
-                        <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
+                        <img src="/img/iconos/rayo.png" alt="" aria-hidden="true">
                     </div>
                 </div>
 
@@ -86,7 +86,6 @@
                     class="resultado"
                     style="display: none;"
                 >
-                    <h3 id="tituloResultadoChampionsHistorico"></h3>
                     <button
                         id="siguienteChampionsHistorico"
                         class="boton-siguiente"
@@ -355,9 +354,7 @@
                 `botonChampionsHistorico${respuesta}`
             ).classList.add("correcta");
 
-            document.getElementById(
-                "tituloResultadoChampionsHistorico"
-            ).textContent = "¡Correcto!";
+            window.mostrarNotificacionJuego("¡Correcto!", true);
 
         } else {
 
@@ -371,9 +368,7 @@
                 `botonChampionsHistorico${ganador}`
             ).classList.add("correcta");
 
-            document.getElementById(
-                "tituloResultadoChampionsHistorico"
-            ).textContent = "¡Fallaste!";
+            window.mostrarNotificacionJuego("¡Fallaste!", false);
 
             document.getElementById(
                 "siguienteChampionsHistorico"

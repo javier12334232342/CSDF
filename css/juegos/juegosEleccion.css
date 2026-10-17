@@ -36,7 +36,8 @@
 
 .pregunta {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .pregunta h2 {
@@ -209,14 +210,10 @@
    BOTONES
    ====================================================== */
 
-.boton-siguiente,
-.boton-pasar {
+button.boton-siguiente,
+button.boton-pasar {
     cursor: pointer;
     padding: 10px 20px;
-
-    border: none;
-    border-radius: 8px;
-
     font-size: 1rem;
 }
 

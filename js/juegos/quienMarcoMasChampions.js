@@ -36,7 +36,7 @@ async function iniciarPartidaQuienMarcoMasChampions() {
 
                 <div class="racha-actual">
                     <span id="puntuacion">0</span> 
-                    <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
+                    <img src="/img/iconos/rayo.png" alt="" aria-hidden="true">
                 </div>
 
             </div>
@@ -119,8 +119,6 @@ async function iniciarPartidaQuienMarcoMasChampions() {
                 class="resultado"
                 style="display: none;"
             >
-
-                <h3 id="tituloResultado"></h3>
 
                 <button
                     id="botonSiguiente"
@@ -668,8 +666,7 @@ function comprobarRespuesta(respuesta) {
             .classList.add("correcta");
 
 
-        document.getElementById("tituloResultado").textContent =
-            "¡Correcto!";
+        window.mostrarNotificacionJuego("¡Correcto!", true);
 
 
         document.getElementById("botonSiguiente").textContent =
@@ -700,8 +697,7 @@ function comprobarRespuesta(respuesta) {
             .classList.add("correcta");
 
 
-        document.getElementById("tituloResultado").textContent =
-            "¡Fallaste!";
+        window.mostrarNotificacionJuego("¡Fallaste!", false);
 
 
         document.getElementById("botonSiguiente").textContent =

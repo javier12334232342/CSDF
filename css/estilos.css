@@ -36,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 22px 20px;
+    padding: 10px 0px;
 
     background: #111a2e;
 
@@ -337,13 +337,13 @@ body[data-juego="ordenar-futboleros"] #zona-juego {
 }
 
 body[data-juego="ordenar-futboleros"] .boton-normas-juego {
-    border-color: #ffb454;
-    background: #ffb454;
-    color: #21170d;
+    border-color: #39d9ff;
+    background: #39d9ff;
+    color: #07111f;
 }
 
 body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
-    outline-color: #ffb454;
+    outline-color: #39d9ff;
 }
 
 .juego-opcion:hover {
@@ -415,11 +415,11 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
     align-items: center;
     gap: 5px;
 
-    border: 1px solid rgba(255, 179, 71, 0.2);
+    border: 1px solid rgba(57, 217, 255, 0.24);
     border-radius: 999px;
-    background: rgba(255, 179, 71, 0.08);
+    background: rgba(57, 217, 255, 0.08);
 
-    color: #ffd18a;
+    color: #39d9ff;
     font-size: 15px;
     font-weight: 700;
 }
@@ -429,7 +429,13 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
     align-items: center;
     gap: 6px;
     font-size: 20px;
-    color: rgb(104, 211, 143);;
+    color: #39d9ff;
+    font-weight: 800;
+}
+
+.racha-actual img {
+    width: 22px;
+    height: 22px;
 }
 
 
@@ -463,7 +469,44 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
 ========================================================= */
 
 .vista-juego {
+    --card-accent: #39d9ff;
     width: 100%;
+}
+
+.vista-juego.tema-champions,
+body[data-juego="quien-marco-mas-champions"],
+body[data-juego="quien-marco-mas-champions-historico"],
+body[data-juego="quien-jugo-mas-champions"],
+body[data-juego="quien-dio-mas-asistencias-champions"] {
+    --card-accent: #b9a5ff;
+}
+
+.vista-juego.tema-selecciones,
+body[data-juego="quien-jugo-mas-selecciones"],
+body[data-juego="quien-dio-mas-asistencias-selecciones"],
+body[data-juego="quien-marco-mas-selecciones"] {
+    --card-accent: #f2a65a;
+}
+
+.vista-juego.tema-mundial,
+body[data-juego="quien-marco-mas-mundial"],
+body[data-juego="quien-jugo-mas-mundial"] {
+    --card-accent: #8de2a4;
+}
+
+.vista-juego.tema-historico,
+body[data-juego="quien-marco-mas-carrera"] {
+    --card-accent: #e8bd78;
+}
+
+.vista-juego.tema-impostores,
+body[data-juego="impostores-futboleros"] {
+    --card-accent: #ff7b72;
+}
+
+.vista-juego.tema-ordenar,
+body[data-juego="ordenar-futboleros"] {
+    --card-accent: #ffb454;
 }
 
 .cabecera-juego {
@@ -472,10 +515,29 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
     text-align: center;
 }
 
-.cabecera-juego h1 {
-    margin-bottom: 8px;
+.cabecera-juego h1,
+.otros-juegos h2,
+.pregunta h2,
+.impostores-consigna h2 {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 8px;
+    padding: 10px 14px;
+    border: 1px solid rgba(115, 146, 190, 0.2);
+    border-left: 3px solid var(--card-accent);
+    border-radius: 8px;
+    background: rgba(23, 36, 54, 0.92);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #f5f8ff;
+    font-size: 1.2rem;
+    font-weight: 750;
+    line-height: 1.3;
+    text-align: left;
+    text-wrap: balance;
+}
 
-    font-size: 30px;
+.cabecera-juego h1 {
+    font-size: 1.5rem;
 }
 
 .cabecera-juego p {
@@ -562,9 +624,49 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
         opacity 0.2s ease;
 }
 
-.boton:hover {
+button.boton,
+button.boton-siguiente,
+button.boton-pasar,
+button.impostores-confirmar,
+button.impostores-siguiente {
+    border: 1px solid #39d9ff;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #39d9ff, #16bce8);
+    color: #07111f;
+    font-weight: 750;
+    box-shadow: 0 5px 16px rgba(57, 217, 255, 0.18);
+    transition:
+        transform 0.18s ease,
+        filter 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+button.boton:hover:not(:disabled),
+button.boton-siguiente:hover:not(:disabled),
+button.boton-pasar:hover:not(:disabled),
+button.impostores-confirmar:hover:not(:disabled),
+button.impostores-siguiente:hover:not(:disabled) {
     transform: translateY(-1px);
-    opacity: 0.9;
+    filter: brightness(1.08);
+    box-shadow: 0 8px 22px rgba(57, 217, 255, 0.25);
+}
+
+button.boton:focus-visible,
+button.boton-siguiente:focus-visible,
+button.boton-pasar:focus-visible,
+button.impostores-confirmar:focus-visible,
+button.impostores-siguiente:focus-visible {
+    outline: 3px solid #39d9ff;
+    outline-offset: 3px;
+}
+
+button.boton:disabled,
+button.boton-siguiente:disabled,
+button.boton-pasar:disabled,
+button.impostores-confirmar:disabled,
+button.impostores-siguiente:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
 }
 
 
@@ -578,8 +680,6 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
 
 .otros-juegos h2 {
     margin-bottom: 15px;
-
-    font-size: 20px;
 }
 
 .carrusel-contenedor {
@@ -799,6 +899,60 @@ body[data-juego="ordenar-futboleros"] .boton-normas-juego:focus-visible {
 .boton-normas-juego:focus-visible {
     outline: 3px solid #39d9ff;
     outline-offset: 3px;
+}
+
+.notificacion-resultado-juego {
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    max-width: min(420px, calc(100vw - 32px));
+    padding: 12px 20px;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(57, 217, 255, 0.45);
+    border-radius: 999px;
+    background: rgba(17, 26, 46, 0.96);
+    color: #effaff;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.3);
+    font-weight: 750;
+    text-align: center;
+    pointer-events: none;
+    animation: notificacion-juego 2.6s ease both;
+}
+
+.notificacion-resultado-juego.es-correcta {
+    border-color: rgba(57, 201, 138, 0.6);
+}
+
+.notificacion-resultado-juego.es-incorrecta {
+    border-color: rgba(255, 123, 114, 0.65);
+}
+
+@keyframes notificacion-juego {
+    0% {
+        opacity: 0;
+        translate: 0 -8px;
+        scale: 0.96;
+    }
+
+    12%,
+    78% {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+
+    100% {
+        opacity: 0;
+        translate: 0 -4px;
+        scale: 0.98;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .notificacion-resultado-juego {
+        animation-duration: 0.01ms;
+    }
 }
 
 @media (max-width: 600px) {

@@ -46,7 +46,7 @@ async function iniciarQuienJugoMasMundial() {
 
                 <div class="racha-actual">
                     <span id="puntuacion">0</span>
-                    <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
+                    <img src="/img/iconos/rayo.png" alt="" aria-hidden="true">
                 </div>
 
             </div>
@@ -123,8 +123,6 @@ async function iniciarQuienJugoMasMundial() {
                 class="resultado"
                 style="display: none;"
             >
-
-                <h3 id="tituloResultado"></h3>
 
                 <button
                     id="botonSiguiente"
@@ -740,10 +738,7 @@ function comprobarRespuestaPartidos(
             );
 
 
-        document.getElementById(
-            "tituloResultado"
-        ).textContent =
-            "¡Correcto!";
+        window.mostrarNotificacionJuego("¡Correcto!", true);
 
 
         document.getElementById(
@@ -784,10 +779,7 @@ function comprobarRespuestaPartidos(
             );
 
 
-        document.getElementById(
-            "tituloResultado"
-        ).textContent =
-            "¡Fallaste!";
+        window.mostrarNotificacionJuego("¡Fallaste!", false);
 
 
         document.getElementById(

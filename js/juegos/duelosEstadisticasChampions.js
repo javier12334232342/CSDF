@@ -43,7 +43,6 @@
                     </div>
                 </div>
                 <div id="${prefijo}-resultado" class="resultado" style="display: none;" aria-live="polite">
-                    <h3 id="${prefijo}-mensaje"></h3>
                     <button id="${prefijo}-siguiente" class="boton-siguiente" type="button">
                         Siguiente ronda
                     </button>
@@ -216,14 +215,14 @@
                 puntuacion++;
                 document.getElementById(`${prefijo}-opcion-${respuesta}`)
                     .classList.add("correcta");
-                document.getElementById(`${prefijo}-mensaje`).textContent = "¡Correcto!";
+                window.mostrarNotificacionJuego("¡Correcto!", true);
             } else {
                 puntuacion = 0;
                 document.getElementById(`${prefijo}-opcion-${respuesta}`)
                     .classList.add("incorrecta");
                 document.getElementById(`${prefijo}-opcion-${ganador}`)
                     .classList.add("correcta");
-                document.getElementById(`${prefijo}-mensaje`).textContent = "¡Fallaste!";
+                window.mostrarNotificacionJuego("¡Fallaste!", false);
                 botonSiguiente.textContent = "Volver a jugar";
             }
 

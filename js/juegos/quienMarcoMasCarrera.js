@@ -31,7 +31,7 @@
                 <div class="cabecera-partida">
                     <div class="racha-actual">
                         <span id="puntuacionCarrera">0</span>
-                        <img src="img/iconos/rayo.png" alt="" aria-hidden="true">
+                        <img src="/img/iconos/rayo.png" alt="" aria-hidden="true">
                     </div>
                 </div>
 
@@ -56,7 +56,6 @@
                 </div>
 
                 <div id="resultadoCarrera" class="resultado" style="display: none;">
-                    <h3 id="tituloResultadoCarrera"></h3>
                     <button id="siguienteCarrera" class="boton-siguiente">
                         Siguiente ronda
                     </button>
@@ -263,8 +262,7 @@
             document.getElementById(`botonCarrera${respuesta}`)
                 .classList.add("correcta");
 
-            document.getElementById("tituloResultadoCarrera").textContent =
-                "¡Correcto!";
+            window.mostrarNotificacionJuego("¡Correcto!", true);
         } else {
             puntuacion = 0;
             document.getElementById(`botonCarrera${respuesta}`)
@@ -273,8 +271,7 @@
             document.getElementById(`botonCarrera${ganador}`)
                 .classList.add("correcta");
 
-            document.getElementById("tituloResultadoCarrera").textContent =
-                "¡Fallaste!";
+            window.mostrarNotificacionJuego("¡Fallaste!", false);
 
             document.getElementById("siguienteCarrera").textContent =
                 "Volver a jugar";
