@@ -138,13 +138,13 @@
 
             const [respuestaGoles, respuestaJugadores] =
                 await Promise.all([
-                    fetch("datos/golesChampionsHistoricos.json"),
+                    fetch("datos/estadisticasChampionsHistoricos.json"),
                     fetch("datos/jugadores.json")
                 ]);
 
             if (!respuestaGoles.ok) {
                 throw new Error(
-                    "No se pudo cargar golesChampionsHistoricos.json"
+                    "No se pudo cargar estadisticasChampionsHistoricos.json"
                 );
             }
 
@@ -175,7 +175,7 @@
                 datos.goles < 0
             )) {
                 throw new Error(
-                    "golesChampionsHistoricos.json contiene estadísticas inválidas"
+                    "estadisticasChampionsHistoricos.json contiene estadísticas inválidas"
                 );
             }
 

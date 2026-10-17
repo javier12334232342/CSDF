@@ -226,7 +226,9 @@ body[data-juego] .layout::before {
 .juego-opcion.tema-champions::before,
 .carrusel-item.tema-champions::before,
 body[data-juego="quien-marco-mas-champions"] .layout::before,
-body[data-juego="quien-marco-mas-champions-historico"] .layout::before {
+body[data-juego="quien-marco-mas-champions-historico"] .layout::before,
+body[data-juego="quien-jugo-mas-champions"] .layout::before,
+body[data-juego="quien-dio-mas-asistencias-champions"] .layout::before {
     background-image:
         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='31' fill='none' stroke='%23b9a5ff' stroke-opacity='.2' stroke-width='2'/%3E%3Cpath d='m50 37 12 9-5 14H43l-5-14z' fill='%23b9a5ff' fill-opacity='.2' stroke='%23b9a5ff' stroke-opacity='.2' stroke-width='2'/%3E%3Cpath d='m50 37 0-18m12 27 16-6M57 60l10 15M43 60 33 75M38 46l-16-6' fill='none' stroke='%23b9a5ff' stroke-opacity='.2' stroke-width='2'/%3E%3C/svg%3E"),
         radial-gradient(ellipse at 100% 0, rgba(101, 76, 190, 0.28), transparent 62%);
@@ -704,28 +706,48 @@ body[data-juego="impostores-futboleros"] .layout::before {
 
 .boton-normas-juego {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 30px;
+    right: 30px;
     z-index: 1;
-    padding: 8px 12px;
+    padding: 5px 9px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     border: 1px solid #39d9ff;
-    border-radius: 8px;
-    background: #111a2e;
-    color: #ffffff;
+    border-radius: 10px;
+    background: #39d9ff;
+    color: #07111f;
     font-size: 0.9rem;
     font-weight: 700;
     cursor: pointer;
-    transition: background 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.boton-normas-juego img {
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+    border-radius: 50%;
+    object-fit: contain;
+    filter: brightness(0);
 }
 
 .boton-normas-juego:hover {
-    background: #1a2944;
-    transform: translateY(-2px);
+    filter: brightness(1.08);
+    transform: translateY(-1px);
 }
 
 .boton-normas-juego:focus-visible {
     outline: 3px solid #39d9ff;
     outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+    .boton-normas-juego {
+        top: 20px;
+        right: 20px;
+    }
 }
 
 .dialogo-normas-juego {
@@ -746,7 +768,9 @@ body[data-juego="impostores-futboleros"] .layout::before {
 }
 
 body[data-juego="quien-marco-mas-champions"] .dialogo-normas-juego,
-body[data-juego="quien-marco-mas-champions-historico"] .dialogo-normas-juego {
+body[data-juego="quien-marco-mas-champions-historico"] .dialogo-normas-juego,
+body[data-juego="quien-jugo-mas-champions"] .dialogo-normas-juego,
+body[data-juego="quien-dio-mas-asistencias-champions"] .dialogo-normas-juego {
     --dialogo-acento: #b9a5ff;
 }
 

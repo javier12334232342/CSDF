@@ -51,7 +51,7 @@
                 respuestaJugadores
             ] = await Promise.all([
                 fetch("datos/golesCarrera.json"),
-                fetch("datos/golesChampionsHistoricos.json"),
+                fetch("datos/estadisticasChampionsHistoricos.json"),
                 fetch("datos/estadisticasMundiales.json"),
                 fetch("datos/jugadores.json")
             ]);
@@ -60,7 +60,7 @@
                 throw new Error("No se pudo cargar golesCarrera.json");
             }
             if (!respuestaGolesChampions.ok) {
-                throw new Error("No se pudo cargar golesChampionsHistoricos.json");
+                throw new Error("No se pudo cargar estadisticasChampionsHistoricos.json");
             }
             if (!respuestaEstadisticasMundiales.ok) {
                 throw new Error("No se pudo cargar estadisticasMundiales.json");

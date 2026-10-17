@@ -75,6 +75,68 @@ const juegos = [
         iniciar: () => window.iniciarQuienMarcoMasChampionsHistorico()
     },
     {
+        id: "quien-jugo-mas-champions",
+        titulo: "Más partidos en Champions",
+        descripcion: "¿Qué jugador ha disputado más partidos en la historia de la Champions League?",
+        modo: "duelo",
+        tema: "champions",
+        normas: {
+            titulo: "¿Quién disputó más partidos?",
+            descripcion: "Compara los partidos disputados por dos futbolistas en la historia de la Copa de Europa y la Champions League.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige a quien jugó más:",
+                    descripcion: "selecciona al jugador con más partidos disputados."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los partidos de ambos."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "cada acierto suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Se usan únicamente jugadores con datos de partidos disponibles."
+        },
+        iniciar: () => window.iniciarQuienJugoMasChampions()
+    },
+    {
+        id: "quien-dio-mas-asistencias-champions",
+        titulo: "Más asistencias en Champions",
+        descripcion: "¿Qué jugador ha dado más asistencias en la historia de la Champions League?",
+        modo: "duelo",
+        tema: "champions",
+        normas: {
+            titulo: "¿Quién dio más asistencias?",
+            descripcion: "Compara las asistencias de dos futbolistas en la historia de la Copa de Europa y la Champions League.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige a quien asistió más:",
+                    descripcion: "selecciona al jugador con más asistencias."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás las asistencias de ambos."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "cada acierto suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Se usan únicamente jugadores con datos de asistencias disponibles."
+        },
+        iniciar: () => window.iniciarQuienDioMasAsistenciasChampions()
+    },
+    {
         id: "quien-marco-mas-mundial",
         titulo: "Goleadores de Mundiales",
         descripcion: "¿Quién marcó más goles en la historia de los Mundiales?",
@@ -484,7 +546,9 @@ function prepararBotonNormas(juego) {
     botonNormas.type = "button";
     botonNormas.className = "boton-normas-juego";
     botonNormas.setAttribute("aria-haspopup", "dialog");
-    botonNormas.textContent = "ⓘ ¿Cómo jugar?";
+    botonNormas.innerHTML = `
+        <img src="/img/iconos/info.png" alt="" aria-hidden="true">
+    `;
     botonNormas.addEventListener("click", () => {
         mostrarDialogoNormas(juego.normas);
     });
