@@ -1,7 +1,7 @@
 (() => {
     const ARCHIVO_ESTADISTICAS = "datos/estadisticasChampionsHistoricos.json";
 
-    function iniciarDueloChampions(configuracion) {
+    function iniciarDueloEstadisticas(configuracion) {
         const zonaJuego = document.getElementById("zona-juego");
 
         if (!zonaJuego) {
@@ -67,7 +67,7 @@
         });
         botonSiguiente.addEventListener("click", () => {
             if (puntuacion === 0) {
-                iniciarDueloChampions(configuracion);
+                iniciarDueloEstadisticas(configuracion);
             } else {
                 generarPregunta();
             }
@@ -78,12 +78,14 @@
         async function cargarDatos() {
             try {
                 const [respuestaEstadisticas, respuestaJugadores] = await Promise.all([
-                    fetch(ARCHIVO_ESTADISTICAS),
+                    fetch(configuracion.archivoEstadisticas || ARCHIVO_ESTADISTICAS),
                     fetch("datos/jugadores.json")
                 ]);
 
                 if (!respuestaEstadisticas.ok) {
-                    throw new Error(`No se pudo cargar ${ARCHIVO_ESTADISTICAS}`);
+                    throw new Error(
+                        `No se pudo cargar ${configuracion.archivoEstadisticas || ARCHIVO_ESTADISTICAS}`
+                    );
                 }
                 if (!respuestaJugadores.ok) {
                     throw new Error("No se pudo cargar datos/jugadores.json");
@@ -111,7 +113,7 @@
                     registro[configuracion.estadistica] < 0
                 )) {
                     throw new Error(
-                        `estadisticasChampionsHistoricos.json contiene valores de ${configuracion.nombreEstadistica} inválidos`
+                        `${configuracion.archivoEstadisticas || ARCHIVO_ESTADISTICAS} contiene valores de ${configuracion.nombreEstadistica} inválidos`
                     );
                 }
 
@@ -248,7 +250,7 @@
         }
     }
 
-    window.iniciarQuienJugoMasChampions = () => iniciarDueloChampions({
+    window.iniciarQuienJugoMasChampions = () => iniciarDueloEstadisticas({
         id: "quien-jugo-mas-champions",
         estadistica: "partidos",
         nombreEstadistica: "partidos",
@@ -256,11 +258,40 @@
         pregunta: "¿Quién disputó más partidos?"
     });
 
-    window.iniciarQuienDioMasAsistenciasChampions = () => iniciarDueloChampions({
+    window.iniciarQuienDioMasAsistenciasChampions = () => iniciarDueloEstadisticas({
         id: "quien-dio-mas-asistencias-champions",
         estadistica: "asistencias",
         nombreEstadistica: "asistencias",
         unidad: "asistencias",
         pregunta: "¿Quién dio más asistencias?"
+    });
+
+    const ARCHIVO_ESTADISTICAS_SELECCIONES = "datos/estadisticasSelecciones.json";
+
+    window.iniciarQuienJugoMasSelecciones = () => iniciarDueloEstadisticas({
+        id: "quien-jugo-mas-selecciones",
+        archivoEstadisticas: ARCHIVO_ESTADISTICAS_SELECCIONES,
+        estadistica: "partidos",
+        nombreEstadistica: "partidos oficiales",
+        unidad: "partidos",
+        pregunta: "¿Quién disputó más partidos oficiales con su selección?"
+    });
+
+    window.iniciarQuienDioMasAsistenciasSelecciones = () => iniciarDueloEstadisticas({
+        id: "quien-dio-mas-asistencias-selecciones",
+        archivoEstadisticas: ARCHIVO_ESTADISTICAS_SELECCIONES,
+        estadistica: "asistencias",
+        nombreEstadistica: "asistencias",
+        unidad: "asistencias",
+        pregunta: "¿Quién dio más asistencias oficiales con su selección?"
+    });
+
+    window.iniciarQuienMarcoMasSelecciones = () => iniciarDueloEstadisticas({
+        id: "quien-marco-mas-selecciones",
+        archivoEstadisticas: ARCHIVO_ESTADISTICAS_SELECCIONES,
+        estadistica: "goles",
+        nombreEstadistica: "goles",
+        unidad: "goles",
+        pregunta: "¿Quién marcó más goles oficiales con su selección?"
     });
 })();

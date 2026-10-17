@@ -236,6 +236,22 @@ body[data-juego="quien-dio-mas-asistencias-champions"] .layout::before {
     background-size: 100px 100px, auto;
 }
 
+.juego-opcion.tema-selecciones,
+.carrusel-item.tema-selecciones {
+    --card-accent: #f2a65a;
+}
+
+.juego-opcion.tema-selecciones::before,
+.carrusel-item.tema-selecciones::before,
+body[data-juego="quien-jugo-mas-selecciones"] .layout::before,
+body[data-juego="quien-dio-mas-asistencias-selecciones"] .layout::before,
+body[data-juego="quien-marco-mas-selecciones"] .layout::before {
+    background:
+        linear-gradient(90deg, transparent 49.7%, rgba(242, 166, 90, 0.1) 49.9% 50.1%, transparent 50.3%),
+        radial-gradient(ellipse at 50% 50%, transparent 0 21%, rgba(242, 166, 90, 0.1) 21.3% 21.7%, transparent 22%),
+        linear-gradient(145deg, rgba(143, 83, 35, 0.32), transparent 75%);
+}
+
 .carrusel-item.tema-champions::before {
     background-image:
         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='31' fill='none' stroke='%23e4dcff' stroke-opacity='.12' stroke-width='2'/%3E%3Cpath d='m50 37 12 9-5 14H43l-5-14z' fill='%23e4dcff' fill-opacity='.12' stroke='%23e4dcff' stroke-opacity='.12' stroke-width='2'/%3E%3Cpath d='m50 37 0-18m12 27 16-6M57 60l10 15M43 60 33 75M38 46l-16-6' fill='none' stroke='%23e4dcff' stroke-opacity='.12' stroke-width='2'/%3E%3C/svg%3E"),
@@ -814,6 +830,12 @@ body[data-juego="quien-marco-mas-champions-historico"] .dialogo-normas-juego,
 body[data-juego="quien-jugo-mas-champions"] .dialogo-normas-juego,
 body[data-juego="quien-dio-mas-asistencias-champions"] .dialogo-normas-juego {
     --dialogo-acento: #b9a5ff;
+}
+
+body[data-juego="quien-jugo-mas-selecciones"] .dialogo-normas-juego,
+body[data-juego="quien-dio-mas-asistencias-selecciones"] .dialogo-normas-juego,
+body[data-juego="quien-marco-mas-selecciones"] .dialogo-normas-juego {
+    --dialogo-acento: #f2a65a;
 }
 
 body[data-juego="quien-marco-mas-mundial"] .dialogo-normas-juego,

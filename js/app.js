@@ -137,6 +137,99 @@ const juegos = [
         iniciar: () => window.iniciarQuienDioMasAsistenciasChampions()
     },
     {
+        id: "quien-jugo-mas-selecciones",
+        titulo: "Más partidos con selecciones",
+        descripcion: "¿Quién ha disputado más partidos oficiales con su selección?",
+        modo: "duelo",
+        tema: "selecciones",
+        normas: {
+            titulo: "¿Quién disputó más partidos?",
+            descripcion: "Compara los partidos oficiales disputados por dos futbolistas con sus selecciones absolutas.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige a quien jugó más:",
+                    descripcion: "selecciona al jugador con más partidos oficiales."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los partidos de ambos."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "cada acierto suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Solo cuentan partidos oficiales de selecciones absolutas; se excluyen amistosos y categorías juveniles."
+        },
+        iniciar: () => window.iniciarQuienJugoMasSelecciones()
+    },
+    {
+        id: "quien-dio-mas-asistencias-selecciones",
+        titulo: "Más asistencias con selecciones",
+        descripcion: "¿Quién ha dado más asistencias oficiales con su selección?",
+        modo: "duelo",
+        tema: "selecciones",
+        normas: {
+            titulo: "¿Quién dio más asistencias?",
+            descripcion: "Compara las asistencias de dos futbolistas en partidos oficiales con sus selecciones absolutas.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige a quien asistió más:",
+                    descripcion: "selecciona al jugador con más asistencias oficiales."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás las asistencias de ambos."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "cada acierto suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Solo cuentan partidos oficiales de selecciones absolutas; usa Transfermarkt como referencia al completar las asistencias."
+        },
+        iniciar: () => window.iniciarQuienDioMasAsistenciasSelecciones()
+    },
+    {
+        id: "quien-marco-mas-selecciones",
+        titulo: "Goleadores de selecciones",
+        descripcion: "¿Quién ha marcado más goles oficiales con su selección?",
+        modo: "duelo",
+        tema: "selecciones",
+        normas: {
+            titulo: "¿Quién marcó más goles?",
+            descripcion: "Compara los goles de dos futbolistas en partidos oficiales con sus selecciones absolutas.",
+            reglas: [
+                {
+                    titulo: "Compara dos jugadores:",
+                    descripcion: "cada ronda muestra a dos futbolistas."
+                },
+                {
+                    titulo: "Elige al goleador:",
+                    descripcion: "selecciona al jugador con más goles oficiales."
+                },
+                {
+                    titulo: "Descubre las cifras:",
+                    descripcion: "después de responder verás los goles de ambos."
+                },
+                {
+                    titulo: "Construye tu racha:",
+                    descripcion: "cada acierto suma un punto; si fallas, la racha vuelve a cero."
+                }
+            ],
+            nota: "Solo cuentan partidos oficiales de selecciones absolutas; se excluyen amistosos y categorías juveniles."
+        },
+        iniciar: () => window.iniciarQuienMarcoMasSelecciones()
+    },
+    {
         id: "quien-marco-mas-mundial",
         titulo: "Goleadores de Mundiales",
         descripcion: "¿Quién marcó más goles en la historia de los Mundiales?",

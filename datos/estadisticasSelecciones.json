@@ -1,0 +1,14 @@
+[
+    {
+        "idJugador": "lionel-messi",
+        "partidos": 1,
+        "asistencias": 1,
+        "goles": 1
+    },
+    {
+        "idJugador": "cristiano-ronaldo",
+        "partidos": 2,
+        "asistencias": 2,
+        "goles": 2
+    }
+]
