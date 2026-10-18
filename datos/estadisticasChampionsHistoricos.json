@@ -1,167 +1,1186 @@
 [
-    { "idJugador": "cristiano-ronaldo", "goles": 140, "asistencias": 41, "partidos": 183 },
-    { "idJugador": "lionel-messi", "goles": 129, "asistencias": 34, "partidos": 156 },
-    { "idJugador": "robert-lewandowski", "goles": 109, "asistencias": 28, "partidos": 134 },
-    { "idJugador": "karim-benzema", "goles": 90, "asistencias": 25, "partidos": 120 },
-    { "idJugador": "kylian-mbappe", "goles": 71, "asistencias": 18, "partidos": 95 },
-    { "idJugador": "raul", "goles": 71, "asistencias": 20, "partidos": 90 },
-    { "idJugador": "erling-haaland", "goles": 59 },
-    { "idJugador": "thomas-muller", "goles": 57 },
-    { "idJugador": "ruud-van-nistelrooy", "goles": 56 },
-    { "idJugador": "harry-kane", "goles": 55 },
-    { "idJugador": "mohamed-salah", "goles": 50 },
-    { "idJugador": "thierry-henry", "goles": 50 },
-    { "idJugador": "andriy-shevchenko", "goles": 48 },
-    { "idJugador": "zlatan-ibrahimovic", "goles": 48 },
-    { "idJugador": "eusebio", "goles": 46 },
-    { "idJugador": "filippo-inzaghi", "goles": 46 },
-    { "idJugador": "didier-drogba", "goles": 44 },
-    { "idJugador": "antoine-griezmann", "goles": 44 },
-    { "idJugador": "neymar", "goles": 43 },
-    { "idJugador": "kaka", "goles": 30 },
-    { "idJugador": "samuel-etoo", "goles": 30 },
-    { "idJugador": "wayne-rooney", "goles": 30 },
-    { "idJugador": "david-trezeguet", "goles": 29 },
-    { "idJugador": "roy-makaay", "goles": 29 },
-    { "idJugador": "patrick-kluivert", "goles": 29 },
-    { "idJugador": "edin-dzeko", "goles": 29 },
-    { "idJugador": "alvaro-morata", "goles": 29 },
-    { "idJugador": "jean-pierre-papin", "goles": 28 },
-    { "idJugador": "ryan-giggs", "goles": 28 },
-    { "idJugador": "gabriel-jesus", "goles": 27 },
-    { "idJugador": "sadio-mane", "goles": 27 },
-    { "idJugador": "rivaldo", "goles": 27 },
-    { "idJugador": "luis-suarez", "goles": 27 },
-    { "idJugador": "raheem-sterling", "goles": 27 },
-    { "idJugador": "mario-gomez", "goles": 26 },
-    { "idJugador": "rodrygo", "goles": 26 },
-    { "idJugador": "julian-alvarez", "goles": 25 },
-    { "idJugador": "mario-jardel", "goles": 25 },
-    { "idJugador": "robin-van-persie", "goles": 25 },
-    { "idJugador": "hernan-crespo", "goles": 25 },
-    { "idJugador": "lautaro-martinez", "goles": 25 },
-    { "idJugador": "alessandro-del-piero", "goles": 42 },
-    { "idJugador": "sergio-aguero", "goles": 41 },
-    { "idJugador": "ronaldo-nazario", "goles": 14 },
-    { "idJugador": "ronaldinho", "goles": 18 },
-    { "idJugador": "fernando-morientes", "goles": 23 },
-    { "idJugador": "gonzalo-higuain", "goles": 24 },
-    { "idJugador": "edinson-cavani", "goles": 35 },
-    { "idJugador": "ole-gunnar-solskjaer", "goles": 20 },
-    { "idJugador": "fernando-torres", "goles": 20 },
-    { "idJugador": "david-villa", "goles": 9 },
-    { "idJugador": "francesco-totti", "goles": 17 },
-    { "idJugador": "michael-owen", "goles": 12 },
-    { "idJugador": "gareth-bale", "goles": 20 },
-    { "idJugador": "claudio-pizarro", "goles": 21 },
-    { "idJugador": "memphis-depay", "goles": 9 },
-    { "idJugador": "bobby-charlton", "goles": 10 },
-    { "idJugador": "arjen-robben", "goles": 31 },
-    { "idJugador": "javier-hernandez", "goles": 14 },
-    { "idJugador": "angel-di-maria", "goles": 24 },
-    { "idJugador": "carlos-tevez", "goles": 13 },
-    { "idJugador": "roberto-firmino", "goles": 22 },
-    { "idJugador": "marco-reus", "goles": 24 },
-    { "idJugador": "son-heung-min", "goles": 19 },
-    { "idJugador": "pierre-emerick-aubameyang", "goles": 20 },
-    { "idJugador": "radamel-falcao", "goles": 12 },
-    { "idJugador": "dries-mertens", "goles": 16 },
-    { "idJugador": "alan-shearer", "goles": 7 },
-    { "idJugador": "ferenc-puskas", "goles": 36 },
-    { "idJugador": "romario", "goles": 12 },
-    { "idJugador": "gerd-muller", "goles": 34 },
-    { "idJugador": "eusebio", "goles": 46 },
-    { "idJugador": "uwe-seeler", "goles": 5 },
-    { "idJugador": "diego-maradona", "goles": 2 },
-    { "idJugador": "johan-cruyff", "goles": 19 },
-    { "idJugador": "sandor-kocsis", "goles": 8 },
-    { "idJugador": "serhou-guirassy", "goles": 21 },
-    { "idJugador": "olivier-giroud", "goles": 24 },
-    { "idJugador": "mehdi-taremi", "goles": 13 },
-    { "idJugador": "sebastien-haller", "goles": 12 },
-    { "idJugador": "luis-enrique", "goles": 19 },
-    { "idJugador": "riyad-mahrez", "goles": 20 },
-    { "idJugador": "joao-mario", "goles": 9 },
-    { "idJugador": "rafa-silva", "goles": 10 },
-    { "idJugador": "willian", "goles": 18 },
-    { "idJugador": "luiz-adriano", "goles": 21 },
-    { "idJugador": "adriano", "goles": 14 },
-    { "idJugador": "jackson-martinez", "goles": 13 },
-    { "idJugador": "diego-costa", "goles": 11 },
-    { "idJugador": "burak-yilmaz", "goles": 13 },
-    { "idJugador": "jonas", "goles": 11 },
-    { "idJugador": "ezequiel-lavezzi", "goles": 9 },
-    { "idJugador": "nicolas-anelka", "goles": 20 },
-    { "idJugador": "ivica-olic", "goles": 10 },
-    { "idJugador": "diego-milito", "goles": 9 },
-    { "idJugador": "nicklas-bendtner", "goles": 8 },
-    { "idJugador": "steven-gerrard", "goles": 21},
-    { "idJugador": "miroslav-klose", "goles": 14 },
-    { "idJugador": "lisandro-lopez", "goles": 19 },
-    { "idJugador": "emmanuel-adebayor", "goles": 11 },
-    { "idJugador": "frederic-kanoute", "goles": 7 },
-    { "idJugador": "peter-crouch", "goles": 13 },
-    { "idJugador": "ivan-zamorano", "goles": 5 },
-    { "idJugador": "juninho", "goles": 18 },
-    { "idJugador": "walter-pandiani", "goles": 12 },
-    { "idJugador": "javier-saviola", "goles": 18 },
-    { "idJugador": "jan-koller", "goles": 13 },
-    { "idJugador": "michael-ballack", "goles": 16 },
-    { "idJugador": "paul-scholes", "goles": 24 },
-    { "idJugador": "giovane-elber", "goles": 24 },
-    { "idJugador": "lee-bowyer", "goles": 5 },
-    { "idJugador": "simone-inzaghi", "goles": 15 },
-    { "idJugador": "andy-cole", "goles": 18 },
-    { "idJugador": "davor-suker", "goles": 7 },
-    { "idJugador": "christian-vieri", "goles": 10 },
-    { "idJugador": "jari-litmanen", "goles": 23 },
-    { "idJugador": "george-weah", "goles": 11 },
-    { "idJugador": "claudio-caniggia", "goles": 3 },
-    { "idJugador": "ronald-koeman", "goles": 4 },
-    { "idJugador": "hristo-stoichkov", "goles": 10 },
-    { "idJugador": "marco-van-basten", "goles": 13 },
-    { "idJugador": "pele", "goles": 0 },
-    { "idJugador": "just-fontaine", "goles": 10 },
-    { "idJugador": "franz-beckenbauer", "goles": 4 },
-    { "idJugador": "lothar-matthaus", "goles": 0 },
-    { "idJugador": "paolo-maldini", "goles": 3 },
-    { "idJugador": "cafu", "goles": 2 },
-    { "idJugador": "roberto-carlos", "goles": 16 },
-    { "idJugador": "philipp-lahm", "goles": 0 },
-    { "idJugador": "javier-mascherano", "goles": 0 },
-    { "idJugador": "bastian-schweinsteiger", "goles": 12 },
-    { "idJugador": "luka-modric", "goles": 9 },
-    { "idJugador": "andres-iniesta", "goles": 11 },
-    { "idJugador": "xavi", "goles": 11 },
-    { "idJugador": "zinedine-zidane", "goles": 14 },
-    { "idJugador": "luis-figo", "goles": 24 },
-    { "idJugador": "dennis-bergkamp", "goles": 7 },
-    { "idJugador": "wesley-sneijder", "goles": 12 },
-    { "idJugador": "teofilo-cubillas", "goles": 2 },
-    { "idJugador": "paolo-rossi", "goles": 10 },
-    { "idJugador": "rob-rensenbrink", "goles": 7 },
-    { "idJugador": "vava", "goles": 8 },
-    { "idJugador": "wladyslaw-zmuda", "goles": 0 },
-    { "idJugador": "rafael-marquez", "goles": 1 },
-    { "idJugador": "nicolas-otamendi", "goles": 2 },
-    { "idJugador": "coutinho", "goles": 12 },
-    { "idJugador": "amarildo", "goles": 1 },
-    { "idJugador": "gaetano-scirea", "goles": 0 },
-    { "idJugador": "franco-baresi", "goles": 0 },
-    { "idJugador": "claudio-gentile", "goles": 0 },
-    { "idJugador": "marco-tardelli", "goles": 5 },
-    { "idJugador": "bruno-conti", "goles": 1 },
-    { "idJugador": "karl-heinz-rummenigge", "goles": 16 },
-    { "idJugador": "jurgen-klinsmann", "goles": 4 },
-    { "idJugador": "michael-laudrup", "goles": 9 },
-    { "idJugador": "brian-laudrup", "goles": 0 },
-    { "idJugador": "ruud-gullit", "goles": 5 },
-    { "idJugador": "frank-rijkaard", "goles": 4 },
-    { "idJugador": "didier-deschamps", "goles": 0 },
-    { "idJugador": "laurent-blanc", "goles": 3 },
-    { "idJugador": "youri-djorkaeff", "goles": 4 },
-    { "idJugador": "robert-pires", "goles": 14 },
-    { "idJugador": "zbigniew-boniek", "goles": 3 },
-    { "idJugador": "gabriel-batistuta", "goles": 6 },
-    { "idJugador": "kevin-keegan", "goles": 5 }
+    {
+        "idJugador": "cristiano-ronaldo",
+        "goles": 140,
+        "asistencias": 50,
+        "partidos": 183
+    },
+    {
+        "idJugador": "lionel-messi",
+        "goles": 129,
+        "asistencias": 45,
+        "partidos": 163
+    },
+    {
+        "idJugador": "robert-lewandowski",
+        "goles": 109,
+        "asistencias": 27,
+        "partidos": 144
+    },
+    {
+        "idJugador": "karim-benzema",
+        "goles": 90,
+        "asistencias": 30,
+        "partidos": 152
+    },
+    {
+        "idJugador": "kylian-mbappe",
+        "goles": 72,
+        "asistencias": 28,
+        "partidos": 100
+    },
+    {
+        "idJugador": "raul",
+        "goles": 71,
+        "asistencias": 33,
+        "partidos": 142
+    },
+    {
+        "idJugador": "erling-haaland",
+        "goles": 61,
+        "asistencias": 5,
+        "partidos": 60
+    },
+    {
+        "idJugador": "thomas-muller",
+        "goles": 57,
+        "asistencias": 34,
+        "partidos": 163
+    },
+    {
+        "idJugador": "ruud-van-nistelrooy",
+        "goles": 56,
+        "asistencias": 18,
+        "partidos": 73
+    },
+    {
+        "idJugador": "harry-kane",
+        "goles": 57,
+        "asistencias": 14,
+        "partidos": 72
+    },
+    {
+        "idJugador": "mohamed-salah",
+        "goles": 50,
+        "asistencias": 21,
+        "partidos": 98
+    },
+    {
+        "idJugador": "thierry-henry",
+        "goles": 50,
+        "asistencias": 24,
+        "partidos": 112
+    },
+    {
+        "idJugador": "andriy-shevchenko",
+        "goles": 48,
+        "asistencias": 16,
+        "partidos": 100
+    },
+    {
+        "idJugador": "zlatan-ibrahimovic",
+        "goles": 48,
+        "asistencias": 19,
+        "partidos": 124
+    },
+    {
+        "idJugador": "eusebio",
+        "goles": 46,
+        "asistencias": 12,
+        "partidos": 64
+    },
+    {
+        "idJugador": "filippo-inzaghi",
+        "goles": 46,
+        "asistencias": 7,
+        "partidos": 81
+    },
+    {
+        "idJugador": "didier-drogba",
+        "goles": 44,
+        "asistencias": 15,
+        "partidos": 92
+    },
+    {
+        "idJugador": "antoine-griezmann",
+        "goles": 44,
+        "asistencias": 16,
+        "partidos": 120
+    },
+    {
+        "idJugador": "neymar",
+        "goles": 43,
+        "asistencias": 37,
+        "partidos": 81
+    },
+    {
+        "idJugador": "alessandro-del-piero",
+        "goles": 42,
+        "asistencias": 23,
+        "partidos": 89
+    },
+    {
+        "idJugador": "sergio-aguero",
+        "goles": 41,
+        "asistencias": 8,
+        "partidos": 79
+    },
+    {
+        "idJugador": "ferenc-puskas",
+        "goles": 36,
+        "asistencias": 5,
+        "partidos": 41
+    },
+    {
+        "idJugador": "edinson-cavani",
+        "goles": 35,
+        "asistencias": 6,
+        "partidos": 70
+    },
+    {
+        "idJugador": "gerd-muller",
+        "goles": 34,
+        "asistencias": 4,
+        "partidos": 35
+    },
+    {
+        "idJugador": "arjen-robben",
+        "goles": 31,
+        "asistencias": 23,
+        "partidos": 110
+    },
+    {
+        "idJugador": "kaka",
+        "goles": 30,
+        "asistencias": 25,
+        "partidos": 86
+    },
+    {
+        "idJugador": "samuel-etoo",
+        "goles": 30,
+        "asistencias": 20,
+        "partidos": 78
+    },
+    {
+        "idJugador": "wayne-rooney",
+        "goles": 30,
+        "asistencias": 21,
+        "partidos": 85
+    },
+    {
+        "idJugador": "david-trezeguet",
+        "goles": 29,
+        "asistencias": 7,
+        "partidos": 58
+    },
+    {
+        "idJugador": "roy-makaay",
+        "goles": 29,
+        "asistencias": 7,
+        "partidos": 61
+    },
+    {
+        "idJugador": "patrick-kluivert",
+        "goles": 29,
+        "asistencias": 71,
+        "partidos": 13
+    },
+    {
+        "idJugador": "edin-dzeko",
+        "goles": 29,
+        "asistencias": 15,
+        "partidos": 75
+    },
+    {
+        "idJugador": "alvaro-morata",
+        "goles": 29,
+        "asistencias": 13,
+        "partidos": 89
+    },
+    {
+        "idJugador": "jean-pierre-papin",
+        "goles": 28,
+        "asistencias": 10,
+        "partidos": 37
+    },
+    {
+        "idJugador": "ryan-giggs",
+        "goles": 28,
+        "asistencias": 145,
+        "partidos": 46
+    },
+    {
+        "idJugador": "gabriel-jesus",
+        "goles": 27,
+        "asistencias": 10,
+        "partidos": 59
+    },
+    {
+        "idJugador": "sadio-mane",
+        "goles": 27,
+        "asistencias": 9,
+        "partidos": 64
+    },
+    {
+        "idJugador": "rivaldo",
+        "goles": 27,
+        "asistencias": 11,
+        "partidos": 73
+    },
+    {
+        "idJugador": "luis-suarez",
+        "goles": 27,
+        "asistencias": 25,
+        "partidos": 73
+    },
+    {
+        "idJugador": "raheem-sterling",
+        "goles": 27,
+        "asistencias": 23,
+        "partidos": 88
+    },
+    {
+        "idJugador": "mario-gomez",
+        "goles": 26,
+        "asistencias": 6,
+        "partidos": 44
+    },
+    {
+        "idJugador": "rodrygo",
+        "goles": 26,
+        "asistencias": 16,
+        "partidos": 69
+    },
+    {
+        "idJugador": "julian-alvarez",
+        "goles": 25,
+        "asistencias": 10,
+        "partidos": 44
+    },
+    {
+        "idJugador": "mario-jardel",
+        "goles": 25,
+        "asistencias": 4,
+        "partidos": 46
+    },
+    {
+        "idJugador": "robin-van-persie",
+        "goles": 25,
+        "asistencias": 7,
+        "partidos": 59
+    },
+    {
+        "idJugador": "hernan-crespo",
+        "goles": 25,
+        "asistencias": 6,
+        "partidos": 65
+    },
+    {
+        "idJugador": "lautaro-martinez",
+        "goles": 27,
+        "asistencias": 8,
+        "partidos": 68
+    },
+    {
+        "idJugador": "gonzalo-higuain",
+        "goles": 24,
+        "asistencias": 13,
+        "partidos": 83
+    },
+    {
+        "idJugador": "angel-di-maria",
+        "goles": 24,
+        "asistencias": 42,
+        "partidos": 116
+    },
+    {
+        "idJugador": "marco-reus",
+        "goles": 24,
+        "asistencias": 20,
+        "partidos": 72
+    },
+    {
+        "idJugador": "olivier-giroud",
+        "goles": 24,
+        "asistencias": 9,
+        "partidos": 66
+    },
+    {
+        "idJugador": "paul-scholes",
+        "goles": 24,
+        "asistencias": 12,
+        "partidos": 124
+    },
+    {
+        "idJugador": "giovane-elber",
+        "goles": 24,
+        "asistencias": 14,
+        "partidos": 69
+    },
+    {
+        "idJugador": "luis-figo",
+        "goles": 24,
+        "asistencias": 38,
+        "partidos": 103
+    },
+    {
+        "idJugador": "fernando-morientes",
+        "goles": 33,
+        "asistencias": 13,
+        "partidos": 93
+    },
+    {
+        "idJugador": "jari-litmanen",
+        "goles": 23,
+        "asistencias": 9,
+        "partidos": 57
+    },
+    {
+        "idJugador": "roberto-firmino",
+        "goles": 22,
+        "asistencias": 14,
+        "partidos": 57
+    },
+    {
+        "idJugador": "claudio-pizarro",
+        "goles": 21,
+        "asistencias": 9,
+        "partidos": 73
+    },
+    {
+        "idJugador": "serhou-guirassy",
+        "goles": 21,
+        "asistencias": 9,
+        "partidos": 30
+    },
+    {
+        "idJugador": "luiz-adriano",
+        "goles": 21,
+        "asistencias": 5,
+        "partidos": 47
+    },
+    {
+        "idJugador": "steven-gerrard",
+        "goles": 21,
+        "asistencias": 14,
+        "partidos": 73
+    },
+    {
+        "idJugador": "ole-gunnar-solskjaer",
+        "goles": 19,
+        "asistencias": 11,
+        "partidos": 77
+    },
+    {
+        "idJugador": "fernando-torres",
+        "goles": 20,
+        "asistencias": 10,
+        "partidos": 79
+    },
+    {
+        "idJugador": "gareth-bale",
+        "goles": 20,
+        "asistencias": 18,
+        "partidos": 66
+    },
+    {
+        "idJugador": "pierre-emerick-aubameyang",
+        "goles": 20,
+        "asistencias": 8,
+        "partidos": 46
+    },
+    {
+        "idJugador": "riyad-mahrez",
+        "goles": 20,
+        "asistencias": 16,
+        "partidos": 55
+    },
+    {
+        "idJugador": "nicolas-anelka",
+        "goles": 20,
+        "asistencias": 6,
+        "partidos": 68
+    },
+    {
+        "idJugador": "son-heung-min",
+        "goles": 19,
+        "asistencias": 5,
+        "partidos": 55
+    },
+    {
+        "idJugador": "johan-cruyff",
+        "goles": 19,
+        "asistencias": 23,
+        "partidos": 49
+    },
+    {
+        "idJugador": "luis-enrique",
+        "goles": 19,
+        "asistencias": 6,
+        "partidos": 44
+    },
+    {
+        "idJugador": "lisandro-lopez",
+        "goles": 19,
+        "asistencias": 9,
+        "partidos": 47
+    },
+    {
+        "idJugador": "ronaldinho",
+        "goles": 18,
+        "asistencias": 13,
+        "partidos": 47
+    },
+    {
+        "idJugador": "willian",
+        "goles": 18,
+        "asistencias": 16,
+        "partidos": 71
+    },
+    {
+        "idJugador": "juninho",
+        "goles": 18,
+        "asistencias": 20,
+        "partidos": 59
+    },
+    {
+        "idJugador": "javier-saviola",
+        "goles": 18,
+        "asistencias": 4,
+        "partidos": 56
+    },
+    {
+        "idJugador": "andy-cole",
+        "goles": 18,
+        "asistencias": 5,
+        "partidos": 48
+    },
+    {
+        "idJugador": "francesco-totti",
+        "goles": 17,
+        "asistencias": 12,
+        "partidos": 57
+    },
+    {
+        "idJugador": "dries-mertens",
+        "goles": 16,
+        "asistencias": 12,
+        "partidos": 39
+    },
+    {
+        "idJugador": "michael-ballack",
+        "goles": 16,
+        "asistencias": 11,
+        "partidos": 93
+    },
+    {
+        "idJugador": "roberto-carlos",
+        "goles": 16,
+        "asistencias": 27,
+        "partidos": 120
+    },
+    {
+        "idJugador": "karl-heinz-rummenigge",
+        "goles": 16,
+        "asistencias": 2,
+        "partidos": 36
+    },
+    {
+        "idJugador": "simone-inzaghi",
+        "goles": 15,
+        "asistencias": 3,
+        "partidos": 31
+    },
+    {
+        "idJugador": "ronaldo-nazario",
+        "goles": 14,
+        "asistencias": 9,
+        "partidos": 40
+    },
+    {
+        "idJugador": "javier-hernandez",
+        "goles": 14,
+        "asistencias": 1,
+        "partidos": 46
+    },
+    {
+        "idJugador": "adriano",
+        "goles": 14,
+        "asistencias": 4,
+        "partidos": 27
+    },
+    {
+        "idJugador": "miroslav-klose",
+        "goles": 14,
+        "asistencias": 4,
+        "partidos": 39
+    },
+    {
+        "idJugador": "zinedine-zidane",
+        "goles": 14,
+        "asistencias": 30,
+        "partidos": 80
+    },
+    {
+        "idJugador": "robert-pires",
+        "goles": 14,
+        "asistencias": 14,
+        "partidos": 82
+    },
+    {
+        "idJugador": "carlos-tevez",
+        "goles": 13,
+        "asistencias": 5,
+        "partidos": 46
+    },
+    {
+        "idJugador": "mehdi-taremi",
+        "goles": 13,
+        "asistencias": 12,
+        "partidos": 48
+    },
+    {
+        "idJugador": "jackson-martinez",
+        "goles": 13,
+        "asistencias": 1,
+        "partidos": 26
+    },
+    {
+        "idJugador": "burak-yilmaz",
+        "goles": 13,
+        "asistencias": 0,
+        "partidos": 40
+    },
+    {
+        "idJugador": "peter-crouch",
+        "goles": 13,
+        "asistencias": 4,
+        "partidos": 34
+    },
+    {
+        "idJugador": "jan-koller",
+        "goles": 13,
+        "asistencias": 5,
+        "partidos": 30
+    },
+    {
+        "idJugador": "marco-van-basten",
+        "goles": 19,
+        "asistencias": 7,
+        "partidos": 27
+    },
+    {
+        "idJugador": "michael-owen",
+        "goles": 11,
+        "asistencias": 2,
+        "partidos": 29
+    },
+    {
+        "idJugador": "radamel-falcao",
+        "goles": 12,
+        "asistencias": 1,
+        "partidos": 29
+    },
+    {
+        "idJugador": "romario",
+        "goles": 20,
+        "asistencias": 3,
+        "partidos": 32
+    },
+    {
+        "idJugador": "sebastien-haller",
+        "goles": 12,
+        "asistencias": 2,
+        "partidos": 14
+    },
+    {
+        "idJugador": "walter-pandiani",
+        "goles": 12,
+        "asistencias": 2,
+        "partidos": 40
+    },
+    {
+        "idJugador": "bastian-schweinsteiger",
+        "goles": 12,
+        "asistencias": 18,
+        "partidos": 95
+    },
+    {
+        "idJugador": "wesley-sneijder",
+        "goles": 12,
+        "asistencias": 20,
+        "partidos": 76
+    },
+    {
+        "idJugador": "coutinho",
+        "goles": 12,
+        "asistencias": 9,
+        "partidos": 48
+    },
+    {
+        "idJugador": "diego-costa",
+        "goles": 11,
+        "asistencias": 7,
+        "partidos": 35
+    },
+    {
+        "idJugador": "jonas",
+        "goles": 11,
+        "asistencias": 7,
+        "partidos": 32
+    },
+    {
+        "idJugador": "emmanuel-adebayor",
+        "goles": 11,
+        "asistencias": 3,
+        "partidos": 44
+    },
+    {
+        "idJugador": "george-weah",
+        "goles": 13,
+        "asistencias": 3,
+        "partidos": 21
+    },
+    {
+        "idJugador": "andres-iniesta",
+        "goles": 11,
+        "asistencias": 30,
+        "partidos": 130
+    },
+    {
+        "idJugador": "xavi",
+        "goles": 31,
+        "asistencias": 11,
+        "partidos": 151
+    },
+    {
+        "idJugador": "bobby-charlton",
+        "goles": 10,
+        "asistencias": 7,
+        "partidos": 28
+    },
+    {
+        "idJugador": "rafa-silva",
+        "goles": 10,
+        "asistencias": 4,
+        "partidos": 40
+    },
+    {
+        "idJugador": "ivica-olic",
+        "goles": 10,
+        "asistencias": 2,
+        "partidos": 26
+    },
+    {
+        "idJugador": "christian-vieri",
+        "goles": 10,
+        "asistencias": 2,
+        "partidos": 35
+    },
+    {
+        "idJugador": "hristo-stoichkov",
+        "goles": 17,
+        "asistencias": 9,
+        "partidos": 35
+    },
+    {
+        "idJugador": "just-fontaine",
+        "goles": 10,
+        "asistencias": 1,
+        "partidos": 8
+    },
+    {
+        "idJugador": "paolo-rossi",
+        "goles": 10,
+        "asistencias": 5,
+        "partidos": 18
+    },
+    {
+        "idJugador": "david-villa",
+        "goles": 14,
+        "asistencias": 6,
+        "partidos": 47
+    },
+    {
+        "idJugador": "memphis-depay",
+        "goles": 9,
+        "asistencias": 4,
+        "partidos": 32
+    },
+    {
+        "idJugador": "joao-mario",
+        "goles": 9,
+        "asistencias": 8,
+        "partidos": 34
+    },
+    {
+        "idJugador": "ezequiel-lavezzi",
+        "goles": 9,
+        "asistencias": 11,
+        "partidos": 39
+    },
+    {
+        "idJugador": "diego-milito",
+        "goles": 9,
+        "asistencias": 5,
+        "partidos": 22
+    },
+    {
+        "idJugador": "luka-modric",
+        "goles": 9,
+        "asistencias": 20,
+        "partidos": 142
+    },
+    {
+        "idJugador": "michael-laudrup",
+        "goles": 9,
+        "asistencias": 2,
+        "partidos": 24
+    },
+    {
+        "idJugador": "sandor-kocsis",
+        "goles": 8,
+        "asistencias": 0,
+        "partidos": 12
+    },
+    {
+        "idJugador": "nicklas-bendtner",
+        "goles": 8,
+        "asistencias": 3,
+        "partidos": 33
+    },
+    {
+        "idJugador": "vava",
+        "goles": 8,
+        "asistencias": 0,
+        "partidos": 10
+    },
+    {
+        "idJugador": "alan-shearer",
+        "goles": 7,
+        "asistencias": 4,
+        "partidos": 16
+    },
+    {
+        "idJugador": "frederic-kanoute",
+        "goles": 7,
+        "asistencias": 4,
+        "partidos": 15
+    },
+    {
+        "idJugador": "davor-suker",
+        "goles": 7,
+        "asistencias": 3,
+        "partidos": 18
+    },
+    {
+        "idJugador": "dennis-bergkamp",
+        "goles": 7,
+        "asistencias": 8,
+        "partidos": 40
+    },
+    {
+        "idJugador": "rob-rensenbrink",
+        "goles": 7,
+        "asistencias": 0,
+        "partidos": 10
+    },
+    {
+        "idJugador": "gabriel-batistuta",
+        "goles": 6,
+        "asistencias": 2,
+        "partidos": 27
+    },
+    {
+        "idJugador": "uwe-seeler",
+        "goles": 5,
+        "asistencias": 0,
+        "partidos": 7
+    },
+    {
+        "idJugador": "ivan-zamorano",
+        "goles": 5,
+        "asistencias": 1,
+        "partidos": 13
+    },
+    {
+        "idJugador": "lee-bowyer",
+        "goles": 5,
+        "asistencias": 1,
+        "partidos": 13
+    },
+    {
+        "idJugador": "marco-tardelli",
+        "goles": 5,
+        "asistencias": 4,
+        "partidos": 30
+    },
+    {
+        "idJugador": "ruud-gullit",
+        "goles": 5,
+        "asistencias": 5,
+        "partidos": 22
+    },
+    {
+        "idJugador": "kevin-keegan",
+        "goles": 5,
+        "asistencias": 3,
+        "partidos": 21
+    },
+    {
+        "idJugador": "ronald-koeman",
+        "goles": 13,
+        "asistencias": 6,
+        "partidos": 52
+    },
+    {
+        "idJugador": "franz-beckenbauer",
+        "goles": 4,
+        "asistencias": 5,
+        "partidos": 40
+    },
+    {
+        "idJugador": "jurgen-klinsmann",
+        "goles": 4,
+        "asistencias": 1,
+        "partidos": 14
+    },
+    {
+        "idJugador": "frank-rijkaard",
+        "goles": 7,
+        "asistencias": 5,
+        "partidos": 42
+    },
+    {
+        "idJugador": "youri-djorkaeff",
+        "goles": 4,
+        "asistencias": 2,
+        "partidos": 15
+    },
+    {
+        "idJugador": "claudio-caniggia",
+        "goles": 3,
+        "asistencias": 1,
+        "partidos": 7
+    },
+    {
+        "idJugador": "paolo-maldini",
+        "goles": 3,
+        "asistencias": 7,
+        "partidos": 135
+    },
+    {
+        "idJugador": "laurent-blanc",
+        "goles": 3,
+        "asistencias": 0,
+        "partidos": 22
+    },
+    {
+        "idJugador": "zbigniew-boniek",
+        "goles": 3,
+        "asistencias": 7,
+        "partidos": 20
+    },
+    {
+        "idJugador": "diego-maradona",
+        "goles": 2,
+        "asistencias": 0,
+        "partidos": 6
+    },
+    {
+        "idJugador": "cafu",
+        "goles": 2,
+        "asistencias": 11,
+        "partidos": 55
+    },
+    {
+        "idJugador": "teofilo-cubillas",
+        "goles": 2,
+        "asistencias": 1,
+        "partidos": 4
+    },
+    {
+        "idJugador": "nicolas-otamendi",
+        "goles": 2,
+        "asistencias": 3,
+        "partidos": 102
+    },
+    {
+        "idJugador": "rafael-marquez",
+        "goles": 1,
+        "asistencias": 3,
+        "partidos": 45
+    },
+    {
+        "idJugador": "amarildo",
+        "goles": 1,
+        "asistencias": 4,
+        "partidos": 10
+    },
+    {
+        "idJugador": "bruno-conti",
+        "goles": 1,
+        "asistencias": 1,
+        "partidos": 9
+    },
+    {
+        "idJugador": "lothar-matthaus",
+        "goles": 5,
+        "asistencias": 2,
+        "partidos": 36
+    },
+    {
+        "idJugador": "philipp-lahm",
+        "goles": 0,
+        "asistencias": 15,
+        "partidos": 112
+    },
+    {
+        "idJugador": "javier-mascherano",
+        "goles": 0,
+        "asistencias": 3,
+        "partidos": 96
+    },
+    {
+        "idJugador": "wladyslaw-zmuda",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 4
+    },
+    {
+        "idJugador": "gaetano-scirea",
+        "goles": 0,
+        "asistencias": 1,
+        "partidos": 42
+    },
+    {
+        "idJugador": "franco-baresi",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 50
+    },
+    {
+        "idJugador": "claudio-gentile",
+        "goles": 0,
+        "asistencias": 2,
+        "partidos": 25
+    },
+    {
+        "idJugador": "brian-laudrup",
+        "goles": 2,
+        "asistencias": 4,
+        "partidos": 24
+    },
+    {
+        "idJugador": "didier-deschamps",
+        "goles": 1,
+        "asistencias": 5,
+        "partidos": 73
+    },
+    [
+    {
+        "idJugador": "anthony-gordon",
+        "goles": 11,
+        "asistencias": 2,
+        "partidos": 20
+    },
+    {
+        "idJugador": "khvicha-kvaratskhelia",
+        "goles": 15,
+        "asistencias": 14,
+        "partidos": 43
+    },
+    {
+        "idJugador": "victor-osimhen",
+        "goles": 16,
+        "asistencias": 4,
+        "partidos": 28
+    },
+    {
+        "idJugador": "luis-diaz",
+        "goles": 18,
+        "asistencias": 8,
+        "partidos": 48
+    },
+    {
+        "idJugador": "ousmane-dembele",
+        "goles": 31,
+        "asistencias": 23,
+        "partidos": 81
+    },
+    {
+        "idJugador": "lamine-yamal",
+        "goles": 12,
+        "asistencias": 14,
+        "partidos": 35
+    },
+    {
+        "idJugador": "raphinha",
+        "goles": 21,
+        "asistencias": 18,
+        "partidos": 34
+    },
+    {
+        "idJugador": "vinicius-junior",
+        "goles": 34,
+        "asistencias": 33,
+        "partidos": 84
+    },
+    {
+        "idJugador": "phil-foden",
+        "goles": 20,
+        "asistencias": 14,
+        "partidos": 69
+    },
+    {
+        "idJugador": "galeno",
+        "goles": 7,
+        "asistencias": 6,
+        "partidos": 15
+    },
+    {
+        "idJugador": "rasmus-hojlund",
+        "goles": 8,
+        "asistencias": 0,
+        "partidos": 15
+    },
+    {
+        "idJugador": "christopher-nkunku",
+        "goles": 11,
+        "asistencias": 7,
+        "partidos": 33
+    },
+    {
+        "idJugador": "leroy-sane",
+        "goles": 23,
+        "asistencias": 21,
+        "partidos": 85
+    },
+    {
+        "idJugador": "arnaut-danjuma",
+        "goles": 8,
+        "asistencias": 3,
+        "partidos": 21
+    },
+    {
+        "idJugador": "marcus-rashford",
+        "goles": 17,
+        "asistencias": 12,
+        "partidos": 49
+    },
+    {
+        "idJugador": "youssef-en-nesyri",
+        "goles": 10,
+        "asistencias": 2,
+        "partidos": 20
+    },
+    {
+        "idJugador": "alassane-plea",
+        "goles": 5,
+        "asistencias": 3,
+        "partidos": 8
+    },
+    {
+        "idJugador": "serge-gnabry",
+        "goles": 18,
+        "asistencias": 15,
+        "partidos": 72
+    },
+    {
+        "idJugador": "mauro-icardi",
+        "goles": 11,
+        "asistencias": 1,
+        "partidos": 35
+    },
+    {
+        "idJugador": "dusan-tadic",
+        "goles": 10,
+        "asistencias": 13,
+        "partidos": 36
+    },
+    {
+        "idJugador": "moussa-marega",
+        "goles": 8,
+        "asistencias": 7,
+        "partidos": 24
+    },
+    {
+        "idJugador": "andrej-kramaric",
+        "goles": 5,
+        "asistencias": 1,
+        "partidos": 6
+    },
+    {
+        "idJugador": "paulo-dybala",
+        "goles": 18,
+        "asistencias": 4,
+        "partidos": 55
+    },
+    {
+        "idJugador": "wissam-ben-yedder",
+        "goles": 10,
+        "asistencias": 0,
+        "partidos": 14
+    },
+    {
+        "idJugador": "artem-dzyuba",
+        "goles": 9,
+        "asistencias": 6,
+        "partidos": 30
+    },
+    {
+        "idJugador": "oscar",
+        "goles": 8,
+        "asistencias": 7,
+        "partidos": 30
+    },
+    {
+        "idJugador": "andy-cole",
+        "goles": 18,
+        "asistencias": 5,
+        "partidos": 48
+    },
+    {
+        "idJugador": "manuel-neuer",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 162
+    },
+    {
+        "idJugador": "hugo-lloris",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 70
+    },
+    {
+        "idJugador": "oscar-ruggeri",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 3
+    },
+    {
+        "idJugador": "dino-zoff",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 37
+    },
+    {
+        "idJugador": "fabien-barthez",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 57
+    },
+    {
+        "idJugador": "emmanuel-petit",
+        "goles": 0,
+        "asistencias": 5,
+        "partidos": 20
+    },
+    {
+        "idJugador": "peter-shilton",
+        "goles": 0,
+        "asistencias": 0,
+        "partidos": 20
+    }
+]
 ]

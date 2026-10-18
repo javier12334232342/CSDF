@@ -244,7 +244,6 @@ body[data-juego="quien-dio-mas-asistencias-champions"] .layout::before {
 .juego-opcion.tema-selecciones::before,
 .carrusel-item.tema-selecciones::before,
 body[data-juego="quien-jugo-mas-selecciones"] .layout::before,
-body[data-juego="quien-dio-mas-asistencias-selecciones"] .layout::before,
 body[data-juego="quien-marco-mas-selecciones"] .layout::before {
     background:
         linear-gradient(90deg, transparent 49.7%, rgba(242, 166, 90, 0.1) 49.9% 50.1%, transparent 50.3%),
@@ -483,7 +482,6 @@ body[data-juego="quien-dio-mas-asistencias-champions"] {
 
 .vista-juego.tema-selecciones,
 body[data-juego="quien-jugo-mas-selecciones"],
-body[data-juego="quien-dio-mas-asistencias-selecciones"],
 body[data-juego="quien-marco-mas-selecciones"] {
     --card-accent: #f2a65a;
 }
@@ -987,7 +985,6 @@ body[data-juego="quien-dio-mas-asistencias-champions"] .dialogo-normas-juego {
 }
 
 body[data-juego="quien-jugo-mas-selecciones"] .dialogo-normas-juego,
-body[data-juego="quien-dio-mas-asistencias-selecciones"] .dialogo-normas-juego,
 body[data-juego="quien-marco-mas-selecciones"] .dialogo-normas-juego {
     --dialogo-acento: #f2a65a;
 }

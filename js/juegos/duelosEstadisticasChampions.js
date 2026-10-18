@@ -276,15 +276,6 @@
         pregunta: "¿Quién disputó más partidos oficiales con su selección?"
     });
 
-    window.iniciarQuienDioMasAsistenciasSelecciones = () => iniciarDueloEstadisticas({
-        id: "quien-dio-mas-asistencias-selecciones",
-        archivoEstadisticas: ARCHIVO_ESTADISTICAS_SELECCIONES,
-        estadistica: "asistencias",
-        nombreEstadistica: "asistencias",
-        unidad: "asistencias",
-        pregunta: "¿Quién dio más asistencias oficiales con su selección?"
-    });
-
     window.iniciarQuienMarcoMasSelecciones = () => iniciarDueloEstadisticas({
         id: "quien-marco-mas-selecciones",
         archivoEstadisticas: ARCHIVO_ESTADISTICAS_SELECCIONES,
