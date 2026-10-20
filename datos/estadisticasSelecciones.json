@@ -1,290 +1,5 @@
 [
     {
-        "idJugador": "kylian-mbappe",
-        "partidos": 107,
-        "goles": 67
-    },
-    {
-        "idJugador": "harry-kane",
-        "partidos": 125,
-        "goles": 91
-    },
-    {
-        "idJugador": "julian-alvarez",
-        "partidos": 62,
-        "goles": 16
-    },
-    {
-        "idJugador": "anthony-gordon",
-        "partidos": 28,
-        "goles": 7
-    },
-    {
-        "idJugador": "khvicha-kvaratskhelia",
-        "partidos": 54,
-        "goles": 23
-    },
-    {
-        "idJugador": "erling-haaland",
-        "partidos": 59,
-        "goles": 65
-    },
-    {
-        "idJugador": "victor-osimhen",
-        "partidos": 52,
-        "goles": 35
-    },
-    {
-        "idJugador": "luis-diaz",
-        "partidos": 79,
-        "goles": 23
-    },
-    {
-        "idJugador": "ousmane-dembele",
-        "partidos": 71,
-        "goles": 13
-    },
-    {
-        "idJugador": "lamine-yamal",
-        "partidos": 37,
-        "goles": 11
-    },
-    {
-        "idJugador": "serhou-guirassy",
-        "partidos": 30,
-        "goles": 12
-    },
-    {
-        "idJugador": "raphinha",
-        "partidos": 43,
-        "goles": 12
-    },
-    {
-        "idJugador": "robert-lewandowski",
-        "partidos": 170,
-        "goles": 92
-    },
-    {
-        "idJugador": "lautaro-martinez",
-        "partidos": 87,
-        "goles": 42
-    },
-    {
-        "idJugador": "vinicius-junior",
-        "partidos": 57,
-        "goles": 14
-    },
-    {
-        "idJugador": "antoine-griezmann",
-        "partidos": 137,
-        "goles": 44
-    },
-    {
-        "idJugador": "phil-foden",
-        "partidos": 49,
-        "goles": 4
-    },
-    {
-        "idJugador": "galeno",
-        "partidos": 1,
-        "goles": 0
-    },
-    {
-        "idJugador": "rasmus-hojlund",
-        "partidos": 39,
-        "goles": 16
-    },
-    {
-        "idJugador": "rodrygo",
-        "partidos": 37,
-        "goles": 9
-    },
-    {
-        "idJugador": "mohamed-salah",
-        "partidos": 120,
-        "goles": 66
-    },
-    {
-        "idJugador": "joao-mario",
-        "partidos": 56,
-        "goles": 3
-    },
-    {
-        "idJugador": "olivier-giroud",
-        "partidos": 137,
-        "goles": 57
-    },
-    {
-        "idJugador": "rafa-silva",
-        "partidos": 25,
-        "goles": 0
-    },
-    {
-        "idJugador": "mehdi-taremi",
-        "partidos": 109,
-        "goles": 58
-    },
-    {
-        "idJugador": "karim-benzema",
-        "partidos": 97,
-        "goles": 37
-    },
-    {
-        "idJugador": "sebastien-haller",
-        "partidos": 34,
-        "goles": 11
-    },
-    {
-        "idJugador": "christopher-nkunku",
-        "partidos": 18,
-        "goles": 2
-    },
-    {
-        "idJugador": "riyad-mahrez",
-        "partidos": 119,
-        "goles": 40
-    },
-    {
-        "idJugador": "leroy-sane",
-        "partidos": 80,
-        "goles": 18
-    },
-    {
-        "idJugador": "cristiano-ronaldo",
-        "partidos": 234,
-        "goles": 146
-    },
-    {
-        "idJugador": "luis-enrique",
-        "partidos": 62,
-        "goles": 12
-    },
-    {
-        "idJugador": "arnaut-danjuma",
-        "partidos": 6,
-        "goles": 2
-    },
-    {
-        "idJugador": "alvaro-morata",
-        "partidos": 87,
-        "goles": 37
-    },
-    {
-        "idJugador": "marcus-rashford",
-        "partidos": 78,
-        "goles": 19
-    },
-    {
-        "idJugador": "neymar",
-        "partidos": 130,
-        "goles": 80
-    },
-    {
-        "idJugador": "youssef-en-nesyri",
-        "partidos": 92,
-        "goles": 25
-    },
-    {
-        "idJugador": "alassane-plea",
-        "partidos": 1,
-        "goles": 0
-    },
-    {
-        "idJugador": "serge-gnabry",
-        "partidos": 62,
-        "goles": 26
-    },
-    {
-        "idJugador": "dries-mertens",
-        "partidos": 109,
-        "goles": 21
-    },
-    {
-        "idJugador": "gabriel-jesus",
-        "partidos": 64,
-        "goles": 19
-    },
-    {
-        "idJugador": "memphis-depay",
-        "partidos": 112,
-        "goles": 55
-    },
-    {
-        "idJugador": "raheem-sterling",
-        "partidos": 82,
-        "goles": 20
-    },
-    {
-        "idJugador": "son-heung-min",
-        "partidos": 152,
-        "goles": 59
-    },
-    {
-        "idJugador": "mauro-icardi",
-        "partidos": 8,
-        "goles": 1
-    },
-    {
-        "idJugador": "lionel-messi",
-        "partidos": 208,
-        "goles": 126
-    },
-    {
-        "idJugador": "dusan-tadic",
-        "partidos": 115,
-        "goles": 23
-    },
-    {
-        "idJugador": "moussa-marega",
-        "partidos": 24,
-        "goles": 3
-    },
-    {
-        "idJugador": "sergio-aguero",
-        "partidos": 101,
-        "goles": 42
-    },
-    {
-        "idJugador": "andrej-kramaric",
-        "partidos": 119,
-        "goles": 36
-    },
-    {
-        "idJugador": "paulo-dybala",
-        "partidos": 40,
-        "goles": 4
-    },
-    {
-        "idJugador": "edin-dzeko",
-        "partidos": 152,
-        "goles": 73
-    },
-    {
-        "idJugador": "roberto-firmino",
-        "partidos": 55,
-        "goles": 17
-    },
-    {
-        "idJugador": "sadio-mane",
-        "partidos": 130,
-        "goles": 54
-    },
-    {
-        "idJugador": "wissam-ben-yedder",
-        "partidos": 19,
-        "goles": 3
-    },
-    {
-        "idJugador": "edinson-cavani",
-        "partidos": 136,
-        "goles": 58
-    },
-    {
-        "idJugador": "pierre-emerick-aubameyang",
-        "partidos": 83,
-        "goles": 40
-    },
-    {
         "idJugador": "radamel-falcao",
         "partidos": 105,
         "goles": 36
@@ -765,11 +480,6 @@
         "goles": 24
     },
     {
-        "idJugador": "luka-modric",
-        "partidos": 206,
-        "goles": 30
-    },
-    {
         "idJugador": "andres-iniesta",
         "partidos": 131,
         "goles": 14
@@ -940,11 +650,6 @@
         "goles": 22
     },
     {
-        "idJugador": "coutinho",
-        "partidos": 68,
-        "goles": 21
-    },
-    {
         "idJugador": "amarildo",
         "partidos": 22,
         "goles": 7
@@ -1085,8 +790,231 @@
         "goles": 21
     },
     {
+        "idJugador": "mauro-icardi",
+        "partidos": 8,
+        "goles": 1
+    },
+    {
+        "idJugador": "dusan-tadic",
+        "partidos": 115,
+        "goles": 23
+    },
+    {
+        "idJugador": "moussa-marega",
+        "partidos": 24,
+        "goles": 3
+    },
+    {
+        "idJugador": "sergio-aguero",
+        "partidos": 101,
+        "goles": 42
+    },
+    {
         "idJugador": "claudio-pizarro",
         "partidos": 85,
         "goles": 20
+    },
+    {
+        "idJugador": "lionel-messi",
+        "partidos": 208,
+        "goles": 126
+    },
+    {
+        "idJugador": "antoine-griezmann",
+        "partidos": 137,
+        "goles": 44
+    },
+    {
+        "idJugador": "galeno",
+        "partidos": 1,
+        "goles": 0
+    },
+    {
+        "idJugador": "wissam-ben-yedder",
+        "partidos": 19,
+        "goles": 3
+    },
+    {
+        "idJugador": "alvaro-morata",
+        "partidos": 87,
+        "goles": 37
+    },
+    {
+        "idJugador": "edinson-cavani",
+        "partidos": 136,
+        "goles": 58
+    },
+    {
+        "idJugador": "olivier-giroud",
+        "partidos": 137,
+        "goles": 57
+    },
+    {
+        "idJugador": "luis-enrique",
+        "partidos": 62,
+        "goles": 12
+    },
+    {
+        "idJugador": "neymar",
+        "partidos": 130,
+        "goles": 80
+    },
+    {
+        "idJugador": "coutinho",
+        "partidos": 68,
+        "goles": 21
+    },
+    {
+        "idJugador": "karim-benzema",
+        "partidos": 97,
+        "goles": 37
+    },
+    {
+        "idJugador": "roberto-firmino",
+        "partidos": 55,
+        "goles": 17
+    },
+
+
+
+    {
+        "idJugador": "luka-modric",
+        "partidos": 206,
+        "goles": 30
+    },
+    {
+        "idJugador": "phil-foden",
+        "partidos": 49,
+        "goles": 4
+    },
+    {
+        "idJugador": "rasmus-hojlund",
+        "partidos": 39,
+        "goles": 16
+    },
+    {
+        "idJugador": "rodrygo",
+        "partidos": 37,
+        "goles": 9
+    },
+    {
+        "idJugador": "mohamed-salah",
+        "partidos": 120,
+        "goles": 66
+    },
+    {
+        "idJugador": "joao-mario",
+        "partidos": 56,
+        "goles": 3
+    },
+    {
+        "idJugador": "rafa-silva",
+        "partidos": 25,
+        "goles": 0
+    },
+    {
+        "idJugador": "mehdi-taremi",
+        "partidos": 109,
+        "goles": 58
+    },
+    {
+        "idJugador": "sebastien-haller",
+        "partidos": 34,
+        "goles": 11
+    },
+    {
+        "idJugador": "christopher-nkunku",
+        "partidos": 18,
+        "goles": 2
+    },
+    {
+        "idJugador": "riyad-mahrez",
+        "partidos": 119,
+        "goles": 40
+    },
+    {
+        "idJugador": "leroy-sane",
+        "partidos": 80,
+        "goles": 18
+    },
+    {
+        "idJugador": "cristiano-ronaldo",
+        "partidos": 234,
+        "goles": 146
+    },
+    {
+        "idJugador": "arnaut-danjuma",
+        "partidos": 6,
+        "goles": 2
+    },
+    {
+        "idJugador": "marcus-rashford",
+        "partidos": 78,
+        "goles": 19
+    },
+    {
+        "idJugador": "youssef-en-nesyri",
+        "partidos": 92,
+        "goles": 25
+    },
+    {
+        "idJugador": "alassane-plea",
+        "partidos": 1,
+        "goles": 0
+    },
+    {
+        "idJugador": "serge-gnabry",
+        "partidos": 62,
+        "goles": 26
+    },
+    {
+        "idJugador": "dries-mertens",
+        "partidos": 109,
+        "goles": 21
+    },
+    {
+        "idJugador": "gabriel-jesus",
+        "partidos": 64,
+        "goles": 19
+    },
+    {
+        "idJugador": "memphis-depay",
+        "partidos": 112,
+        "goles": 55
+    },
+    {
+        "idJugador": "raheem-sterling",
+        "partidos": 82,
+        "goles": 20
+    },
+    {
+        "idJugador": "son-heung-min",
+        "partidos": 152,
+        "goles": 59
+    },
+    {
+        "idJugador": "andrej-kramaric",
+        "partidos": 119,
+        "goles": 36
+    },
+    {
+        "idJugador": "paulo-dybala",
+        "partidos": 40,
+        "goles": 4
+    },
+    {
+        "idJugador": "edin-dzeko",
+        "partidos": 152,
+        "goles": 73
+    },
+    {
+        "idJugador": "sadio-mane",
+        "partidos": 130,
+        "goles": 54
+    },
+    {
+        "idJugador": "pierre-emerick-aubameyang",
+        "partidos": 83,
+        "goles": 40
     }
 ]
